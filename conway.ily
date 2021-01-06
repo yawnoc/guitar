@@ -1,5 +1,5 @@
 globalSettings = {
-  \accidentalStyle piano
+  \accidentalStyle modern
   \mergeDifferentlyHeadedOn
   \numericTimeSignature
 }
