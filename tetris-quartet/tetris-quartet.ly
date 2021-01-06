@@ -88,6 +88,19 @@ guitarOneMusic = {
     e, <gis' b e> e <gis b e> e, <gis' b e> e <gis b e> |
   }
   
+  % Theme becoming major
+  \barNumberCheck #41
+  \relative c {
+     e, <gis' b e> e <gis b e> e, <gis' b e> e <gis b e> |
+     a, <a' c e> a, <a' c e> a, <a' c e> a, <a' c e> |
+     e, <gis' b e> e <gis b e> e, <gis' b e> e <gis b e> |
+     a, <a' c e> a, <a' c e> a, <a' cis e> e <a cis e> |
+     d, <a' d f> d, <a' d f> d, <a' d f> d, <a' d f> |
+     c, <g' c e> c, <g' c e> c, <g' c e> c, <g' c e> |
+     g, <g' b g'> g, <g' b g'> g, <g' b g'> g, <g' b g'> |
+     c, <e g c> c <e g c> <c e g c e>2 |
+  }
+  
 }
 
 
@@ -154,6 +167,19 @@ guitarTwoMusic = {
     d1 |
   }
   
+  % Theme becoming major
+  \barNumberCheck #41
+  \relative c' {
+    b4 gis8 a b4 a8 gis |
+    e4 e8 a c4 b8 a |
+    gis4 gis8 a b4 b |
+    a4 e e2 |
+    r8 f4 a8 c4 b8 a |
+    g4. e8 g4 f8 e |
+    d4 d8 e f4 g |
+    e4 c c'4.
+  }
+  
 }
 
 
@@ -213,6 +239,19 @@ guitarThreeMusic = {
     d b |
     c4 e a2 |
     gis1 |
+  }
+  
+  % Theme becoming major
+  \barNumberCheck #41
+  \relative c' {
+    e4 b8 c d4 c8 b |
+    a4 a8 c e4 d8 c |
+    b4 b8 c d4 e |
+    c a a2 |
+    r8 d4 f8 a4 g8 f |
+    e4. c8 e4 d8 c |
+    b4 b8 c d4 e |
+    c g c,8 e g4 |
   }
   
 }
@@ -278,6 +317,19 @@ bassMusic = {
     gis,8 e' gis, e' gis, e' gis, e' |
     a,8 e' a, e' a, e' a, e' |
     gis,8 e' gis, e' gis, e' gis, e' |
+  }
+  
+  % Theme becoming major
+  \barNumberCheck #41
+  \relative c, {
+    e,8 e' e, e' e, e' e, e' |
+    a,8 a' a, a' a, a' a, a' |
+    gis,8 gis' gis, gis' e, e' e, e' |
+    a,8 a' a, a' a, a' b cis |
+    d8 d, r d r d16 d a'8 f |
+    c8 c' r c r c, b a |
+    g8 g' g, g' g, g' a b |
+    c, c' c, c' c,2 |
   }
   
 }
