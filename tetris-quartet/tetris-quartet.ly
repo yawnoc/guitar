@@ -114,6 +114,20 @@ guitarOneMusic = {
     e4 c
   }
   
+  % Relative major bridge
+  \barNumberCheck #56
+  \relative c' {
+    c8 d e f |
+    g2 e |
+    f d |
+    e c |
+    b1 |
+    c2. b8 a |
+    g4. g8 a4 b |
+    c8 d e4 e8 f fis4 |
+    g2 g, |
+  }
+  
 }
 
 
@@ -207,6 +221,19 @@ guitarTwoMusic = {
     c2 c, |
   }
   
+  % Relative major bridge
+  \barNumberCheck #57
+  \relative c' {
+    c,4 c' c, c' |
+    g, g' g'8 g, a b |
+    c4 c, c'8 e d c |
+    b4. d8 g f e d |
+    c2 c |
+    b b |
+    c4 c c2 |
+    d1 |
+  }
+  
 }
 
 
@@ -292,6 +319,19 @@ guitarThreeMusic = {
     e8 g e g e c a c |
     d8 f4 c8 b8 c d4 |
     e4 g g2 |
+  }
+  
+  % Relative major bridge
+  \barNumberCheck #57
+  \relative c' {
+    c2 c |
+    b b |
+    c c |
+    g1 |
+    g'2 e |
+    f d |
+    e4 g c2 |
+    b1 |
   }
   
 }
@@ -383,6 +423,19 @@ bassMusic = {
     e8 c' r c a, c d e |
     f,8 f' f, f' g, g' a, b |
     c8 g' c, g' c, g' c, g' |
+  }
+  
+  % Relative major bridge
+  \barNumberCheck #57
+  \relative c {
+    c,8 g' c, g' c, g' c, g' |
+    g,8 g' g, g' g, g' g, g' |
+    c,8 g' c, g' c, g' c, g' |
+    g,8 g' g, g' b, g' b, g' |
+    c,8 g' c, g' c, g' c, g' |
+    g,8 g' g, g' g, g' g, g' |
+    c,8 g' c, g' c, g' c, g' |
+    g,8 g' g, g' b, g' b, g' |
   }
   
 }
