@@ -13,8 +13,17 @@ guitarOneMusic = {
   \initialSignatures
   \clef "treble_8"
   
+  % Theme in Guitar 1
+  \barNumberCheck #1
   \relative c' {
     e4 b8 c d4 c8 b |
+    a4 a8 c e4 d8 c |
+    b4 b8 c d4 e |
+    c a a r |
+    r8 d4 f8 a4 g8 f |
+    e4. c8 e4 d8 c |
+    b4 b8 c d4 e |
+    c a a r |
   }
   
 }
@@ -26,6 +35,8 @@ guitarTwoMusic = {
   \initialSignatures
   \clef "treble_8"
   
+  % Theme in Guitar 1
+  \barNumberCheck #1
   R1*8
   
 }
@@ -37,6 +48,8 @@ guitarThreeMusic = {
   \initialSignatures
   \clef "treble_8"
 
+  % Theme in Guitar 1
+  \barNumberCheck #1
   R1*8
   
 }
@@ -48,6 +61,8 @@ bassMusic = {
   \initialSignatures
   \clef "bass_8"
 
+  % Theme in Guitar 1
+  \barNumberCheck #1
   R1*8
   
 }
