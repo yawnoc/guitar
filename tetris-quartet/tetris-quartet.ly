@@ -75,6 +75,19 @@ guitarOneMusic = {
     a2 a |
   }
   
+  % Bridge
+  \barNumberCheck #33
+  \relative c' {
+    e2 c |
+    b d |
+    c a |
+    gis1 |
+    a,8 a' a, a' a, a' a, a' |
+    e, e'' b gis e e' b gis |
+    a, <e' a> a, <e' a> a, <a' c e> a, <a' c e> |
+    e, <gis' b e> e <gis b e> e, <gis' b e> e <gis b e> |
+  }
+  
 }
 
 
@@ -128,6 +141,19 @@ guitarTwoMusic = {
     c e a, c e c a e |
   }
   
+  % Bridge
+  \barNumberCheck #33
+  \relative c' {
+    a,4 a' a, a' |
+    e, e' e'8 e, fis gis |
+    a4 a, a'8 c b a |
+    gis4. b8 e d c b |
+    a2 a |
+    gis gis |
+    a4 a a2 |
+    d1 |
+  }
+  
 }
 
 
@@ -174,6 +200,19 @@ guitarThreeMusic = {
     c8 c' r c r c,16 cis d8 dis |
     e4 e e, e |
     a2 a |
+  }
+  
+  % Bridge
+  \barNumberCheck 33
+  \relative c' {
+    a2 a |
+    gis gis |
+    a a |
+    e1 |
+    e'2 c |
+    d b |
+    c4 e a2 |
+    gis1 |
   }
   
 }
@@ -226,6 +265,19 @@ bassMusic = {
     c8 c' c, c' c, c16 cis d8 dis |
     r8 b' r b, r e, r gis |
     a8 e' a, e' a,2 |
+  }
+  
+  % Bridge
+  \barNumberCheck #33
+  \relative c {
+    a,8 e' a, e' a, e' a, e' |
+    gis,8 e' gis, e' gis, e' gis, e' |
+    a,8 e' a, e' a, e' a, e' |
+    gis,8 e' gis, e' gis, e' gis, e' |
+    a,8 e' a, e' a, e' a, e' |
+    gis,8 e' gis, e' gis, e' gis, e' |
+    a,8 e' a, e' a, e' a, e' |
+    gis,8 e' gis, e' gis, e' gis, e' |
   }
   
 }
