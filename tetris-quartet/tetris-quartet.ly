@@ -2,7 +2,7 @@
 
 
 \header {
-  title = "Tetris Theme Arrangement"
+  title = "Tetris Theme Quartet Arrangement"
   subtitle = "Or, Коробе́йники (Korobeiniki)"
   composer = "Russian Traditional"
   arranger = "Conway"
