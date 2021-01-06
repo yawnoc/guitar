@@ -116,22 +116,34 @@ allMusic = {
   <<
     \tag #'all
     \tag #'guitar-1
-    \new Staff \with { instrumentName = "Guitar 1" }
+    \new Staff \with {
+      instrumentName = "Guitar 1"
+      shortInstrumentName = "1"
+    }
     << \guitarOneMusic >>
     
     \tag #'all
     \tag #'guitar-2
-    \new Staff \with { instrumentName = "Guitar 2" }
+    \new Staff \with {
+      instrumentName = "Guitar 2"
+      shortInstrumentName = "2"
+    }
     << \guitarTwoMusic >>
     
     \tag #'all
     \tag #'guitar-3
-    \new Staff \with { instrumentName = "Guitar 3" }
+    \new Staff \with {
+      instrumentName = "Guitar 3"
+      shortInstrumentName = "3"
+    }
     << \guitarThreeMusic >>
     
     \tag #'all
     \tag #'bass
-    \new Staff \with { instrumentName = "Bass" }
+    \new Staff \with {
+      instrumentName = "Bass"
+      shortInstrumentName = "B"
+    }
     << \bassMusic >>
   >>
 }
