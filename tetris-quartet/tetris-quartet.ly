@@ -1,6 +1,15 @@
 \include "../conway.ily"
 
 
+\header {
+  title = "Tetris Theme Arrangement"
+  subtitle = "Or, Коробе́йники (Korobeiniki)"
+  composer = "Russian Traditional"
+  arranger = "Conway"
+  tagline = ##f
+}
+
+
 initialSignatures = {
   \time 4/4
   \key a \minor
