@@ -61,6 +61,20 @@ guitarOneMusic = {
     a2 a4
   }
   
+  % Altered theme in Guitar 2
+  \barNumberCheck #24
+  \relative c' {
+    a4 |
+    gis4 gis e e |
+    a, a a' a |
+    e' e gis, gis |
+    a2 cis8 a b cis |
+    d4 a'~ a8 g f e |
+    c8 e g2 f8 e |
+    d4. c8 b e, fis gis |
+    a2 a |
+  }
+  
 }
 
 
@@ -101,6 +115,19 @@ guitarTwoMusic = {
     a8 c e c a2 |
   }
   
+  % Altered theme in Guitar 2
+  \barNumberCheck #25
+  \relative c' {
+    e4. b8 gis4 d' |
+    c4 c8 e a4 a |
+    e4 b8 c d4 c8 b |
+    a4 c8 a~ a e'4 cis8 |
+    d8 d d f a a g f |
+    e e e c e e d c |
+    b b b c d gis, a b |
+    c e a, c e c a e |
+  }
+  
 }
 
 
@@ -133,6 +160,20 @@ guitarThreeMusic = {
     c4. e,8 e' c d c |
     e4. gis,8 a4 b |
     c2
+  }
+  
+  % Altered theme in Guitar 2
+  \barNumberCheck #24
+  \relative c' {
+    c8 b a c |
+    b8 c d4 e e |
+    e8 a e a e a e a |
+    e gis e gis e gis e gis |
+    a8 c, e4 a8 cis, e4 |
+    d8 d, r d r d16 d a'8 f |
+    c8 c' r c r c,16 cis d8 dis |
+    e4 e e, e |
+    a2 a |
   }
   
 }
@@ -170,6 +211,19 @@ bassMusic = {
     a,8 a' a, a' a, a' b c |
     d8 d, r d r d16 d a'8 f |
     c8 c' r c r c,16 cis d8 dis |
+    r8 b' r b, r e, r gis |
+    a8 e' a, e' a,2 |
+  }
+  
+  % Altered theme in Guitar 2
+  \barNumberCheck #25
+  \relative c, {
+    e,8 e' e, e' e, e' e, e' |
+    a,8 a' a, a' a, a' a, a' |
+    gis,8 gis' gis, gis' e, e' e, e' |
+    a,8 a' a, a' a, a' b cis |
+    d8 d, d d d d d d |
+    c8 c' c, c' c, c16 cis d8 dis |
     r8 b' r b, r e, r gis |
     a8 e' a, e' a,2 |
   }
