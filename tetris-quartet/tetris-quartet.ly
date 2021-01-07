@@ -80,7 +80,7 @@ guitarOneMusic = {
   \barNumberCheck #33
   \relative c' {
     e2 c |
-    b d |
+    d b |
     c a |
     gis1 |
     a,8 a' a, a' a, a' a, a' |
