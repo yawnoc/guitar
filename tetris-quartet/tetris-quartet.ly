@@ -249,9 +249,10 @@ guitarTwoMusic = {
   % Theme in Guitar 3
   \barNumberCheck #16
   \relative c' {
+    \set fingeringOrientations = #'(down)
     c8 a |
     gis8 b e e, gis b e e, |
-    a8 c e e, a c e e, |
+    <a-3>8 c e e, a c e e, |
     gis8 b e e, gis b e e, |
     a8 c e c e4 e |
     f8 d a d, f' d a d, |
@@ -270,7 +271,8 @@ guitarTwoMusic = {
     d8 d d f a a g f |
     e e e c e e d c |
     b b b c d gis, a b |
-    c e a, c e c a e |
+    \set fingeringOrientations = #'(down)
+    c e a, c e c <a-3> e |
   }
   
   % Bridge
@@ -307,8 +309,9 @@ guitarTwoMusic = {
     c2~ c8 e d c |
     b4 b8 c d4 f |
     g2 c4 c, |
-    f,8 a c f f, a c f |
-    g c, g c, a' e c' a |
+    f,8^"½CI" a c f f, a c f |
+    \set fingeringOrientations = #'(left)
+    g c, g c, a'^"⅔CII" e <c'-4> a |
     f4. a8 g4 g |
     c2 c, |
   }
@@ -334,7 +337,7 @@ guitarTwoMusic = {
     b4 b8 c d4 f |
     g2 c4 c, |
     f,8 a c f f, a c f |
-    g c, g c, a' e cis' a |
+    g c, g c, a'^"⅔CII" e cis' a |
     f4. a8 g4 g |
     c2 c, |
   }
@@ -374,9 +377,10 @@ guitarTwoMusic = {
     e4 e8 a cis2 |
     e2~ e8 e, fis gis |
     a2 e4 cis |
-    r8 fis4 a8 d f, e' d |
-    cis a e a cis a fis ais |
-    b4. a8 gis4 e |
+    \set fingeringOrientations = #'(down)
+    r8 <fis-4>4 <a-1>8 <d-3> <f,-2> e' d |
+    cis^"⅔CII" a e a cis a <fis-3> <ais-2> |
+    <b-0>4. a8 gis4 e |
     a4 e' a2 |
   }
     \bar "||"
@@ -384,8 +388,8 @@ guitarTwoMusic = {
   \relative c'' {
     r8 c4 c c c8~ |
     c8 d4 d d d8 |
-    e4 b e8 e fis gis |
-    a4 r a r |
+    e4 b e8 e <fis-1> <gis-2> |
+    <a-3>4 r a r |
   }
   \bar "|."
   
