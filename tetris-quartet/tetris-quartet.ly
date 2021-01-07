@@ -432,10 +432,12 @@ guitarThreeMusic = {
   \relative c' {
     c8 b a c |
     b8 c d4 e e |
-    e8 a e a e a e a |
-    e gis e gis e gis e gis |
-    a8 c, e4 a8 cis, e4 |
-    d8 d, r d r d16 d a'8 f |
+    \set fingeringOrientations = #'(up)
+    <e-2>8 <a-3> e a e a e a |
+    <e-2> <gis-1> e gis e gis e gis |
+    a8^"½CV" c, e4 a8 cis, e4 |
+    \set fingeringOrientations = #'(down)
+    <d-3>8 <d,-0> r d r <d-4>16 <d-0> <a'-1>8 <f-2> |
     c8 c' r c r c,16 cis d8 dis |
     e4 e e, e |
     a2 a |
@@ -461,8 +463,9 @@ guitarThreeMusic = {
     a4 a8 c e4 d8 c |
     b4 b8 c d4 e |
     c a a2 |
-    r8 d4 f8 a4 g8 f |
-    e4. c8 e4 d8 c |
+    \set fingeringOrientations = #'(up)
+    r8^"V" <d-3>4 f8 a4 g8 f |
+    <e-0>4. c8 e4 d8 c |
     b4 b8 c d4 e |
     c g c,8 e g4 |
   }
@@ -474,7 +477,7 @@ guitarThreeMusic = {
     <c g'> c, c' b8 c |
     d2 g, |
     c,8 e g c e, g c bes |
-    f8 a4 c8 f4 g8 f |
+    f8^"½C1" a4 c8 f4 g8 f |
     e8 g e g e c a c |
     d8 f4 c8 b8 c d4 |
     e4 g g2 |
@@ -524,7 +527,8 @@ guitarThreeMusic = {
   \relative c' {
     c4 b a c |
     b a gis b |
-    a e c' e |
+    \set fingeringOrientations = #'(down)
+    <a-3> e c' e |
     e2 c4 b |
     c4 b a c |
     b a gis b |
@@ -541,9 +545,10 @@ guitarThreeMusic = {
     a4 a8 cis e4 d8 cis |
     b4 b8 cis d4 e |
     cis4 a a g |
-    r8 d'4 fis8 a4 g8 f |
+    \set fingeringOrientations = #'(up)
+    r8^"V" <d'-3>4 fis8 a4 g8 f |
     e4. cis8 fis e d cis |
-    b4 b8 cis d4 e |
+    <b-0>4 b8 cis d4 e |
     cis4 a a r |
   }
     \bar "||"
