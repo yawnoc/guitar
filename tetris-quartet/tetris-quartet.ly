@@ -350,6 +350,27 @@ guitarTwoMusic = {
     gis1 |
   }
   
+  % Celebration (tonic major theme)
+  \barNumberCheck #89
+  \key a \major
+  \relative c' {
+    b4 gis8 a b4 a8 gis |
+    e4 e8 a cis2 |
+    e2~ e8 e, fis gis |
+    a2 e4 cis |
+    r8 fis4 a8 d f, e' d |
+    cis a e a cis a fis ais |
+    b4. a8 gis4 e |
+    a4 e' a2 |
+  }
+  \key a \minor
+  \relative c'' {
+    r8 c4 c c c8~ |
+    c8 d4 d d d8 |
+    e4 b e8 e fis gis |
+    a4 r a r |
+  }
+  
 }
 
 
@@ -487,6 +508,27 @@ guitarThreeMusic = {
     b a gis b |
     a2 a |
     <e b'>1 |
+  }
+  
+  % Celebration (tonic major theme)
+  \barNumberCheck #89
+  \key a \major
+  \relative c' {
+    e4 b8 cis d4 cis8 b |
+    a4 a8 cis e4 d8 cis |
+    b4 b8 cis d4 e |
+    cis4 a a g |
+    r8 d'4 fis8 a4 g8 f |
+    e4. cis8 fis e d cis |
+    b4 b8 cis d4 e |
+    cis4 a a r |
+  }
+  \key a \minor
+  \relative c {
+    f4 c8 f a4 f |
+    d'4 a8 d f f e d |
+    e2~ e8 d c b |
+    a4 r a r |
   }
   
 }
@@ -631,6 +673,27 @@ bassMusic = {
     gis,8 e' gis, e' gis, e' gis, e' |
     a,8 e' a, e' a, e' a, e' |
     gis,8 e' gis, e' gis, e' gis, e' |
+  }
+  
+  % Celebration (tonic major theme)
+  \barNumberCheck #89
+  \key a \major
+  \relative c, {
+    e,8 e' e, e' e, e' e, e' |
+    a,8 a' a, a' a, a' a, a' |
+    gis,8 gis' gis, gis' e, e' e, e' |
+    a,8 a' a, a' a, a' b cis |
+    d8 d, r d r d16 d a'8 fis |
+    cis8 a' r a fis cis fis, cis' |
+    b4 b8 b b e, fis gis |
+    a8 e' a, e' a, gis' g fis |
+  }
+  \key a \minor
+  \relative c {
+    f, c' f, c' f, c' f, c' |
+    d, d' d, d' d, d' d, d' |
+    gis,, gis' gis, gis' e, e' e, e' |
+    a, a' e, e' a,4 r |
   }
   
 }
