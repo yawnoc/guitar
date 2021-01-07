@@ -155,6 +155,19 @@ guitarOneMusic = {
     a, <a' c e> a, <a' c e> a, <a' c e> a, <a' c e> |
   }
   
+  % Bridge to celebration
+  \barNumberCheck #81
+  \relative c' {
+    a, <a' c e> a, <a' c e> a, <a' c e> a, <a' c e> |
+    e <gis b e> e <gis b e> gis, <gis' b e> gis, <gis' b e> |
+    a, <a' c e> a, <a' c e> a, <a' c e> a, <a' c e> |
+    e, <gis' b e> e, <gis' b e> fis, <gis' b e> gis, <gis' b e> |
+    a, <a' c e> a, <a' c e> a, <a' c e> a, <a' c e> |
+    e <gis b e> e <gis b e> gis, <gis' b e> gis, <gis' b e> |
+    a, <a' c e> a, <a' c e> a, <a' c e> a, <a' c e> |
+    e, <gis' b e> e, <gis' b e> e <gis b e> e <gis b e> |
+  }
+  
 }
 
 
@@ -287,6 +300,19 @@ guitarTwoMusic = {
     a e e2 |
   }
   
+  % Bridge to celebration
+  \barNumberCheck #81
+  \relative c' {
+    e4 d c e |
+    d c b d |
+    c b a c |
+    b2 c4 d |
+    e4 d c e |
+    d c b d |
+    c4 c8 d e4 a |
+    gis1 |
+  }
+  
 }
 
 
@@ -411,6 +437,19 @@ guitarThreeMusic = {
     e4. c8 e4 d8 c |
     b4 b8 c d4 e |
     c a a2 |
+  }
+  
+  % Bridge to celebration
+  \barNumberCheck #81
+  \relative c' {
+    c4 b a c |
+    b a gis b |
+    a e c' e |
+    e2 c4 b |
+    c4 b a c |
+    b a gis b |
+    a2 a |
+    <e b'>1 |
   }
   
 }
@@ -542,6 +581,19 @@ bassMusic = {
     c8 c' r c r c,16 cis d8 dis |
     r8 b' r b, r e, r gis |
     a8 e' a, e' a,2 |
+  }
+  
+  % Bridge to celebration
+  \barNumberCheck #81
+  \relative c {
+    a,8 e' a, e' a, e' a, e' |
+    gis,8 e' gis, e' gis, e' gis, e' |
+    a,8 e' a, e' a, e' a, e' |
+    e,8 e' e, e' fis, e' gis, e' |
+    a,8 e' a, e' a, e' a, e' |
+    gis,8 e' gis, e' gis, e' gis, e' |
+    a,8 e' a, e' a, e' a, e' |
+    gis,8 e' gis, e' gis, e' gis, e' |
   }
   
 }
