@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
+git clean -Xf
 lilypond tetris-quartet-*.ly
