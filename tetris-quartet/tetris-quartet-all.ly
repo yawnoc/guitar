@@ -4,4 +4,6 @@
 
 \score {
   \new StaffGroup \keepWithTag #'all \allMusic
+  \layout { }
+  \midi { }
 }
