@@ -11,6 +11,7 @@
 
 
 initialSignatures = {
+  \tempo "Fast" 4 = 144
   \time 4/4
   \key a \minor
 }
