@@ -13,5 +13,4 @@
       \Staff \remove "Instrument_name_engraver"
     }
   }
-  \midi { }
 }
