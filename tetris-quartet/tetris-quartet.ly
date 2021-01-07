@@ -30,8 +30,8 @@ guitarOneMusic = {
     a4 a8 c e4 d8 c |
     b4 b8 c d4 e |
     c a a r |
-    r8 d4 f8 a4 g8 f |
-    e4. c8 e4 d8 c |
+    r8^"V" <d-3>4 f8 a4 g8 f |
+    <e-0>4. c8 e4 d8 c |
     b4 b8 c d4 e |
     c a a r |
   }
@@ -52,13 +52,13 @@ guitarOneMusic = {
   % Theme in Guitar 3
   \barNumberCheck #17
   \relative c'' {
-    b4 gis8 a b4 a8 gis |
-    a8 e c e a4 a |
-    gis4 gis8 a b d c b |
+    <b-4>4^"IV" gis8 a b4 a8 gis |
+    <a-4>8 <e-3> <c-2> e a4 a |
+    gis4 gis8 a <b-4> <d-4>^"VII" c b |
     a2 c8 a b c |
     d4. a8 d4 c8 a |
     g4 e c' b8 a |
-    gis4. e8 fis4 gis |
+    gis4. <e-0>8 fis4 gis |
     a2 a4
   }
   
@@ -109,10 +109,10 @@ guitarOneMusic = {
     c4 c8 e g4 f8 e |
     d4 d8 e f4 g |
     e4 c c g |
-    r8 f'4 a8 c4 b8 a |
+    r8^"V" <f'-2>4 a8 c4 b8 a |
     g4. e8 a g f e |
     d4 d8 e f4 g |
-    e4 c
+    <e-0>4 c
   }
   
   % Relative major bridge
@@ -149,7 +149,7 @@ guitarOneMusic = {
     g4. g8 a4 b |
     c4 d8 c f4 a, |
     gis4. e8 fis4 gis |
-    a8 e c' a a, <a' cis e> a, <a' cis e> |
+    <a-3>8 e c' a a, <a' cis e> a, <a' cis e> |
     d, <a' d f> d, <a' d f> d, <a' d f> d, <a' d f> |
     c, <g' c e> c, <g' c e> c, <g' c e> c, <g' c e> |
     b, <gis' b e> b, <gis' b e> e, <gis' b e> e, <gis' b e> |
@@ -174,35 +174,49 @@ guitarOneMusic = {
     \bar "||"
   \key a \major
   \relative c' {
-    <e,, b' e gis b e>8^"strum till end" <e'' b gis>
+    \set fingeringOrientations = #'(left)
+    <e,, b'-2 e-3 gis-1 b e>8^"strum till end" <e'' b gis>
       <e,, b' e gis b e>8 <e'' b gis>
       <e,, b' e gis b e>8 <e'' b gis> <e,, b' e gis b e>8 <e'' b gis> |
-    <a,, e' a cis e> <e'' cis a> <a,, e' a cis e> <e'' cis a>
+    <a,, e'-1 a-2 cis-3 e> <e'' cis a> <a,, e' a cis e> <e'' cis a>
       <a,, e' a cis e> <e'' cis a> <a,, e' a cis e> <e'' cis a> |
     <e,, b' e gis b e>8 <e'' b gis> <e,, b' e gis b e>8 <e'' b gis>
       <e,, b' e gis b e>8 <e'' b gis> <e,, b' e gis b e>8 <e'' b gis> |
+    \set fingeringOrientations = #'(up)
     <a,, e' a cis e> <e'' cis a> <a,, e' a cis e> <e'' cis a>
-      <a,, e' a cis g'> <g'' cis, a> <a,, e' a cis g'> <g'' cis, a> |
-    <d, a' d fis a d> <d'' a fis> <d,, a' d fis a d> <d'' a fis>
-      <d,, a' d f a d> <d'' a f> <d,, a' d f a d> <d'' a f> |
-    <a,, e' a cis e a> <a'' e cis> <a,, e' a cis e a> <a'' e cis>
-      <fis,, cis' fis a cis fis> <fis'' cis a>
-      <fis,, cis' fis ais cis fis> <fis'' cis ais> |
-    <b,, fis' b d fis b> <b'' fis d> <b,, fis' b d fis b> <b'' fis d>
-      <e,,, b' e gis b e> <e'' b gis> <e,, b' e gis b e> <e'' b gis> |
-    <a,, e' a cis e a> <a'' e cis> <a,, e' a cis e a> <a'' e cis>
-      <a,, a''> <gis gis''> <g g''> <fis fis''> |
+      <a,, e' a cis g'-4> <g'' cis, a> <a,, e' a cis g'> <g'' cis, a> |
+    \set fingeringOrientations = #'(left)
+    <d, a'-3 d-4 fis-2 a d>^"CX" <d'' a fis> <d,, a' d fis a d> <d'' a fis>
+    \set fingeringOrientations = #'(right)
+      <d,, a'-3 d-4 f-1 a d> <d'' a f> <d,, a' d f a d> <d'' a f> |
+    \set fingeringOrientations = #'(left)
+    <a,, e'-3 a-4 cis-2 e a>^"CV" <a'' e cis> <a,, e' a cis e a> <a'' e cis>
+      <fis,, cis'-3 fis-4 a cis fis>^"CII" <fis'' cis a>
+    \set fingeringOrientations = #'(right)
+      <fis,, cis'-3 fis-4 ais-2 cis fis> <fis'' cis ais> |
+    \set fingeringOrientations = #'(left)
+    <b,, fis'-3 b-4 d fis b>^"CVII" <b'' fis d>
+      <b,, fis' b d fis b> <b'' fis d>
+      <e,,, b'-3 e-4 gis-2 b e> <e'' b gis> <e,, b' e gis b e> <e'' b gis> |
+    <a,, e'-3 a-4 cis-2 e a>^"CV" <a'' e cis> <a,, e' a cis e a> <a'' e cis>
+      <a,, a''> <gis-1 gis''-1> <g-1 g''-1> <fis-1 fis''-1> |
   }
     \bar "||"
   \key a \minor
   \relative c' {
-    <f,, c' f a c f> <f'' c a> <f, a c f> <f' c a>
+    <f,, c'-3 f-4 a-2 c f>^"CI" <f'' c a> <f, a c f> <f' c a>
       <f, a c f> <f' c a> <f, a c f> <f' c a> |
-    <f, a d f> <f' d a> <f, a d f> <f' d a>
+    <f,-3 a-2 d-4 f> <f' d a> <f, a d f> <f' d a>
       <f, a d f> <f' d a> <f, a d f> <f' d a> |
-    <e, gis b e> <e' b gis> <e, gis b e> <e' b gis>
-      <e,, b' e gis b e> <e'' b gis> <e,, b' e gis b e> <e'' b gis> |
-    <a,, e' a cis e a> r <e b' e gis b e> r <a e' a cis e a> r r4 |
+    \set fingeringOrientations = #'(right)
+    <e,-4 gis-2 b e> <e' b gis> <e, gis b e> <e' b gis>
+    \set fingeringOrientations = #'(left)
+      <e,, b'-3 e-4 gis-2 b e> <e'' b gis> <e,, b' e gis b e> <e'' b gis> |
+    \set fingeringOrientations = #'(right)
+    <a,, e'-3 a-4 cis-2 e a>^"CV" r
+      <e b'-3 e-4 gis-2 b e> r
+    \set fingeringOrientations = #'(left)
+      <a e'-3 a-4 cis-2 e a>^"CV" r r4 |
   }
   \bar "|."
   
