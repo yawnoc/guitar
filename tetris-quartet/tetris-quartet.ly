@@ -3,7 +3,7 @@
 
 \header {
   title = "Tetris Theme Quartet Arrangement"
-  subtitle = "Or, Коробе́йники (Korobeiniki)"
+  subtitle = "Коробе́йники (Korobeiniki), a folk song"
   composer = "Russian Traditional"
   arranger = "Conway"
   tagline = ##f
