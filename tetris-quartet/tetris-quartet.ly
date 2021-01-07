@@ -141,6 +141,20 @@ guitarOneMusic = {
     e4 c c
   }
   
+  % Theme returning to minor
+  \barNumberCheck #72
+  \relative c' {
+    b8 a |
+    g4. g8 a4 b |
+    c4 d8 c f4 a, |
+    gis4. e8 fis4 gis |
+    a8 e c' a a, <a' cis e> a, <a' cis e> |
+    d, <a' d f> d, <a' d f> d, <a' d f> d, <a' d f> |
+    c, <g' c e> c, <g' c e> c, <g' c e> c, <g' c e> |
+    b, <gis' b e> b, <gis' b e> e, <gis' b e> e, <gis' b e> |
+    a, <a' c e> a, <a' c e> a, <a' c e> a, <a' c e> |
+  }
+  
 }
 
 
@@ -260,6 +274,19 @@ guitarTwoMusic = {
     c2 c, |
   }
   
+  % Theme returning to minor
+  \barNumberCheck #73
+  \relative c' {
+    g'8 d b g f'4 g |
+    c,2 a4 f |
+    e4 e'2 d4 |
+    c4 a a2 |
+    r8 f4 a8 c4 b8 a |
+    g4. e8 g4 f8 e |
+    gis4 gis8 a b4 c |
+    a e e2 |
+  }
+  
 }
 
 
@@ -371,6 +398,19 @@ guitarThreeMusic = {
     e8 g e g e cis a cis |
     d8 f4 c8 b8 c d4 |
     e4 g g2 |
+  }
+  
+  % Theme returning to minor
+  \barNumberCheck #73
+  \relative c' {
+    d2~ d8 c4 d8 |
+    e2 a |
+    b2. b4 |
+    a2 a |
+    r8 d,4 f8 a4 g8 f |
+    e4. c8 e4 d8 c |
+    b4 b8 c d4 e |
+    c a a2 |
   }
   
 }
@@ -488,6 +528,20 @@ bassMusic = {
     e8 c' r c a, cis d e |
     f,8 f' f, f' g, g' a, b |
     c8 g' c, g' c,4
+  }
+  
+  % Theme returning to minor
+  \barNumberCheck #72
+  \relative c {
+    b,8 a |
+    g8 g' g, g' g, f' e d |
+    c c' d, e f c' f, c' |
+    e, b' e, b' e,, e' e, e' |
+    a, a' a, a' a, a' b cis |
+    d8 d, r d r d16 d a'8 f |
+    c8 c' r c r c,16 cis d8 dis |
+    r8 b' r b, r e, r gis |
+    a8 e' a, e' a,2 |
   }
   
 }
