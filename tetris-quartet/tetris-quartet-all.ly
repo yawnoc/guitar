@@ -4,6 +4,10 @@
 
 \score {
   \new StaffGroup \keepWithTag #'all \allMusic
-  \layout { }
+  \layout {
+    \context {
+      \Staff \RemoveEmptyStaves
+    }
+  }
   \midi { }
 }
