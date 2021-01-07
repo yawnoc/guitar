@@ -707,6 +707,7 @@ allMusic = {
     \new Staff \with {
       instrumentName = "Guitar 1"
       shortInstrumentName = "1"
+      midiInstrument = #"acoustic guitar (nylon)"
     }
     << \guitarOneMusic >>
     
@@ -715,6 +716,7 @@ allMusic = {
     \new Staff \with {
       instrumentName = "Guitar 2"
       shortInstrumentName = "2"
+      midiInstrument = #"acoustic guitar (nylon)"
     }
     << \guitarTwoMusic >>
     
@@ -723,6 +725,7 @@ allMusic = {
     \new Staff \with {
       instrumentName = "Guitar 3"
       shortInstrumentName = "3"
+      midiInstrument = #"acoustic guitar (nylon)"
     }
     << \guitarThreeMusic >>
     
@@ -731,6 +734,7 @@ allMusic = {
     \new Staff \with {
       instrumentName = "Bass"
       shortInstrumentName = "B"
+      midiInstrument = #"electric bass (pick)"
     }
     << \bassMusic >>
   >>
