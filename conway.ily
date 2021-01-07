@@ -3,6 +3,7 @@
   left-margin = 1.5\cm
   right-margin = 1.5\cm
   bottom-margin = 1.5\cm
+  ragged-last-bottom = ##f
 }
 
 globalSettings = {
