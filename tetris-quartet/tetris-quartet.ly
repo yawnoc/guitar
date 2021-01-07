@@ -168,6 +168,43 @@ guitarOneMusic = {
     e, <gis' b e> e, <gis' b e> e <gis b e> e <gis b e> |
   }
   
+  % Celebration (tonic major theme)
+  \barNumberCheck #89
+    \bar "||"
+  \key a \major
+  \relative c' {
+    <e,, b' e gis b e>8^"strum till end" <e'' b gis>
+      <e,, b' e gis b e>8 <e'' b gis>
+      <e,, b' e gis b e>8 <e'' b gis> <e,, b' e gis b e>8 <e'' b gis> |
+    <a,, e' a cis e> <e'' cis a> <a,, e' a cis e> <e'' cis a>
+      <a,, e' a cis e> <e'' cis a> <a,, e' a cis e> <e'' cis a> |
+    <e,, b' e gis b e>8 <e'' b gis> <e,, b' e gis b e>8 <e'' b gis>
+      <e,, b' e gis b e>8 <e'' b gis> <e,, b' e gis b e>8 <e'' b gis> |
+    <a,, e' a cis e> <e'' cis a> <a,, e' a cis e> <e'' cis a>
+      <a,, e' a cis g'> <g'' cis, a> <a,, e' a cis g'> <g'' cis, a> |
+    <d, a' d fis a d> <d'' a fis> <d,, a' d fis a d> <d'' a fis>
+      <d,, a' d f a d> <d'' a f> <d,, a' d f a d> <d'' a f> |
+    <a,, e' a cis e a> <a'' e cis> <a,, e' a cis e a> <a'' e cis>
+      <fis,, cis' fis a cis fis> <fis'' cis a>
+      <fis,, cis' fis ais cis fis> <fis'' cis ais> |
+    <b,, fis' b d fis b> <b'' fis d> <b,, fis' b d fis b> <b'' fis d>
+      <e,,, b' e gis b e> <e'' b gis> <e,, b' e gis b e> <e'' b gis> |
+    <a,, e' a cis e a> <a'' e cis> <a,, e' a cis e a> <a'' e cis>
+      <a,, a''> <gis gis''> <g g''> <fis fis''> |
+  }
+    \bar "||"
+  \key a \minor
+  \relative c' {
+    <f,, c' f a c f> <f'' c a> <f, a c f> <f' c a>
+      <f, a c f> <f' c a> <f, a c f> <f' c a> |
+    <f, a d f> <f' d a> <f, a d f> <f' d a>
+      <f, a d f> <f' d a> <f, a d f> <f' d a> |
+    <e, gis b e> <e' b gis> <e, gis b e> <e' b gis>
+      <e,, b' e gis b e> <e'' b gis> <e,, b' e gis b e> <e'' b gis> |
+    <a,, e' a cis e a> r <e b' e gis b e> r <a e' a cis e a> r r4 |
+  }
+  \bar "|."
+  
 }
 
 
