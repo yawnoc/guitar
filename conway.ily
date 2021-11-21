@@ -14,6 +14,15 @@ globalSettings = {
   \pointAndClickOff
 }
 
+origin-url = "https://github.com/yawnoc/guitar"
+
 \header {
+  copyright = \markup {
+    \concat {
+      "Lilypond source code available at <"
+      \with-url \origin-url { \typewriter \origin-url }
+      ">."
+    }
+  }
   tagline = ##f
 }
