@@ -13,3 +13,7 @@ globalSettings = {
   \numericTimeSignature
   \pointAndClickOff
 }
+
+\header {
+  tagline = ##f
+}

@@ -6,7 +6,6 @@
   subtitle = "Коробе́йники (Korobeiniki), a folk song"
   composer = "Russian Traditional"
   arranger = "Conway"
-  tagline = ##f
 }
 
 
