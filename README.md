@@ -2,9 +2,9 @@
 
 Classical Guitar scores, typeset in [LilyPond].
 
-* The *original* compositions are all already in the Public Domain
+* The original compositions are all already in the Public Domain
   (traditional, expired, etc.).
-* I release *my arrangements* of these compositions
+* I release my arrangements of these compositions
   into the Public Domain under CC0; see [LICENSE].
 
 
