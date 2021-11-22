@@ -50,7 +50,7 @@ highVoiceMusic = {
   \key e \minor
   \repeat volta 2 {
     \relative c' {
-      <g' b,>8 c b e, <fis dis a> g |
+      <g' b,>8 \glissando c b e, <fis dis a> g |
       e2. |
       <b g>8 e' a,, c' fis,, a' |
       <fis dis>2 s4 |
