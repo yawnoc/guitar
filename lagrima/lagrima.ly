@@ -82,6 +82,7 @@ allMusic = {
   \initialSignatures
   <<
     << \highVoiceMusic >>
+      \\
     << \lowVoiceMusic >>
   >>
 }
