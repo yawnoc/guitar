@@ -17,6 +17,7 @@ initialSignatures = {
   \clef "treble_8"
   \key e \major
   \time 3/4
+  \set Timing.beamExceptions = #'()
 }
 
 
