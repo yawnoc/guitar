@@ -34,7 +34,7 @@ highVoiceMusic = {
       gis4 a b |
       fis2. |
       e'4 dis cis |
-      b cis,8 e fis a |
+      b cis,8[ e fis a] |
       gis4 cis,8 fis b,, <dis' a> |
       <e gis,>2 r4 |
     }
