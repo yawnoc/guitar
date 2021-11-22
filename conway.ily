@@ -14,6 +14,7 @@ globalSettings = {
   \accidentalStyle modern
   \compressFullBarRests
   \mergeDifferentlyHeadedOn
+  \mergeDifferentlyDottedOn
   \numericTimeSignature
   \pointAndClickOff
 }

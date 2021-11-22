@@ -29,12 +29,17 @@ highVoiceMusic = {
   \barNumberCheck #1
   \repeat volta 2 {
     \relative c'' {
+      \shiftOn
       gis4 a b |
+      \shiftOff
       fis2. |
+      \shiftOn
       gis4 a b |
+      \shiftOff
       fis2. |
+      \shiftOn
       e'4 dis cis |
-      b cis,8[ e fis a] |
+      b \shiftOff cis,8[ e fis a] |
       gis4 cis,8 fis b,, <dis' a> |
       <e gis,>2 r4 |
     }
@@ -68,11 +73,15 @@ lowVoiceMusic = {
   \repeat volta 2 {
     \relative c {
       e4 fis gis |
+      \shiftOn
       dis2. |
+      \shiftOff
       e4 fis gis |
+      \shiftOn
       dis2. |
+      \shiftOff
       cis'4 b a |
-      b8 gis' cis,2 |
+      b4 cis2 |
       b8 e ais,4 b, |
       e4 e,2 |
     }
@@ -96,12 +105,41 @@ lowVoiceMusic = {
 }
 
 
+middleVoiceMusic = {
+  
+  \globalSettings
+  
+  % Major section
+  \barNumberCheck #1
+  \repeat volta 2 {
+    \relative c {
+      \shiftOff
+      e8 b' fis b gis b |
+      \stemDown
+      fis' b, a b b, b' |
+      \stemUp
+      e, b' fis b gis b |
+      \stemDown
+      fis' b, a b b, b' |
+      \stemUp
+      cis e b e a, fis' |
+      b, gis' s2 |
+      s2. |
+      s2. |
+    }
+  }
+  
+}
+
+
 allMusic = {
   \initialSignatures
   <<
     << \highVoiceMusic >>
       \\
     << \lowVoiceMusic >>
+      \\
+    << \middleVoiceMusic >>
   >>
 }
 
