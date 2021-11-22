@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% General
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \paper {
   top-margin = 1.5\cm
   left-margin = 1.5\cm
@@ -31,3 +35,19 @@ origin-url = "https://github.com/yawnoc/guitar"
   }
   tagline = ##f
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Guitar notation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+position = #(define-scheme-function
+  (parser location label) (string?)
+  #{
+    \markup {
+      \center-align {
+        \hspace #0.5
+        $label
+      }
+    }
+  #}
+)

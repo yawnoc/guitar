@@ -30,7 +30,7 @@ guitarOneMusic = {
     b4 b8 c d4 e |
     c a a r |
     \set fingeringOrientations = #'(up)
-    r8^"V" <d-3>4 f8 a4 g8 f |
+    r8^\position V <d-3>4 f8 a4 g8 f |
     <e-0>4. c8 e4 d8 c |
     b4 b8 c d4 e |
     c a a r |
@@ -53,9 +53,9 @@ guitarOneMusic = {
   \barNumberCheck #17
   \relative c'' {
     \set fingeringOrientations = #'(up)
-    <b-4>4^"IV" gis8 a b4 a8 gis |
+    <b-4>4^\position IV gis8 a b4 a8 gis |
     <a-4>8 <e-3> <c-2> e a4 a |
-    gis4 gis8 a <b-4> <d-4>^"VII" c b |
+    gis4 gis8 a <b-4> <d-4>^\position VII c b |
     a2 c8 a b c |
     d4. a8 d4 c8 a |
     g4 e c' b8 a |
@@ -112,7 +112,7 @@ guitarOneMusic = {
     d4 d8 e f4 g |
     e4 c c g |
     \set fingeringOrientations = #'(up)
-    r8^"V" <f'-2>4 a8 c4 b8 a |
+    r8^\position V <f'-2>4 a8 c4 b8 a |
     g4. e8 a g f e |
     d4 d8 e f4 g |
     \set fingeringOrientations = #'(up)
@@ -472,7 +472,7 @@ guitarThreeMusic = {
     b4 b8 c d4 e |
     c a a2 |
     \set fingeringOrientations = #'(up)
-    r8^"V" <d-3>4 f8 a4 g8 f |
+    r8^\position V <d-3>4 f8 a4 g8 f |
     <e-0>4. c8 e4 d8 c |
     b4 b8 c d4 e |
     c g c,8 e g4 |
@@ -554,7 +554,7 @@ guitarThreeMusic = {
     b4 b8 cis d4 e |
     cis4 a a g |
     \set fingeringOrientations = #'(up)
-    r8^"V" <d'-3>4 fis8 a4 g8 f |
+    r8^\position V <d'-3>4 fis8 a4 g8 f |
     <e-1>4. cis8 fis e d cis |
     <b-0>4 b8 cis d4 e |
     cis4 a a r |
