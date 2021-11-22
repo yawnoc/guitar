@@ -40,6 +40,18 @@ origin-url = "https://github.com/yawnoc/guitar"
 % Guitar notation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+barre = #(define-scheme-function
+  (parser location label) (string?)
+  #{
+    \markup {
+      \center-align {
+        \hspace #0.7
+        $label
+      }
+    }
+  #}
+)
+
 position = #(define-scheme-function
   (parser location label) (string?)
   #{
