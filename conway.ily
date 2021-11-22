@@ -18,10 +18,15 @@ origin-url = "https://github.com/yawnoc/guitar"
 
 \header {
   copyright = \markup {
-    \concat {
-      "Lilypond source code available at <"
-      \with-url \origin-url { \typewriter \origin-url }
-      ">."
+    \center-column {
+      \concat {
+        "This arrangement is released into the public domain (CC0)."
+      }
+      \concat {
+        "Lilypond source code available at <"
+        \with-url \origin-url { \typewriter \origin-url }
+        ">."
+      }
     }
   }
   tagline = ##f
