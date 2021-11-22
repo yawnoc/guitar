@@ -76,6 +76,21 @@ lowVoiceMusic = {
     }
   }
   
+  % Minor section
+  \barNumberCheck #9
+  \repeat volta 2 {
+    \relative c, {
+      e2 b'4 |
+      e,2. |
+      e4 a' fis |
+      b,2. |
+      e4 fis g |
+      a,2. |
+      e''8 <b g> fis' <c a> b, dis |
+      e4 e,2 |
+    }
+  }
+  
 }
 
 
