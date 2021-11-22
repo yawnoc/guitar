@@ -25,15 +25,17 @@ highVoiceMusic = {
   
   % Major section
   \barNumberCheck #1
-  \relative c'' {
-    gis4 a b |
-    fis2. |
-    gis4 a b |
-    fis2. |
-    e'4 dis cis |
-    b cis,8 e fis a |
-    dis4 cis,8 fis b,, <dis' a> |
-    <e gis,>2 r4 |
+  \repeat volta 2 {
+    \relative c'' {
+      gis4 a b |
+      fis2. |
+      gis4 a b |
+      fis2. |
+      e'4 dis cis |
+      b cis,8 e fis a |
+      dis4 cis,8 fis b,, <dis' a> |
+      <e gis,>2 r4 |
+    }
   }
   
 }
