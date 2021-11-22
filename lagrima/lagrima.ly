@@ -23,7 +23,6 @@ initialSignatures = {
 highVoiceMusic = {
   
   \globalSettings
-  \initialSignatures
   
   % Major section
   \barNumberCheck #1
@@ -60,6 +59,8 @@ highVoiceMusic = {
 
 
 lowVoiceMusic = {
+  
+  \globalSettings
   
   % Major section
   \barNumberCheck #1
