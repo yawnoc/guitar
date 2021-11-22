@@ -53,8 +53,10 @@ highVoiceMusic = {
       <g' b,>8 c b e, <fis dis a> g |
       e2. |
       <b g>8 e' a,, c' fis,, a' |
-      <fis dis>2 b,8 fis' |
+      <fis dis>2 s4 |
+      \shiftOn
       g4 a b |
+      \shiftOff
       d8 c b a g fis |
       e4 fis b,8 a |
       <g e'>2 r4 |
@@ -92,9 +94,13 @@ lowVoiceMusic = {
   \repeat volta 2 {
     \relative c, {
       e2 b'4 |
+      \shiftOn
       e,2. |
+      \shiftOff
       e4 a' fis |
-      b,2. |
+      \shiftOn
+      b,2._"(resonates on open 2nd)" |
+      \shiftOff
       e4 fis g |
       a,2. |
       e''8 <b g> fis' <c a> b, dis |
@@ -124,6 +130,23 @@ middleVoiceMusic = {
       \stemUp
       cis e b e a, fis' |
       b, gis' s2 |
+      s2. |
+      s2. |
+    }
+  }
+  
+  % Minor section
+  \barNumberCheck #9
+  \repeat volta 2 {
+    \relative c' {
+      s2. |
+      \stemDown
+      e8 <c a> <b g> <a fis> <g e> <a fis> |
+      s2. |
+      dis8 b c b b fis' |
+      \stemUp
+      e, b' fis b g b |
+      s2. |
       s2. |
       s2. |
     }
