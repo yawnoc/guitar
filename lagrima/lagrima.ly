@@ -7,3 +7,9 @@
   composer = "Francisco Tárrega"
   arranger = "Conway"
 }
+
+initialSignatures = {
+  \tempo "Andante"
+  \time 3/4
+  \key e \major
+}
