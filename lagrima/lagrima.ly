@@ -58,10 +58,31 @@ highVoiceMusic = {
 }
 
 
+lowVoiceMusic = {
+  
+  % Major section
+  \barNumberCheck #1
+  \repeat volta 2 {
+    \relative c {
+      e4 fis gis |
+      dis2. |
+      e4 fis gis |
+      dis2. |
+      cis'4 b a |
+      b8 gis' cis,2 |
+      b8 e ais,4 b, |
+      e4 e,2 |
+    }
+  }
+  
+}
+
+
 allMusic = {
   \initialSignatures
   <<
     << \highVoiceMusic >>
+    << \lowVoiceMusic >>
   >>
 }
 
