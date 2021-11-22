@@ -40,6 +40,11 @@ origin-url = "https://github.com/yawnoc/guitar"
 % Guitar notation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+fingeringAbove = { \set fingeringOrientations = #'(up) }
+fingeringBelow = { \set fingeringOrientations = #'(down) }
+fingeringAleft = { \set fingeringOrientations = #'(left) }
+fingeringAright = { \set fingeringOrientations = #'(right) }
+
 barre = #(define-scheme-function
   (parser location label) (string?)
   #{
