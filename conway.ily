@@ -52,6 +52,13 @@ barre = #(define-scheme-function
   #}
 )
 
+nudgeNextBarre = #(define-scheme-function
+  (parser location distance) (number?)
+  #{
+    \once \override TextScript.X-offset = $distance
+  #}
+)
+
 position = #(define-scheme-function
   (parser location label) (string?)
   #{

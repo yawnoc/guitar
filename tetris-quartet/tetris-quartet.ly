@@ -318,9 +318,10 @@ guitarTwoMusic = {
     c2~ c8 e d c |
     b4 b8 c d4 f |
     g2 c4 c, |
+    \nudgeNextBarre #0.9
     f,8^\barre ½CI a c f f, a c f |
     \set fingeringOrientations = #'(left)
-    g c, g c, a'^\barre ⅔CII e <c'-4> a |
+    g c, g c, \nudgeNextBarre #1 a'^\barre ⅔CII e <c'-4> a |
     f4. a8 g4 g |
     c2 c, |
   }
@@ -346,7 +347,7 @@ guitarTwoMusic = {
     b4 b8 c d4 f |
     g2 c4 c, |
     f,8 a c f f, a c f |
-    g c, g c, a'^\barre ⅔CII e cis' a |
+    g c, g c, \nudgeNextBarre #1 a'^\barre ⅔CII e cis' a |
     f4. a8 g4 g |
     c2 c, |
   }
@@ -389,6 +390,7 @@ guitarTwoMusic = {
     \set fingeringOrientations = #'(down)
     r8 <fis-4>4 <a-1>8 <d-3> <f,-2> e' d |
     \set fingeringOrientations = #'(up)
+    \nudgeNextBarre #0.5
     cis^\barre ⅔CII a e a cis a <fis-3> <ais-2> |
     <b-0>4. a8 gis4 e |
     a4 e' a2 |
@@ -446,6 +448,7 @@ guitarThreeMusic = {
     \set fingeringOrientations = #'(up)
     <e-2>8 <a-3> e a e a e a |
     <e-2> <gis-1> e gis e gis e gis |
+    \nudgeNextBarre #0.7
     a8^\barre ½CV c, e4 a8 cis, e4 |
     \set fingeringOrientations = #'(down)
     <d-3>8 <d,-0> r d r <d-4>16 <d-0> <a'-1>8 <f-2> |
@@ -488,6 +491,7 @@ guitarThreeMusic = {
     <c g'> c, c' b8 c |
     d2 g, |
     c,8 e g c e, g c bes |
+    \nudgeNextBarre #0.9
     f8^\barre ½CI a4 c8 f4 g8 f |
     e8 g e g e c a c |
     d8 f4 c8 b8 c d4 |
