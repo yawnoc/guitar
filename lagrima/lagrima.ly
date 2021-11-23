@@ -41,7 +41,7 @@ highVoiceMusic = {
       e'4-4 dis-4 cis-4 |
       b \shiftOff cis,8[ e-0 fis-4 a-2] |
       gis4-4 cis,8 fis b,, <dis'-4 a> |
-      <e gis,>2 r4 |
+      <e-0 gis,-1>2 r4 |
     }
   }
   
@@ -50,15 +50,15 @@ highVoiceMusic = {
   \key e \minor
   \repeat volta 2 {
     \relative c' {
-      <g' b,>8 \glissando c b e, <fis dis a> g |
+      <g'-2 b,>8 \glissando c-2 b-1 e,-0 <fis dis a> g-2 |
       e2. |
-      <b g>8 e' a,, c' fis,, a' |
-      <fis dis>2 s4 |
+      <b-0 g-0>8 e'-4 a,, c' fis,, a' |
+      <fis dis-2>2 s4 |
       \shiftOn
-      g4 a b |
+      g4-3 a-3 b-4 |
       \shiftOff
-      d8 c b a g fis |
-      e4 fis b,8 a |
+      d8-4 c-2 b-1 a-4 g-2 fis-1 |
+      e4-0 fis-4 b,8-0 a-3 |
       <g e'>2 r4 |
     }
   }
@@ -85,7 +85,7 @@ lowVoiceMusic = {
       cis'4-3 b a |
       b4-3 cis2-3 |
       b8-0 e-0 ais,4-2 b, |
-      e4 e,2 |
+      e4-2 e,2 |
     }
   }
   
@@ -97,14 +97,14 @@ lowVoiceMusic = {
       \shiftOn
       e,2. |
       \shiftOff
-      e4 a' fis |
+      e4 a'-1 fis-3 |
       \shiftOn
       b,2 s4 |
       \shiftOff
-      e4 fis g |
+      e4-1 fis-1 g-1 |
       a,2. |
-      e''8 <b g> fis' <c a> b, dis |
-      e4 e,2 |
+      e''8 <b-0 g-0> fis' <c-1 a-3> b,-2 dis-1 |
+      e4-2 e,2 |
     }
   }
   
@@ -141,11 +141,11 @@ middleVoiceMusic = {
     \relative c' {
       s2. |
       \stemDown
-      e8 <c a> <b g> <a fis> <g e> <a fis> |
+      e8 <c-1 a-2> <b-0 g-0> <a-2 fis-4> <g-0 e-1> <a-2 fis-4> |
       s2. |
-      dis8 b c b b fis' |
+      dis8 b-3 c-4 b-3 b-0 fis'-2 |
       \stemUp
-      e, b' fis b g b |
+      e, b'-0 fis b-0 g b-0 |
       s2. |
       s2. |
       s2. |
