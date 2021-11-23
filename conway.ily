@@ -96,13 +96,13 @@ barreSpan = #(define-music-function
       (left
         (text . ,#{ \markup { \raise #-.55 { #label \hspace #0.7 }} #})
         (Y . 0)
-        (padding . -1)
+        (padding . -0.8)
         (attach-dir . -2)
       )
       (right
         (text . ,#{ \markup { \draw-line #'(0 . -1.3) } #})
         (Y . 0)
-        (padding . -0.15)
+        (padding . -0.5)
         (attach-dir . 2)
       )
     )
