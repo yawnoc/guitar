@@ -49,6 +49,15 @@ fingeringBelow = { \set fingeringOrientations = #'(down) }
 fingeringAleft = { \set fingeringOrientations = #'(left) }
 fingeringAright = { \set fingeringOrientations = #'(right) }
 
+overrideHorizontalShift = #(define-scheme-function
+  (parser location distance) (number?)
+  #{
+    \override NoteColumn.force-hshift = $distance
+  #}
+)
+
+revertHorizontalShift = { \revert NoteColumn.force-hshift }
+
 barre = #(define-scheme-function
   (parser location label) (string?)
   #{

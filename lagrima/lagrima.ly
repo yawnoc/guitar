@@ -36,13 +36,18 @@ highVoiceMusic = {
     \relative c'' {
       \fingeringAleft
       \shiftOn
+      \overrideHorizontalShift #0
       <gis-4>4 <a-4> <b-4> |
       <fis-4>2. |
       gis4 a b |
       fis2. |
+      \overrideHorizontalShift #-0.4
       <e'-4>4 <dis-4> <cis-4> |
       \stringNumbersAbove
-      b \shiftOff cis,8[ <e-0> <fis-4 \3> <a-2 \2>] |
+      b
+        \shiftOff
+        \revertHorizontalShift
+        cis,8[ <e-0> <fis-4 \3> <a-2 \2>] |
       <gis-4 \3>4 cis,8 fis b,, \fingeringAright <dis'-4 a> |
       \fingeringAleft
       <e-0 gis,-1>2 r4 |
@@ -65,8 +70,10 @@ highVoiceMusic = {
       <b-0 g-0>8 <e'-4> a,, <c'-2 \1> fis,, <a'-4 \2> |
       <fis dis-2>2 s4 |
       \shiftOn
+      \overrideHorizontalShift #0
       <g-3>4 <a-3> <b-4> |
       \shiftOff
+      \revertHorizontalShift
       <d-4>8 <c-2> <b-1> <a-4 \2> <g-2> <fis-1> |
       <e-0>4 <fis-4> <b,-0>8 \fingeringAright <a-3> |
       <g e'>2 r4 |
@@ -104,13 +111,17 @@ lowVoiceMusic = {
     \relative c, {
       e2 b'4 |
       \shiftOn
+      \overrideHorizontalShift #0
       e,2. |
       \shiftOff
+      \revertHorizontalShift
       \fingeringAleft
       e4 <a'-1 \4> <fis-3 \5> |
       \shiftOn
+      \overrideHorizontalShift #0
       b,2 s4 |
       \shiftOff
+      \revertHorizontalShift
       <e-1>4 <fis-1> <g-1> |
       a,2. |
       e''8 <b-0 g-0> fis' <c-1 a-3> <b,-2> \fingeringAright <dis-1> |
