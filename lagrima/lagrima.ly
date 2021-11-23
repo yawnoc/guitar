@@ -64,8 +64,7 @@ highVoiceMusic = {
       <g-3>4 <a-3> <b-4> |
       \shiftOff
       <d-4>8 <c-2> <b-1> <a-4> <g-2> <fis-1> |
-      \fingeringAright
-      <e-0>4 <fis-4> <b,-0>8 <a-3> |
+      <e-0>4 <fis-4> <b,-0>8 \fingeringAright <a-3> |
       <g e'>2 r4 |
     }
   }
@@ -81,18 +80,20 @@ lowVoiceMusic = {
   \barNumberCheck #1
   \repeat volta 2 {
     \relative c {
-      e4-1 fis-2 gis-2 |
+      \fingeringAleft
+      <e-1>4 <fis-2> <gis-2> |
       \shiftOn
-      dis2.-1 |
+      <dis-1>2. |
       \shiftOff
       e4 fis gis |
       \shiftOn
       dis2. |
       \shiftOff
-      cis'4-3 b a |
-      b4-3 cis2-3 |
-      b8-0 e-0 ais,4-2 b, |
-      e4-2 e,2 |
+      <cis'-3>4 b a |
+      <b-3>4 <cis-3>2 |
+      <b-0>8 <e-0> \fingeringAright <ais,-2>4 b, |
+      \fingeringAleft
+      <e-2>4 e,2 |
     }
   }
   
@@ -104,14 +105,16 @@ lowVoiceMusic = {
       \shiftOn
       e,2. |
       \shiftOff
-      e4 a'-1 fis-3 |
+      \fingeringAleft
+      e4 <a'-1> <fis-3> |
       \shiftOn
       b,2 s4 |
       \shiftOff
-      e4-1 fis-1 g-1 |
+      <e-1>4 <fis-1> <g-1> |
       a,2. |
-      e''8 <b-0 g-0> fis' <c-1 a-3> b,-2 dis-1 |
-      e4-2 e,2 |
+      e''8 <b-0 g-0> fis' <c-1 a-3> <b,-2> \fingeringAright <dis-1> |
+      \fingeringAleft
+      <e-2>4 e,2 |
     }
   }
   
