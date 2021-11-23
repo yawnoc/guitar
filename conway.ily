@@ -14,6 +14,7 @@ globalSettings = {
   \accidentalStyle modern
   \compressFullBarRests
   \mergeDifferentlyHeadedOn
+  \mergeDifferentlyDottedOn
   \numericTimeSignature
   \pointAndClickOff
 }
@@ -40,10 +41,73 @@ origin-url = "https://github.com/yawnoc/guitar"
 % Guitar notation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+stringNumbersAbove = { \set stringNumberOrientations = #'(up) }
+stringNumbersBelow = { \set stringNumberOrientations = #'(down) }
+
 fingeringAbove = { \set fingeringOrientations = #'(up) }
 fingeringBelow = { \set fingeringOrientations = #'(down) }
 fingeringAleft = { \set fingeringOrientations = #'(left) }
 fingeringAright = { \set fingeringOrientations = #'(right) }
+
+overrideHorizontalShift = #(define-scheme-function
+  (parser location distance) (number?)
+  #{
+    \override NoteColumn.force-hshift = $distance
+  #}
+)
+
+revertHorizontalShift = { \revert NoteColumn.force-hshift }
+
+barreSpan = #(define-music-function
+  (barre location label music) (string? ly:music?)
+  (let
+    (
+      (elements (extract-named-music music '(NoteEvent EventChord)))
+    )
+    (if
+      (pair? elements)
+      (let
+        (
+          (first-element (first elements))
+          (last-element (last elements))
+        )
+        (set!
+          (ly:music-property first-element 'articulations)
+          (cons
+            (make-music 'TextSpanEvent 'span-direction -1)
+            (ly:music-property first-element 'articulations)
+          )
+        )
+        (set!
+          (ly:music-property last-element 'articulations)
+          (cons
+            (make-music 'TextSpanEvent 'span-direction 1)
+            (ly:music-property last-element 'articulations)
+          )
+        )
+      )
+    )
+  )
+  #{
+    \once \override TextSpanner.font-shape = #'upright
+    \once \override TextSpanner.style = #'line
+    \once \override TextSpanner.bound-details = #`(
+      (left
+        (text . ,#{ \markup { \raise #-.55 { #label \hspace #0.7 }} #})
+        (Y . 0)
+        (padding . -0.8)
+        (attach-dir . -2)
+      )
+      (right
+        (text . ,#{ \markup { \draw-line #'(0 . -1.3) } #})
+        (Y . 0)
+        (padding . -0.5)
+        (attach-dir . 2)
+      )
+    )
+    $music
+  #}
+)
 
 barre = #(define-scheme-function
   (parser location label) (string?)
