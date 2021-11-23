@@ -48,7 +48,8 @@ highVoiceMusic = {
         \shiftOff
         \revertHorizontalShift
         cis,8[ <e-0> <fis-4 \3> <a-2 \2>] |
-      <gis-4 \3>4 cis,8 fis b,, \fingeringAright <dis'-4 a> |
+      <gis-4 \3>4
+        \barreSpan ⅚CII { cis,8 fis b,, \fingeringAright <dis'-4 a> } |
       \fingeringAleft
       <e-0 gis,-1>2 r4 |
     }
@@ -64,7 +65,7 @@ highVoiceMusic = {
         \once \override Fingering.self-alignment-Y = -1
         <c-2> <b-1> <e,-0>
         \fingeringAright
-        <fis dis-3 a> <g-2> |
+        \barreSpan ⅚CII { <fis dis-3 a> <g-2> } |
       e2. |
       \stringNumbersAbove
       \fingeringAleft
@@ -148,8 +149,8 @@ middleVoiceMusic = {
       dis, <b'-0> <a-3> <b-0> <b,-2> <b'-0> |
       e, b' fis b gis b |
       dis, b' a b b, b' |
-      cis e b e a, fis' |
-      b, <gis'-4> s2 |
+      \barreSpan ⅔CIX { cis e b e } \barreSpan ⅔CVII { a, fis' |
+      b, <gis'-4> } s2 |
       s2. |
       s2. |
     }
@@ -164,7 +165,7 @@ middleVoiceMusic = {
       \fingeringAleft
       e8 <c-1 a-2> <b-0 g-0> <a-2 fis-4> <g-0 e-1> <a-2 fis-4> |
       s2. |
-      dis8 <b-3> <c-4> <b-3> <b-0> <fis'-2> |
+      \barreSpan CVII { dis8 <b-3> <c-4> <b-3> } <b-0> <fis'-2> |
       \stemUp
       e, <b'-0> fis <b-0> g <b-0> |
       s2. |
