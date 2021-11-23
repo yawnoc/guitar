@@ -51,7 +51,7 @@ highVoiceMusic = {
       <gis-4 \3>4
         \barreSpan ⅚CII { cis,8 fis b,, \fingeringAright <dis'-4 a> } |
       \fingeringAleft
-      <e-0 gis,-1>2 r4 |
+      <e-0 gis,-1>2 r4 | \fine
     }
   }
   
@@ -78,7 +78,7 @@ highVoiceMusic = {
       \revertHorizontalShift
       <d-4>8 <c-2> <b-1> <a-4 \2> <g-2> <fis-1> |
       <e-0>4 <fis-4> <b,-0>8 \fingeringAright <a-3> |
-      <g e'>2 r4 |
+      <g e'>2 r4 | \dcAlFine
     }
   }
   

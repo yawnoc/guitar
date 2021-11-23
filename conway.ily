@@ -139,3 +139,28 @@ position = #(define-scheme-function
     }
   #}
 )
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Goto statements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+setGotoVisibility = {
+  \once \override Score.RehearsalMark #'break-visibility = #'#(#t #t #f)
+}
+
+makeGotoMark = #(define-scheme-function
+  (parser location label) (string?)
+  #{
+    \mark \markup { \small \italic $label }
+  #}
+)
+
+dcAlFine = {
+  \setGotoVisibility
+  \makeGotoMark "D.C. al Fine"
+}
+
+fine = {
+  \setGotoVisibility
+  \makeGotoMark Fine
+}
