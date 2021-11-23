@@ -30,17 +30,17 @@ highVoiceMusic = {
   \repeat volta 2 {
     \relative c'' {
       \shiftOn
-      gis4 a b |
+      gis4-4 a-4 b-4 |
       \shiftOff
-      fis2. |
+      fis2.-4 |
       \shiftOn
       gis4 a b |
       \shiftOff
       fis2. |
       \shiftOn
-      e'4 dis cis |
-      b \shiftOff cis,8[ e fis a] |
-      gis4 cis,8 fis b,, <dis' a> |
+      e'4-4 dis-4 cis-4 |
+      b \shiftOff cis,8[ e-0 fis-4 a-2] |
+      gis4-4 cis,8 fis b,, <dis'-4 a> |
       <e gis,>2 r4 |
     }
   }
@@ -74,17 +74,17 @@ lowVoiceMusic = {
   \barNumberCheck #1
   \repeat volta 2 {
     \relative c {
-      e4 fis gis |
+      e4-1 fis-2 gis-2 |
       \shiftOn
-      dis2. |
+      dis2.-1 |
       \shiftOff
       e4 fis gis |
       \shiftOn
       dis2. |
       \shiftOff
-      cis'4 b a |
-      b4 cis2 |
-      b8 e ais,4 b, |
+      cis'4-3 b a |
+      b4-3 cis2-3 |
+      b8-0 e-0 ais,4-2 b, |
       e4 e,2 |
     }
   }
@@ -120,16 +120,16 @@ middleVoiceMusic = {
   \repeat volta 2 {
     \relative c {
       \shiftOff
-      e8 b' fis b gis b |
+      e8 b'-0 fis b-0 gis b-0 |
       \stemDown
-      fis' b, a b b, b' |
+      fis' b,-0 a-3 b-0 b,-2 b'-0 |
       \stemUp
       e, b' fis b gis b |
       \stemDown
       fis' b, a b b, b' |
       \stemUp
       cis e b e a, fis' |
-      b, gis' s2 |
+      b, gis'-4 s2 |
       s2. |
       s2. |
     }
