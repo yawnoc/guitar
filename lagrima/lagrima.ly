@@ -40,8 +40,9 @@ highVoiceMusic = {
       fis2. |
       \shiftOn
       <e'-4>4 <dis-4> <cis-4> |
-      b \shiftOff cis,8[ <e-0> <fis-4> <a-2>] |
-      <gis-4>4 cis,8 fis b,, \fingeringAright <dis'-4 a> |
+      \stringNumbersAbove
+      b \shiftOff cis,8[ <e-0> <fis-4 \3> <a-2 \2>] |
+      <gis-4 \3>4 cis,8 fis b,, \fingeringAright <dis'-4 a> |
       \fingeringAleft
       <e-0 gis,-1>2 r4 |
     }
@@ -58,13 +59,14 @@ highVoiceMusic = {
         \fingeringAright
         <fis dis-3 a> <g-2> |
       e2. |
+      \stringNumbersAbove
       \fingeringAleft
-      <b-0 g-0>8 <e'-4> a,, <c'-2> fis,, <a'-4> |
+      <b-0 g-0>8 <e'-4> a,, <c'-2 \1> fis,, <a'-4 \2> |
       <fis dis-2>2 s4 |
       \shiftOn
       <g-3>4 <a-3> <b-4> |
       \shiftOff
-      <d-4>8 <c-2> <b-1> <a-4> <g-2> <fis-1> |
+      <d-4>8 <c-2> <b-1> <a-4 \2> <g-2> <fis-1> |
       <e-0>4 <fis-4> <b,-0>8 \fingeringAright <a-3> |
       <g e'>2 r4 |
     }
@@ -91,7 +93,8 @@ lowVoiceMusic = {
       dis2. |
       \shiftOff
       <cis'-3>4 b a |
-      <b-3>4 <cis-3>2 |
+      \stringNumbersBelow
+      <b-3>4 <cis-3 \4>2 |
       <b-0>8 <e-0> \fingeringAright <ais,-2>4 b, |
       \fingeringAleft
       <e-2>4 e,2 |

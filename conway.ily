@@ -41,6 +41,9 @@ origin-url = "https://github.com/yawnoc/guitar"
 % Guitar notation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+stringNumbersAbove = { \set stringNumberOrientations = #'(up) }
+stringNumbersBelow = { \set stringNumberOrientations = #'(down) }
+
 fingeringAbove = { \set fingeringOrientations = #'(up) }
 fingeringBelow = { \set fingeringOrientations = #'(down) }
 fingeringAleft = { \set fingeringOrientations = #'(left) }
