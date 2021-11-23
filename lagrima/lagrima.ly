@@ -129,17 +129,18 @@ middleVoiceMusic = {
   \barNumberCheck #1
   \repeat volta 2 {
     \relative c {
+      \fingeringAleft
       \shiftOff
-      e8 b'-0 fis b-0 gis b-0 |
+      e8 <b'-0> fis <b-0> gis <b-0> |
       \stemDown
-      fis' b,-0 a-3 b-0 b,-2 b'-0 |
+      fis' <b,-0> <a-3> <b-0> <b,-2> <b'-0> |
       \stemUp
       e, b' fis b gis b |
       \stemDown
       fis' b, a b b, b' |
       \stemUp
       cis e b e a, fis' |
-      b, gis'-4 s2 |
+      b, <gis'-4> s2 |
       s2. |
       s2. |
     }
@@ -151,11 +152,12 @@ middleVoiceMusic = {
     \relative c' {
       s2. |
       \stemDown
+      \fingeringAleft
       e8 <c-1 a-2> <b-0 g-0> <a-2 fis-4> <g-0 e-1> <a-2 fis-4> |
       s2. |
-      dis8 b-3 c-4 b-3 b-0 fis'-2 |
+      dis8 <b-3> <c-4> <b-3> <b-0> <fis'-2> |
       \stemUp
-      e, b'-0 fis b-0 g b-0 |
+      e, <b'-0> fis <b-0> g <b-0> |
       s2. |
       s2. |
       s2. |
