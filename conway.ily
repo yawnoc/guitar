@@ -90,7 +90,6 @@ barreSpan = #(define-music-function
   )
   #{
     \once \override TextSpanner.font-shape = #'upright
-    \once \override TextSpanner.staff-padding = #6
     \once \override TextSpanner.style = #'line
     \once \override TextSpanner.bound-details = #`(
       (left
