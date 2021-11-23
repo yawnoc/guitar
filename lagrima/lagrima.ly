@@ -99,7 +99,7 @@ lowVoiceMusic = {
       \shiftOff
       e4 a' fis |
       \shiftOn
-      b,2._"(resonates on open 2nd)" |
+      b,2 s4 |
       \shiftOff
       e4 fis g |
       a,2. |
