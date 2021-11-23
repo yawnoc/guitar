@@ -12,6 +12,11 @@
 }
 
 
+\paper {
+  systems-per-page = 5
+}
+
+
 initialSignatures = {
   \tempo "Andante"
   \clef "treble_8"
