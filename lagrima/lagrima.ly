@@ -37,13 +37,9 @@ highVoiceMusic = {
       \fingeringAleft
       \shiftOn
       <gis-4>4 <a-4> <b-4> |
-      \shiftOff
       <fis-4>2. |
-      \shiftOn
       gis4 a b |
-      \shiftOff
       fis2. |
-      \shiftOn
       <e'-4>4 <dis-4> <cis-4> |
       \stringNumbersAbove
       b \shiftOff cis,8[ <e-0> <fis-4 \3> <a-2 \2>] |
@@ -90,13 +86,9 @@ lowVoiceMusic = {
     \relative c {
       \fingeringAleft
       <e-1>4 <fis-2> <gis-2> |
-      \shiftOn
       <dis-1>2. |
-      \shiftOff
       e4 fis gis |
-      \shiftOn
       dis2. |
-      \shiftOff
       <cis'-3>4 b a |
       \stringNumbersBelow
       <b-3>4 <cis-3 \4>2 |
@@ -141,13 +133,9 @@ middleVoiceMusic = {
       \fingeringAleft
       \shiftOff
       e8 <b'-0> fis <b-0> gis <b-0> |
-      \stemDown
-      fis' <b,-0> <a-3> <b-0> <b,-2> <b'-0> |
-      \stemUp
+      dis, <b'-0> <a-3> <b-0> <b,-2> <b'-0> |
       e, b' fis b gis b |
-      \stemDown
-      fis' b, a b b, b' |
-      \stemUp
+      dis, b' a b b, b' |
       cis e b e a, fis' |
       b, <gis'-4> s2 |
       s2. |
