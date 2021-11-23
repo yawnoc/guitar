@@ -115,7 +115,7 @@ lowVoiceMusic = {
       e,2. |
       \shiftOff
       \fingeringAleft
-      e4 <a'-1> <fis-3> |
+      e4 <a'-1 \4> <fis-3 \5> |
       \shiftOn
       b,2 s4 |
       \shiftOff
