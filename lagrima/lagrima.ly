@@ -60,8 +60,9 @@ highVoiceMusic = {
   \repeat volta 2 {
     \relative c' {
       \fingeringAleft
-      <g'-2 b,>8 \glissando <c-2>
-        <b-1> <e,-0>
+      <g'-2 b,>8 \glissando
+        \once \override Fingering.self-alignment-Y = -1
+        <c-2> <b-1> <e,-0>
         \fingeringAright
         <fis dis-3 a> <g-2> |
       e2. |
