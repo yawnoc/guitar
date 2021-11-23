@@ -29,18 +29,20 @@ highVoiceMusic = {
   \barNumberCheck #1
   \repeat volta 2 {
     \relative c'' {
+      \fingeringAleft
       \shiftOn
-      gis4-4 a-4 b-4 |
+      <gis-4>4 <a-4> <b-4> |
       \shiftOff
-      fis2.-4 |
+      <fis-4>2. |
       \shiftOn
       gis4 a b |
       \shiftOff
       fis2. |
       \shiftOn
-      e'4-4 dis-4 cis-4 |
-      b \shiftOff cis,8[ e-0 fis-4 a-2] |
-      gis4-4 cis,8 fis b,, <dis'-4 a> |
+      <e'-4>4 <dis-4> <cis-4> |
+      b \shiftOff cis,8[ <e-0> <fis-4> <a-2>] |
+      <gis-4>4 cis,8 fis b,, \fingeringAright <dis'-4 a> |
+      \fingeringAleft
       <e-0 gis,-1>2 r4 |
     }
   }
@@ -50,15 +52,20 @@ highVoiceMusic = {
   \key e \minor
   \repeat volta 2 {
     \relative c' {
-      <g'-2 b,>8 \glissando c-2 b-1 e,-0 <fis dis a> g-2 |
+      \fingeringAleft
+      <g'-2 b,>8 \glissando \fingeringAright <c-2>
+        <b-1> <e,-0>
+        <fis dis a> <g-2> |
       e2. |
-      <b-0 g-0>8 e'-4 a,, c' fis,, a' |
+      \fingeringAleft
+      <b-0 g-0>8 <e'-4> a,, <c'-2> fis,, <a'-4> |
       <fis dis-2>2 s4 |
       \shiftOn
-      g4-3 a-3 b-4 |
+      <g-3>4 <a-3> <b-4> |
       \shiftOff
-      d8-4 c-2 b-1 a-4 g-2 fis-1 |
-      e4-0 fis-4 b,8-0 a-3 |
+      <d-4>8 <c-2> <b-1> <a-4> <g-2> <fis-1> |
+      \fingeringAright
+      <e-0>4 <fis-4> <b,-0>8 <a-3> |
       <g e'>2 r4 |
     }
   }
