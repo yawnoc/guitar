@@ -10,7 +10,7 @@ Classical Guitar scores, typeset in [LilyPond].
 
 ## Releases
 
-* [Tetris Theme Quartet Arrangement v1.0.0][tetris-quartet-v1.0.0]
+* [Tetris Theme Quartet Arrangement v1.1.1][tetris-quartet]
 
 
 ## Unicode fractions for partial barres
@@ -26,4 +26,5 @@ Classical Guitar scores, typeset in [LilyPond].
 [license]: LICENSE
 [lilypond]: https://lilypond.org/
 
-[tetris-quartet-v1.0.0]: https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.0.0
+[tetris-quartet]:
+  https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.1.1
