@@ -53,9 +53,10 @@ highVoiceMusic = {
   \repeat volta 2 {
     \relative c' {
       \fingeringAleft
-      <g'-2 b,>8 \glissando \fingeringAright <c-2>
+      <g'-2 b,>8 \glissando <c-2>
         <b-1> <e,-0>
-        <fis dis a> <g-2> |
+        \fingeringAright
+        <fis dis-3 a> <g-2> |
       e2. |
       \fingeringAleft
       <b-0 g-0>8 <e'-4> a,, <c'-2> fis,, <a'-4> |
