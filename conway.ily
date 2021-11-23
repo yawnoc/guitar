@@ -58,6 +58,58 @@ overrideHorizontalShift = #(define-scheme-function
 
 revertHorizontalShift = { \revert NoteColumn.force-hshift }
 
+barreSpan = #(define-music-function
+  (barre location label music) (string? ly:music?)
+  (let
+    (
+      (elements (extract-named-music music '(NoteEvent EventChord)))
+    )
+    (if
+      (pair? elements)
+      (let
+        (
+          (first-element (first elements))
+          (last-element (last elements))
+        )
+        (set!
+          (ly:music-property first-element 'articulations)
+          (cons
+            (make-music 'TextSpanEvent 'span-direction -1)
+            (ly:music-property first-element 'articulations)
+          )
+        )
+        (set!
+          (ly:music-property last-element 'articulations)
+          (cons
+            (make-music 'TextSpanEvent 'span-direction 1)
+            (ly:music-property last-element 'articulations)
+          )
+        )
+      )
+    )
+  )
+  #{
+    \once \override TextSpanner.font-shape = #'upright
+    \once \override TextSpanner.staff-padding = #6
+    \once \override TextSpanner.style = #'line
+    \once \override TextSpanner.bound-details = #`(
+      (left
+        (text . ,#{ \markup { \raise #-.55 { #label \hspace #0.7 }} #})
+        (Y . 0)
+        (padding . -1)
+        (attach-dir . -2)
+      )
+      (right
+        (text . ,#{ \markup { \draw-line #'(0 . -1.3) } #})
+        (Y . 0)
+        (padding . -0.15)
+        (attach-dir . 2)
+      )
+    )
+    $music
+  #}
+)
+
 barre = #(define-scheme-function
   (parser location label) (string?)
   #{
