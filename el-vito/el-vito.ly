@@ -288,6 +288,14 @@ lowVoiceMusic = {
     s8
   }
   
+  % Strummed interlude
+  \barNumberCheck #24
+  {
+    s4 |
+    s4. * 4 |
+    s8
+  }
+  
 }
 
 
