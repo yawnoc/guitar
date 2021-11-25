@@ -2,6 +2,9 @@
 
 git clean -Xf
 lilypond -dpreview -dbackend=svg recuerdos*.ly
+
+# Explicitly set white background for visibility in GitHub dark mode.
+# (Need more than 100% because of aspect ratio versus viewport.)
 sed -i \
   '2i<rect width="10000%" height="10000%" fill="white"/>' \
   recuerdos*.preview.svg
