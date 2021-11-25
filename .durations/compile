@@ -2,3 +2,6 @@
 
 git clean -Xf
 lilypond -dpreview -dbackend=svg recuerdos*.ly
+sed -i \
+  '2i<rect width="10000%" height="10000%" fill="white"/>' \
+  recuerdos*.preview.svg
