@@ -323,6 +323,33 @@ lowVoiceMusic = {
     e
   }
   
+  % Bull-fighting theme
+  \barNumberCheck 45
+  \relative c, {
+    r4 |
+    e8 b'' e |
+    e,, <c'' f>4 |
+    e,,8 b'' e |
+    e,,4. |
+    a8 c' e |
+    g,, b' d |
+    <a d,> b gis |
+    e,4. |
+  }
+  
+  % Bull-fighting theme again
+  \barNumberCheck 54
+  \relative c, {
+    e8 b'' e |
+    e,, <c'' f>4 |
+    e,,8 b'' e |
+    e,,4. |
+    a8 c' e |
+    g,, b' d |
+    <a d,> b gis |
+    e,8
+  }
+  
 }
 
 
