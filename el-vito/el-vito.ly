@@ -129,6 +129,34 @@ highVoiceMusic = {
       \bar "||"
   }
   
+  % Falling phrase high
+  \barNumberCheck #29
+  \relative c' {
+    e8 e |
+    e'4 e8 |
+    e4 d8 |
+    d4 c8~ |
+    c b c |
+    e b4 |
+    c4 a8 |
+    gis4 e8~ |
+    e
+  }
+  
+  % Falling phrase low
+  \barNumberCheck #29
+  \relative c' {
+    e8 e |
+    e4 e8 |
+    e4 d8 |
+    d4 c8~ |
+    c b c |
+    e b4 |
+    c4 a8 |
+    gis4 e8~ |
+    <e gis b e>
+  }
+  
 }
 
 
