@@ -153,8 +153,8 @@ highVoiceMusic = {
     c b c |
     e b4 |
     c4 a8 |
-    gis4 e8~ |
-    <e gis b e>
+    gis4 e8 |
+    <gis b e>
   }
   
   % Bull-fighting theme
