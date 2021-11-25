@@ -63,21 +63,70 @@ highVoiceMusic = {
   }
   
   % Strummed main phrase high
+  \barNumberCheck #16
   \relative c' {
-    <e b gis e b e,>16 <e b gis e b e,> <e b gis e b e,> <e b gis e b e,> |
+    <e b gis e b e,>16
+      <e b gis e b e,>
+      <e b gis e b e,>
+      <e b gis e b e,> |
     <e b gis e b e,>8 b16 c d b |
-    c8 <e c a e a,>16 <e c a e a,> <e c a e a,> <e c a e a,>
+    c8
+      <e c a e a,>16
+      <e c a e a,>
+      <e c a e a,>
+      <e c a e a,>
     <e c a e a,>8 d16 c b a |
     gis8
   }
   
   % Strummed main phrase low
+  \barNumberCheck #20
   \relative c' {
-    <e b gis e b e,>16 <e b gis e b e,> <e b gis e b e,> <e b gis e b e,> |
+    <e b gis e b e,>16
+      <e b gis e b e,>
+      <e b gis e b e,>
+      <e b gis e b e,> |
     <e b gis e b e,>8 b,16 c d b |
-    c8 <e' c a e a,>16 <e c a e a,> <e c a e a,> <e c a e a,>
+    c8
+      <e' c a e a,>16
+      <e c a e a,>
+      <e c a e a,>
+      <e c a e a,>
     <e c a e a,>8 d,16 c b a |
     gis8
+  }
+  
+  % Strummed interlude
+  \barNumberCheck #24
+  \relative c' {
+    <e b gis e b e,>16
+      <e b gis e b e,>
+      <e b gis e b e,>
+      <e b gis e b e,> |
+    <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,> |
+    <e b gis e b e,>
+      <e b gis e b e,>
+      <e b gis e b e,>
+      <e b gis e b e,>
+      <e b gis e b e,>
+      <e b gis e b e,> |
+    <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,>
+      <e b a f c e,> |
+    <e b gis e b e,>8
+      <e b gis e b e,>16
+      <e b gis e b e,>
+      <e b gis e b e,>8 |
+    <e b gis e b e,>8
+      \bar "||"
   }
   
 }
