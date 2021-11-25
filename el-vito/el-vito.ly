@@ -310,6 +310,19 @@ lowVoiceMusic = {
     e,,4. |
   }
   
+  % Lyrical theme low
+  \barNumberCheck #38
+  \relative c, {
+    e8 e' <gis b> |
+    e, e' gis |
+    a, e' a |
+    a,4. |
+    g4 b8 |
+    fis8 b4 |
+    e,8 b' e~ |
+    e
+  }
+  
 }
 
 
