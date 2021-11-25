@@ -144,7 +144,7 @@ highVoiceMusic = {
   }
   
   % Lyrical theme low
-  \barNumberCheck #29
+  \barNumberCheck #37
   \relative c' {
     e8 e |
     e4 e8 |
@@ -155,6 +155,34 @@ highVoiceMusic = {
     c4 a8 |
     gis4 e8~ |
     <e gis b e>
+  }
+  
+  % Bull-fighting theme
+  \barNumberCheck 45
+  \relative c' {
+    e8 gis |
+    b4 gis8~ |
+    gis8 a b |
+    \grace { a16( b } a4) gis8~ |
+    gis8 a b |
+    c8 a4 |
+    b8 g4 |
+    f4 e8~ |
+    e8
+  }
+  
+  % Bull-fighting theme again
+  \barNumberCheck 53
+  \relative c' {
+    e8 gis |
+    b4 gis8~ |
+    gis8 a b |
+    \grace { a16( b } a4) gis8~ |
+    gis8 a b |
+    c8 a4 |
+    b8 g4 |
+    f4 e8~ |
+    e8
   }
   
 }
