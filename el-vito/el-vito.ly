@@ -185,6 +185,49 @@ highVoiceMusic = {
     e8
   }
   
+  % Returning strummed interlude
+  \barNumberCheck 61
+  \relative c' {
+    <f b, a d,>16
+      <f b, a d,>
+      <f b, a d,>
+      <f b, a d,> |
+    <e b gis e b e,>8
+      <f b, a d,>
+      <e b gis e b e,> |
+    r8
+      <f b, a d,>16
+      <f b, a d,>
+      <f b, a d,>
+      <f b, a d,> |
+    <e b gis e b e,>8
+      <f b, a d,>
+      <e b gis e b e,> |
+    r8
+      <f b, a d,>16
+      <f b, a d,>
+      <f b, a d,>
+      <f b, a d,> |
+    <e b gis e b e,>16
+      <e b gis e b e,>
+      <f b, a d,>
+      <f b, a d,>
+      <f b, a d,>
+      <f b, a d,> |
+    <e b gis e b e,>16
+      <e b gis e b e,>
+      <f b, a d,>
+      <f b, a d,>
+      <f b, a d,>
+      <f b, a d,> |
+    <e b gis e b e,>8
+      <e b gis e b e,>16
+      <e b gis e b e,>
+      <e b gis e b e,>8 |
+    <e b gis e b e,>8
+      \bar "||"
+  }
+  
 }
 
 
