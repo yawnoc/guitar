@@ -22,7 +22,7 @@ highVoiceMusic = {
   
   \globalSettings
   
-  % Main phrase high
+  % Main theme high
   \partial 4
   \relative c'' {
     e16 e e e |
@@ -32,7 +32,7 @@ highVoiceMusic = {
     gis8
   }
   
-  % Main phrase low
+  % Main theme low
   \barNumberCheck #4
   \relative c' {
     e16 e e e |
@@ -62,7 +62,7 @@ highVoiceMusic = {
     gis8
   }
   
-  % Strummed main phrase high
+  % Strummed main theme high
   \barNumberCheck #16
   \relative c' {
     <e b gis e b e,>16
@@ -79,7 +79,7 @@ highVoiceMusic = {
     gis8
   }
   
-  % Strummed main phrase low
+  % Strummed main theme low
   \barNumberCheck #20
   \relative c' {
     <e b gis e b e,>16
@@ -129,7 +129,7 @@ highVoiceMusic = {
       \bar "||"
   }
   
-  % Falling phrase high
+  % Lyrical theme high
   \barNumberCheck #29
   \relative c' {
     e8 e |
@@ -143,7 +143,7 @@ highVoiceMusic = {
     e
   }
   
-  % Falling phrase low
+  % Lyrical theme low
   \barNumberCheck #29
   \relative c' {
     e8 e |
