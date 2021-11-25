@@ -347,13 +347,12 @@ lowVoiceMusic = {
     a8 c' e |
     g,, b' d |
     <a d,> b gis |
-    e,8
+    e,4. |
   }
   
   % Returning strummed interlude
-  \barNumberCheck 61
+  \barNumberCheck 62
   \relative c, {
-    s4 |
     s4. |
     e4. |
     s4. |
