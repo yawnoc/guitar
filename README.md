@@ -14,6 +14,40 @@ Classical Guitar scores, typeset in [LilyPond].
 * [Tetris Theme Quartet Arrangement v1.1.1][tetris-quartet]
 
 
+## Why are the note durations sloppy sometimes?
+
+After quite a bit of thought, I have concluded that it is impractical
+to enforce 100% correct durations.
+
+For example, consider the 3rd-last bar of Recuerdos de la Alhambra,
+which is usually notated:
+
+<!-- TODO: image -->
+
+(See transcriptions
+by [Stanley Yates][yates-recuerdos]
+  ([archived version][yates-recuerdos-archived])
+and [Daniel F. Savarese][savarese-recuerdos]
+  ([archived version][savarese-recuerdos-archived])
+among others.)
+
+If the actual durations were written out, it would read:
+
+<!-- TODO: image -->
+
+Although this is more accurate, it is not very readable.
+
+Therefore we stick with the first version (readability over accuracy).
+
+Now, you might argue that the low A is the most important/audible,
+and therefore it alone deserves to have its full duration written out.
+
+But not all cases are so clear cut.
+Therefore, I prefer not to spend too much time worrying about notation,
+and leave it to the guitarist to decide on durations.
+Play what sounds good to the ear.
+
+
 ## Unicode fractions for partial barres
 
 | Strings | Unicode | Code point |
@@ -31,3 +65,11 @@ Classical Guitar scores, typeset in [LilyPond].
   https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.0.0
 [tetris-quartet]:
   https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.1.1
+
+[yates-recuerdos]: https://stanleyyates.com/scores/rdla.pdf
+[yates-recuerdos-archived]:
+  https://web.archive.org/web/20210427195742/https://stanleyyates.com/scores/rdla.pdf
+[savarese-recuerdos]:
+  https://www.savarese.org/downloads/sheetmusic/RecuerdosDeLaAlhambra.pdf
+[savarese-recuerdos-archived]:
+  https://web.archive.org/web/20210226015018/https://www.savarese.org/downloads/sheetmusic/RecuerdosDeLaAlhambra.pdf
