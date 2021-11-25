@@ -231,10 +231,38 @@ highVoiceMusic = {
 }
 
 
+lowVoiceMusic = {
+  
+  \globalSettings
+  
+  % Main theme high
+  \partial 4
+  \relative e, {
+    r4 |
+    e4. |
+    a |
+    a |
+    e |
+  }
+  
+  % Main theme low
+  \barNumberCheck #5
+  \relative e, {
+    gis8 r4 |
+    a4. |
+    c |
+    e, |
+  }
+  
+}
+
+
 allMusic = {
   \initialSignatures
   <<
     << \highVoiceMusic >>
+      \\
+    << \lowVoiceMusic >>
   >>
 }
 
