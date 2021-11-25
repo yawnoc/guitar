@@ -22,7 +22,7 @@ to enforce 100% correct durations.
 For example, consider the 3rd-last bar of Recuerdos de la Alhambra,
 which is usually notated:
 
-<!-- TODO: image -->
+![Clear quaver arpeggio where the bottom note is a dotted minim in the low voice.](.durations/recuerdos-readable.preview.svg)
 
 (See transcriptions
 by [Stanley Yates][yates-recuerdos]
@@ -33,7 +33,7 @@ among others.)
 
 If the actual durations were written out, it would read:
 
-<!-- TODO: image -->
+![Confusing quaver arpeggio with ties in various places.](.durations/recuerdos-accurate.preview.svg)
 
 Although this is more accurate, it is not very readable.
 
