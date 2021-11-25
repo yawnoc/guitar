@@ -272,6 +272,22 @@ lowVoiceMusic = {
     e,8
   }
   
+  % Strummed main theme high
+  \barNumberCheck #16
+  {
+    s4 |
+    s4. * 3 |
+    s8
+  }
+  
+  % Strummed main theme low
+  \barNumberCheck #20
+  {
+    s4 |
+    s4. * 3 |
+    s8
+  }
+  
 }
 
 
