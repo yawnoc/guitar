@@ -254,6 +254,24 @@ lowVoiceMusic = {
     e, |
   }
   
+  % Scale run low
+  \barNumberCheck #9
+  \relative c, {
+    e4. |
+    a |
+    d |
+    e, |
+  }
+  
+  % Scale run high
+  \barNumberCheck #13
+  \relative c, {
+    e4. |
+    a |
+    d |
+    e,8
+  }
+  
 }
 
 
