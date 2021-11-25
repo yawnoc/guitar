@@ -237,7 +237,7 @@ lowVoiceMusic = {
   
   % Main theme high
   \partial 4
-  \relative e, {
+  \relative c, {
     r4 |
     e4. |
     a |
@@ -247,7 +247,7 @@ lowVoiceMusic = {
   
   % Main theme low
   \barNumberCheck #5
-  \relative e, {
+  \relative c {
     gis8 r4 |
     a4. |
     c |
