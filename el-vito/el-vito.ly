@@ -22,7 +22,7 @@ highVoiceMusic = {
   
   \globalSettings
   
-  % Opening phrase
+  % Main phrase
   \partial 4
   \relative c'' {
     e16 e e e |
@@ -32,7 +32,7 @@ highVoiceMusic = {
     gis8
   }
   
-  % Opening phrase an octave lower
+  % Main phrase an octave lower
   \barNumberCheck #4
   \relative c' {
     e16 e e e |
