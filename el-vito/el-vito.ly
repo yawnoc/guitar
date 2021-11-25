@@ -296,6 +296,20 @@ lowVoiceMusic = {
     s8
   }
   
+  % Lyrical theme high
+  \barNumberCheck #29
+  \relative c, {
+    r4 |
+    e8 e'' gis |
+    e,, e'' gis |
+    a,, e'' a |
+    a,,4. |
+    g'4 b8 |
+    fis b dis |
+    e,, b'' e |
+    e,,4. |
+  }
+  
 }
 
 
