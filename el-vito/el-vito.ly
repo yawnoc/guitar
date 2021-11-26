@@ -239,8 +239,14 @@ highVoiceMusic = {
   \coda
   \barNumberCheck 69
   \relative c, {
-    r8 << { <e e' gis d' e> } \\ { \once \hide Stem e'' } >> |
-    <a,, e' a c e a>
+    \arpeggioArrowUp
+    r8
+    <<
+      { <e e' gis d' e> \arpeggio }
+        \\
+      { \once \hide Stem e'' }
+    >> |
+    <a,, e' a c e a> \arpeggio
       \bar "|."
   }
   
