@@ -40,7 +40,7 @@ highVoiceMusic = {
   % Main theme low
   \barNumberCheck #4
   \relative c' {
-    e16 e e e |
+    e16[ e e e] |
     e8 b16 c d b |
     c8 e16 e e e |
     e8 d16 c b a |
@@ -50,7 +50,7 @@ highVoiceMusic = {
   % Scale run low
   \barNumberCheck #8
   \relative c {
-    e16 fis gis a |
+    e16[ fis gis a] |
     b ais b c d b |
     c b a b c d |
     f e d c b a |
@@ -60,7 +60,7 @@ highVoiceMusic = {
   % Scale run high
   \barNumberCheck #12
   \relative c' {
-    e16 fis gis a |
+    e16[ fis gis a] |
     b ais b c d b |
     c b a b c d |
     f e d c b a |
@@ -71,26 +71,26 @@ highVoiceMusic = {
   \barNumberCheck #16
   \relative c' {
     \arpeggioArrowUp
-    <e b gis e b e,>16 \arpeggio
+    <e b gis e b e,>16[ \arpeggio
       \arpeggioArrowDown
       <e b gis e b e,> \arpeggio
       \arpeggioArrowUp
       <e b gis e b e,> \arpeggio
       \arpeggioArrowDown
-      <e b gis e b e,> \arpeggio|
+      <e b gis e b e,>] \arpeggio|
       \arpeggioArrowUp
-    <e b gis e b e,>8 \arpeggio b16 c d b |
+    <e b gis e b e,>8 \arpeggio b16[ c d b] |
     c8
       \arpeggioArrowUp
-      <e c a e a,>16 \arpeggio
+      <e c a e a,>16[ \arpeggio
       \arpeggioArrowDown
       <e c a e a,> \arpeggio
       \arpeggioArrowUp
       <e c a e a,> \arpeggio
       \arpeggioArrowDown
-      <e c a e a,> \arpeggio
+      <e c a e a,>] \arpeggio
     \arpeggioArrowUp
-    <e c a e a,>8 \arpeggio d16 c b a |
+    <e c a e a,>8 \arpeggio d16[ c b a] |
     gis8
   }
   
@@ -98,26 +98,26 @@ highVoiceMusic = {
   \barNumberCheck #20
   \relative c' {
     \arpeggioArrowUp
-    <e b gis e b e,>16 \arpeggio
+    <e b gis e b e,>16[ \arpeggio
       \arpeggioArrowDown
       <e b gis e b e,> \arpeggio
       \arpeggioArrowUp
       <e b gis e b e,> \arpeggio
       \arpeggioArrowDown
-      <e b gis e b e,> \arpeggio |
+      <e b gis e b e,>] \arpeggio |
     \arpeggioArrowUp
-    <e b gis e b e,>8 \arpeggio b,16 c d b |
+    <e b gis e b e,>8 \arpeggio b,16[ c d b] |
     c8
       \arpeggioArrowUp
-      <e' c a e a,>16 \arpeggio
+      <e' c a e a,>16[ \arpeggio
       \arpeggioArrowDown
       <e c a e a,> \arpeggio
       \arpeggioArrowUp
       <e c a e a,> \arpeggio
       \arpeggioArrowDown
-      <e c a e a,> \arpeggio
+      <e c a e a,>] \arpeggio
     \arpeggioArrowUp
-    <e c a e a,>8 \arpeggio d,16 c b a |
+    <e c a e a,>8 \arpeggio d,16[ c b a] |
     gis8
   }
   
@@ -125,13 +125,13 @@ highVoiceMusic = {
   \barNumberCheck #24
   \relative c' {
     \arpeggioArrowUp
-    <e b gis e b e,>16 \arpeggio
+    <e b gis e b e,>16[ \arpeggio
       \arpeggioArrowDown
       <e b gis e b e,> \arpeggio
       \arpeggioArrowUp
       <e b gis e b e,> \arpeggio
       \arpeggioArrowDown
-      <e b gis e b e,> \arpeggio |
+      <e b gis e b e,>] \arpeggio |
     \arpeggioArrowUp
     <e b a f c e,> \arpeggio
       \arpeggioArrowDown
@@ -196,7 +196,7 @@ highVoiceMusic = {
   % Lyrical theme low
   \barNumberCheck #37
   \relative c' {
-    e8 e |
+    e8[ e] |
     e4 e8 |
     e4 d8 |
     d4 c8~ |
@@ -210,11 +210,11 @@ highVoiceMusic = {
   % Bull-fighting theme
   \barNumberCheck 45
   \relative c' {
-    e8 gis |
+    e8[ gis] |
     b4 gis8~ |
-    gis8 a b |
+    gis8 a[ b] |
     \grace { a16_( b } a4) gis8~ |
-    gis8 a b |
+    gis8 a[ b] |
     c8 a4 |
     b8 g4 |
     f4 e8~ |
@@ -224,11 +224,11 @@ highVoiceMusic = {
   % Bull-fighting theme again
   \barNumberCheck 53
   \relative c' {
-    e8 gis |
+    e8[ gis] |
     b4 gis8~ |
-    gis8 a b |
+    gis8 a[ b] |
     \grace { a16_( b } a4) gis8~ |
-    gis8 a b |
+    gis8 a[ b] |
     c8 a4 |
     b8 g4 |
     f4 e8~ |
@@ -239,13 +239,13 @@ highVoiceMusic = {
   \barNumberCheck 61
   \relative c' {
     \arpeggioArrowUp
-    <f b, a d,>16 \arpeggio
+    <f b, a d,>16[ \arpeggio
       \arpeggioArrowDown
       <f b, a d,> \arpeggio
       \arpeggioArrowUp
       <f b, a d,> \arpeggio
       \arpeggioArrowDown
-      <f b, a d,> \arpeggio |
+      <f b, a d,>] \arpeggio |
     \arpeggioArrowUp
     <e b gis e b e,>8 \arpeggio
       <f b, a d,> \arpeggio
