@@ -242,6 +242,7 @@ highVoiceMusic = {
     \arpeggioArrowUp
     r8
     <<
+      \once \override Staff.AccidentalPlacement.right-padding = #-0.8
       { <e e' gis! d' e> \arpeggio }
         \\
       { \once \hide Stem e'' }
