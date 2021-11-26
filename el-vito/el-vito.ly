@@ -187,7 +187,7 @@ highVoiceMusic = {
     e'4 e8 |
     e4 d8 |
     d4 c8~ |
-    c b c |
+    c b[ c] |
     e b4 |
     c4 a8 |
     gis4 e8~ |
@@ -201,7 +201,7 @@ highVoiceMusic = {
     e4 e8 |
     e4 d8 |
     d4 c8~ |
-    c b c |
+    c b[ c] |
     e b4 |
     c4 a8 |
     gis4 e8 |
