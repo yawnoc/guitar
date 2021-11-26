@@ -180,3 +180,8 @@ dcAlFine = {
   \setGotoVisibility
   \makeGotoMark "D.C. al Fine"
 }
+
+toCoda = {
+  \setGotoVisibility
+  \makeGotoMark "to Coda"
+}
