@@ -315,18 +315,27 @@ highVoiceMusic = {
   \barNumberCheck 69
   \relative c' {
     \arpeggioArrowUp
+    \textLengthOn
     b8\rest
+      ^\markup \center-align { "     " }
     <<
       \fingeringAright
       \once \override Staff.AccidentalPlacement.right-padding = #-0.8
       \once \override Arpeggio.padding = #1
       \nudgeNextBarre #1.7
-      { <e,, e'-3 gis!-2 d'-4 e-0> \arpeggio^\position V }
+      {
+        <e,, e'-3 gis!-2 d'-4 e-0> \arpeggio
+          ^\position V
+          ^\markup \center-align { "            " }
+      }
         \\
       \fingeringAleft
       { \once \hide Stem <e''-1 \2> }
     >> |
-    <a,, e'-3 a-4 c e a> \arpeggio^\barre CV
+    <a,, e'-3 a-4 c e a> \arpeggio
+      ^\barre CV
+      ^\markup \center-align { "       " }
+    \textLengthOff
       \bar "|."
   }
   
