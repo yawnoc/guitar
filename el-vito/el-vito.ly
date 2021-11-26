@@ -225,7 +225,7 @@ highVoiceMusic = {
       <e b gis e b e,>
       <e b gis e b e,>8 |
     <e b gis e b e,>8
-      \bar "||"
+      \bar "||" \dcAlCoda
   }
   
   % Finishing chords

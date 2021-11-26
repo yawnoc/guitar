@@ -165,6 +165,11 @@ fine = {
   \makeGotoMark Fine
 }
 
+dcAlCoda = {
+  \setGotoVisibility
+  \makeGotoMark "D.C. al Coda"
+}
+
 dcAlFine = {
   \setGotoVisibility
   \makeGotoMark "D.C. al Fine"
