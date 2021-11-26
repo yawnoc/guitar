@@ -242,10 +242,14 @@ highVoiceMusic = {
     \arpeggioArrowUp
     r8
     <<
+      \fingeringAright
       \once \override Staff.AccidentalPlacement.right-padding = #-0.8
-      { <e e' gis! d' e> \arpeggio }
+      \once \override Arpeggio.padding = #1
+      \nudgeNextBarre #1.7
+      { <e e'-3 gis!-2 d'-4 e-0> \arpeggio^\position V }
         \\
-      { \once \hide Stem e'' }
+      \fingeringAleft
+      { \once \hide Stem <e''-1 \2> }
     >> |
     <a,, e' a c e a> \arpeggio
       \bar "|."
