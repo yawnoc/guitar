@@ -182,7 +182,7 @@ highVoiceMusic = {
     e8 gis |
     b4 gis8~ |
     gis8 a b |
-    \grace { a16( b } a4) gis8~ |
+    \grace { a16_( b } a4) gis8~ |
     gis8 a b |
     c8 a4 |
     b8 g4 |
