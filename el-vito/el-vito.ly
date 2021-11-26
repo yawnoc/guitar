@@ -239,8 +239,8 @@ highVoiceMusic = {
   \coda
   \barNumberCheck 69
   \relative c, {
-    r8 <e e' gis d' e e> |
-    <a e' a c e a>
+    r8 << { <e e' gis d' e> } \\ { \once \hide Stem e'' } >> |
+    <a,, e' a c e a>
       \bar "|."
   }
   
