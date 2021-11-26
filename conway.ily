@@ -155,6 +155,12 @@ makeGotoMark = #(define-scheme-function
   #}
 )
 
+simultaneousMarkSeparator = {
+  \cadenzaOn
+    s1073741824 % stupid, but works
+  \cadenzaOff
+}
+
 coda = {
   \setGotoVisibility
   \mark \markup { \musicglyph #"scripts.coda" }

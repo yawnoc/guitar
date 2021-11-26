@@ -229,6 +229,7 @@ highVoiceMusic = {
   }
   
   % Finishing chords
+  \simultaneousMarkSeparator
   \coda
   \barNumberCheck 69
   \relative c, {
