@@ -326,7 +326,7 @@ highVoiceMusic = {
       \fingeringAleft
       { \once \hide Stem <e''-1 \2> }
     >> |
-    <a,, e' a c e a> \arpeggio
+    <a,, e'-3 a-4 c e a> \arpeggio^\barre CV
       \bar "|."
   }
   
