@@ -228,6 +228,14 @@ highVoiceMusic = {
       \bar "||"
   }
   
+  % Finishing chords
+  \barNumberCheck 69
+  \relative c, {
+    r8 <e e' gis d' e e> |
+    <a e' a c e a>
+      \bar "|."
+  }
+  
 }
 
 
