@@ -156,12 +156,33 @@ makeGotoMark = #(define-scheme-function
   #}
 )
 
-dcAlFine = {
+simultaneousMarkSeparator = {
+  \cadenzaOn
+    s1073741824 % stupid, but works
+  \cadenzaOff
+}
+
+coda = {
   \setGotoVisibility
-  \makeGotoMark "D.C. al Fine"
+  \mark \markup { \musicglyph #"scripts.coda" }
 }
 
 fine = {
   \setGotoVisibility
   \makeGotoMark Fine
+}
+
+dcAlCoda = {
+  \setGotoVisibility
+  \makeGotoMark "D.C. al Coda"
+}
+
+dcAlFine = {
+  \setGotoVisibility
+  \makeGotoMark "D.C. al Fine"
+}
+
+toCoda = {
+  \setGotoVisibility
+  \makeGotoMark "to Coda"
 }
