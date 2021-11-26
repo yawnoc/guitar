@@ -124,33 +124,58 @@ highVoiceMusic = {
   % Strummed interlude
   \barNumberCheck #24
   \relative c' {
-    <e b gis e b e,>16
-      <e b gis e b e,>
-      <e b gis e b e,>
-      <e b gis e b e,> |
-    <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,> |
-    <e b gis e b e,>
-      <e b gis e b e,>
-      <e b gis e b e,>
-      <e b gis e b e,>
-      <e b gis e b e,>
-      <e b gis e b e,> |
-    <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,>
-      <e b a f c e,> |
-    <e b gis e b e,>8
-      <e b gis e b e,>16
-      <e b gis e b e,>
-      <e b gis e b e,>8 |
-    <e b gis e b e,>8
+    \arpeggioArrowUp
+    <e b gis e b e,>16 \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio |
+    \arpeggioArrowUp
+    <e b a f c e,> \arpeggio
+      \arpeggioArrowDown
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowUp
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowDown
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowUp
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowDown
+      <e b a f c e,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,> \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio |
+    \arpeggioArrowUp
+    <e b a f c e,> \arpeggio
+      \arpeggioArrowDown
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowUp
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowDown
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowUp
+      <e b a f c e,> \arpeggio
+      \arpeggioArrowDown
+      <e b a f c e,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,>8 \arpeggio
+      <e b gis e b e,>16 \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <e b gis e b e,>8 \arpeggio |
+    <e b gis e b e,>8 \arpeggio
       \bar "||" \toCoda
   }
   
