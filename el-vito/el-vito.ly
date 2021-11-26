@@ -4,6 +4,11 @@
 \include "../conway.ily"
 
 
+\paper {
+  ragged-last = ##t
+}
+
+
 \header {
   title = "El Vito"
   composer = "Spanish Traditional"
@@ -229,6 +234,7 @@ highVoiceMusic = {
   }
   
   % Finishing chords
+  \break
   \simultaneousMarkSeparator
   \coda
   \barNumberCheck 69
