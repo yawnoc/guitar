@@ -238,43 +238,72 @@ highVoiceMusic = {
   % Returning strummed interlude
   \barNumberCheck 61
   \relative c' {
-    <f b, a d,>16
-      <f b, a d,>
-      <f b, a d,>
-      <f b, a d,> |
-    <e b gis e b e,>8
-      <f b, a d,>
-      <e b gis e b e,> |
+    \arpeggioArrowUp
+    <f b, a d,>16 \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio
+      \arpeggioArrowUp
+      <f b, a d,> \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,>8 \arpeggio
+      <f b, a d,> \arpeggio
+      <e b gis e b e,> \arpeggio |
     r8
-      <f b, a d,>16
-      <f b, a d,>
-      <f b, a d,>
-      <f b, a d,> |
-    <e b gis e b e,>8
-      <f b, a d,>
-      <e b gis e b e,> |
+    \arpeggioArrowUp
+      <f b, a d,>16 \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio
+      \arpeggioArrowUp
+      <f b, a d,> \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,>8 \arpeggio
+      <f b, a d,> \arpeggio
+      <e b gis e b e,> \arpeggio |
     r8
-      <f b, a d,>16
-      <f b, a d,>
-      <f b, a d,>
-      <f b, a d,> |
-    <e b gis e b e,>16
-      <e b gis e b e,>
-      <f b, a d,>
-      <f b, a d,>
-      <f b, a d,>
-      <f b, a d,> |
-    <e b gis e b e,>16
-      <e b gis e b e,>
-      <f b, a d,>
-      <f b, a d,>
-      <f b, a d,>
-      <f b, a d,> |
-    <e b gis e b e,>8
-      <e b gis e b e,>16
-      <e b gis e b e,>
-      <e b gis e b e,>8 |
-    <e b gis e b e,>8
+    \arpeggioArrowUp
+      <f b, a d,>16 \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio
+      \arpeggioArrowUp
+      <f b, a d,> \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,>16 \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <f b, a d,> \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio
+      \arpeggioArrowUp
+      <f b, a d,> \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,>16 \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <f b, a d,> \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio
+      \arpeggioArrowUp
+      <f b, a d,> \arpeggio
+      \arpeggioArrowDown
+      <f b, a d,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,>8 \arpeggio
+      <e b gis e b e,>16 \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <e b gis e b e,>8 \arpeggio |
+    <e b gis e b e,>8 \arpeggio
       \bar "||" \dcAlCoda
   }
   
