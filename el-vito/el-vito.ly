@@ -12,6 +12,7 @@
 
 
 \paper {
+  systems-per-page = 7
   ragged-last = ##t
 }
 
