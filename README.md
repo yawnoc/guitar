@@ -10,8 +10,8 @@ Classical Guitar scores, typeset in [LilyPond].
 
 ## Releases
 
-* [Lágrima v1.0.0][lagrima]
-* [Tetris Theme Quartet Arrangement v1.1.1][tetris-quartet]
+* [Lágrima v1.0.1][lagrima]
+* [Tetris Theme Quartet Arrangement v1.1.2][tetris-quartet]
 
 
 ## Why are the note durations sloppy sometimes?
@@ -62,9 +62,9 @@ Play what sounds good to the ear.
 [lilypond]: https://lilypond.org/
 
 [lagrima]:
-  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.0.0
+  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.0.1
 [tetris-quartet]:
-  https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.1.1
+  https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.1.2
 
 [yates-recuerdos]: https://stanleyyates.com/scores/rdla.pdf
 [yates-recuerdos-archived]:
