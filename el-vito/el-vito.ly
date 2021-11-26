@@ -312,15 +312,15 @@ highVoiceMusic = {
   \simultaneousMarkSeparator
   \coda
   \barNumberCheck 69
-  \relative c, {
+  \relative c' {
     \arpeggioArrowUp
-    r8
+    b8\rest
     <<
       \fingeringAright
       \once \override Staff.AccidentalPlacement.right-padding = #-0.8
       \once \override Arpeggio.padding = #1
       \nudgeNextBarre #1.7
-      { <e e'-3 gis!-2 d'-4 e-0> \arpeggio^\position V }
+      { <e,, e'-3 gis!-2 d'-4 e-0> \arpeggio^\position V }
         \\
       \fingeringAleft
       { \once \hide Stem <e''-1 \2> }
