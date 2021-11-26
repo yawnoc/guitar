@@ -4,15 +4,15 @@
 \include "../conway.ily"
 
 
-\paper {
-  ragged-last = ##t
-}
-
-
 \header {
   title = "El Vito"
   composer = "Spanish Traditional"
   arranger = "Conway"
+}
+
+
+\paper {
+  ragged-last = ##t
 }
 
 
