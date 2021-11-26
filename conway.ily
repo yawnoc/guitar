@@ -155,6 +155,11 @@ makeGotoMark = #(define-scheme-function
   #}
 )
 
+coda = {
+  \setGotoVisibility
+  \mark \markup { \musicglyph #"scripts.coda" }
+}
+
 fine = {
   \setGotoVisibility
   \makeGotoMark Fine
