@@ -24,6 +24,7 @@ origin-url = "https://github.com/yawnoc/guitar"
 \header {
   copyright = \markup {
     \center-column {
+      \vspace #1
       \concat {
         "This arrangement is released into the public domain (CC0)."
       }
