@@ -155,12 +155,12 @@ makeGotoMark = #(define-scheme-function
   #}
 )
 
-dcAlFine = {
-  \setGotoVisibility
-  \makeGotoMark "D.C. al Fine"
-}
-
 fine = {
   \setGotoVisibility
   \makeGotoMark Fine
+}
+
+dcAlFine = {
+  \setGotoVisibility
+  \makeGotoMark "D.C. al Fine"
 }
