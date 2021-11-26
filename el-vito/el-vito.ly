@@ -70,34 +70,54 @@ highVoiceMusic = {
   % Strummed main theme high
   \barNumberCheck #16
   \relative c' {
-    <e b gis e b e,>16
-      <e b gis e b e,>
-      <e b gis e b e,>
-      <e b gis e b e,> |
-    <e b gis e b e,>8 b16 c d b |
+    \arpeggioArrowUp
+    <e b gis e b e,>16 \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio|
+      \arpeggioArrowUp
+    <e b gis e b e,>8 \arpeggio b16 c d b |
     c8
-      <e c a e a,>16
-      <e c a e a,>
-      <e c a e a,>
-      <e c a e a,>
-    <e c a e a,>8 d16 c b a |
+      \arpeggioArrowUp
+      <e c a e a,>16 \arpeggio
+      \arpeggioArrowDown
+      <e c a e a,> \arpeggio
+      \arpeggioArrowUp
+      <e c a e a,> \arpeggio
+      \arpeggioArrowDown
+      <e c a e a,> \arpeggio
+    \arpeggioArrowUp
+    <e c a e a,>8 \arpeggio d16 c b a |
     gis8
   }
   
   % Strummed main theme low
   \barNumberCheck #20
   \relative c' {
-    <e b gis e b e,>16
-      <e b gis e b e,>
-      <e b gis e b e,>
-      <e b gis e b e,> |
-    <e b gis e b e,>8 b,16 c d b |
+    \arpeggioArrowUp
+    <e b gis e b e,>16 \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowUp
+      <e b gis e b e,> \arpeggio
+      \arpeggioArrowDown
+      <e b gis e b e,> \arpeggio |
+    \arpeggioArrowUp
+    <e b gis e b e,>8 \arpeggio b,16 c d b |
     c8
-      <e' c a e a,>16
-      <e c a e a,>
-      <e c a e a,>
-      <e c a e a,>
-    <e c a e a,>8 d,16 c b a |
+      \arpeggioArrowUp
+      <e' c a e a,>16 \arpeggio
+      \arpeggioArrowDown
+      <e c a e a,> \arpeggio
+      \arpeggioArrowUp
+      <e c a e a,> \arpeggio
+      \arpeggioArrowDown
+      <e c a e a,> \arpeggio
+    \arpeggioArrowUp
+    <e c a e a,>8 \arpeggio d,16 c b a |
     gis8
   }
   
