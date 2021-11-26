@@ -242,7 +242,7 @@ highVoiceMusic = {
     \arpeggioArrowUp
     r8
     <<
-      { <e e' gis d' e> \arpeggio }
+      { <e e' gis! d' e> \arpeggio }
         \\
       { \once \hide Stem e'' }
     >> |
