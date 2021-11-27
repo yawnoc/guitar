@@ -93,7 +93,7 @@ highVoiceMusic = {
       \arpeggioArrowDown
       <e c a e a,>] \arpeggio
     \arpeggioArrowUp
-    <e c a e a,>8 \arpeggio d16[ c b a] |
+    <e c a e a,>8 \arpeggio d16[_( c) b a] |
     gis8
   }
   
