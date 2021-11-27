@@ -50,6 +50,16 @@ fingeringBelow = { \set fingeringOrientations = #'(down) }
 fingeringAleft = { \set fingeringOrientations = #'(left) }
 fingeringAright = { \set fingeringOrientations = #'(right) }
 
+startGraceMusic = {
+  <>(
+  \override Fingering.font-size = -6
+}
+
+stopGraceMusic = {
+  \revert Fingering.font-size
+  <>)
+}
+
 overrideHorizontalShift = #(define-scheme-function
   (parser location distance) (number?)
   #{
