@@ -42,10 +42,10 @@ highVoiceMusic = {
   % Main theme low
   \barNumberCheck #4
   \relative c' {
-    e16[ e e e] |
+    <e-0>16[ e e e] |
     e8 b16 c d b |
     c8 e16 e e e |
-    e8 d16 c b a |
+    e8 d16_( c) b a |
     gis8
   }
   
@@ -360,9 +360,10 @@ lowVoiceMusic = {
   % Main theme low
   \barNumberCheck #5
   \relative c {
-    gis8 r4 |
+    \fingeringBelow
+    <gis-4>8 r4 |
     a4. |
-    c |
+    <c-3> |
     e, |
   }
   
