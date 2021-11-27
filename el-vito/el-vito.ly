@@ -31,11 +31,12 @@ highVoiceMusic = {
   % Main theme high
   \partial 4
   \relative c'' {
-    e16 e e e |
-    e8 b16 c d b |
-    c8 e16 e e e |
-    e8 d16 c b a |
-    gis8
+    \fingeringAbove
+    <e-4>16 e e e |
+    e8 <b-1>16 <c-2> <d-4> <b-1> |
+    <c-2>8 <e-4>16 e e e |
+    <e-4>8 <d-4>16_( <c-2>) <b-1> <a-4 \2> |
+    <gis-3>8
   }
   
   % Main theme low
