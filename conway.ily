@@ -100,10 +100,28 @@ barreSpan = #(define-music-function
         (attach-dir . -2)
       )
       (right
-        (text . ,#{ \markup { \draw-line #'(0 . -1.3) } #})
+        (text . ,#{ \markup { \draw-line #'(0 . -1.3) } #}) ;; draw hook
         (Y . 0)
         (padding . -0.5)
         (attach-dir . 2)
+      )
+    )
+    \once \override TextSpanner #'after-line-breaking = #(lambda (grob)
+      (let*
+        (
+          (originalGrob (ly:grob-original grob))
+          (splitGrobs (ly:spanner-broken-into originalGrob))
+        )
+        (if
+          (and
+            (>= (length splitGrobs) 2)
+            (not (eq? (car (last-pair splitGrobs)) grob))
+          )
+          (ly:grob-set-nested-property! grob
+            '(bound-details right text)
+            #{ \markup { \draw-line #'(0 . 0) } #} ;; suppress draw hook
+          )
+        )
       )
     )
     $music
