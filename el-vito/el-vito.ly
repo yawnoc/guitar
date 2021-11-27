@@ -72,8 +72,9 @@ highVoiceMusic = {
   % Strummed main theme high
   \barNumberCheck #16
   \relative c' {
+    \fingeringAright
     \arpeggioArrowUp
-    <e b gis e b e,>16[ \arpeggio
+    <e b gis-1 e-3 b-2 e,>16[ \arpeggio
       \arpeggioArrowDown
       <e b gis e b e,> \arpeggio
       \arpeggioArrowUp
@@ -84,7 +85,7 @@ highVoiceMusic = {
     <e b gis e b e,>8 \arpeggio b16[ c d b] |
     c8
       \arpeggioArrowUp
-      <e c a e a,>16[ \arpeggio
+      <e c-1 a-3 e-2 a,>16[ \arpeggio
       \arpeggioArrowDown
       <e c a e a,> \arpeggio
       \arpeggioArrowUp
@@ -107,9 +108,10 @@ highVoiceMusic = {
       <e b gis e b e,> \arpeggio
       \arpeggioArrowDown
       <e b gis e b e,>] \arpeggio |
+    \fingeringBelow
     \arpeggioArrowUp
-    <e b gis e b e,>8 \arpeggio b,16[ c d b] |
-    c8
+    <e b gis e b e,>8 \arpeggio <b,-2>16[ <c-4> <d-0> <b-2>] |
+    <c-4>8
       \arpeggioArrowUp
       <e' c a e a,>16[ \arpeggio
       \arpeggioArrowDown
@@ -119,8 +121,8 @@ highVoiceMusic = {
       \arpeggioArrowDown
       <e c a e a,>] \arpeggio
     \arpeggioArrowUp
-    <e c a e a,>8 \arpeggio d,16[ c b a] |
-    gis8
+    <e c a e a,>8 \arpeggio <d,-0>16[_( <c-4>) <b-2> <a-0>] |
+    <gis-4>8
   }
   
   % Strummed interlude
