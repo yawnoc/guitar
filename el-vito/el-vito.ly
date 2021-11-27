@@ -53,9 +53,9 @@ highVoiceMusic = {
   \barNumberCheck #8
   \relative c {
     e16[ fis gis a] |
-    b ais b c d b |
-    c b a b c d |
-    f e d c b a |
+    <b-4>_( <ais-3>) <b-0> c d b |
+    c_( b) a b c d |
+    f_( e) d c b a |
     gis8
   }
   
