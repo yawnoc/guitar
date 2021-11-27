@@ -431,8 +431,8 @@ lowVoiceMusic = {
     a,,4. |
     <g'-0>4 <b-0>8 |
     \barreSpan ⅔CIV { fis b dis |
-    e,, b'' e } |
-    e,,4. |
+    e,, b'' e |
+    e,,4. } |
   }
   
   % Lyrical theme low
