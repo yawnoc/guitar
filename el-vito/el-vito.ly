@@ -62,11 +62,11 @@ highVoiceMusic = {
   % Scale run high
   \barNumberCheck #12
   \relative c' {
-    e16[ fis gis a] |
-    b ais b c d b |
-    c b a b c d |
-    f e d c b a |
-    gis8
+    <e-2 \2>16[ <fis-4> <gis-1> <a-2>] |
+    <b-2>_( <ais-1>) <b-1> <c-2> <d-4> <b-1> |
+    <c-2>_( <b-1>) <a-4 \2> <b-1> <c-2> <d-4> |
+    <f-4>_( <e-3>) <d-1> <c-4 \2> <b-3> <a-1> |
+    <gis-1>8
   }
   
   % Strummed main theme high
