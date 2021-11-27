@@ -134,10 +134,12 @@ highVoiceMusic = {
       <e b gis e b e,> \arpeggio
       \arpeggioArrowUp
       <e b gis e b e,> \arpeggio
+      \fingeringAright
       \arpeggioArrowDown
-      <e b gis e b e,>] \arpeggio |
+      <e b gis-1 e-3 b-2 e,>] \arpeggio |
+    \fingeringAleft
     \arpeggioArrowUp
-    <e b a f c e,> \arpeggio
+    <e b a-1 f-3 c-2 e,> \arpeggio
       \arpeggioArrowDown
       <e b a f c e,> \arpeggio
       \arpeggioArrowUp
