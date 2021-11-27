@@ -202,14 +202,18 @@ highVoiceMusic = {
   % Lyrical theme low
   \barNumberCheck #37
   \relative c' {
-    e8[ e] |
+    <e-0>8[ e] |
     e4 e8 |
-    e4 d8 |
-    d4 c8~ |
+    \fingeringAright
+    e4 <d-4>8 |
+    \fingeringAleft
+    <d-4>4 <c-1>8~ |
     c b[ c] |
     e b4 |
-    c4 a8 |
-    gis4 e8 |
+    \fingeringAright
+    <c-1>4 \fingeringAleft <a-4>8 |
+    \fingeringAright
+    <gis-1>4 e8 |
     <gis b e>
   }
   
@@ -432,11 +436,14 @@ lowVoiceMusic = {
   \barNumberCheck #38
   \relative c, {
     e8 e' <gis b> |
-    e, e' gis |
-    a, e' a |
+    \fingeringAright
+    e, e' <gis-1> |
+    \fingeringAleft
+    a, e' <a-3> |
     a,4. |
-    g4 b8 |
-    fis8 b4 |
+    \fingeringAright
+    <g-3>4 <b-2>8 |
+    <fis-2>8 <b-3>4 |
     e,8 b' e~ |
     e
   }
