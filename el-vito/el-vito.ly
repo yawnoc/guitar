@@ -224,7 +224,7 @@ highVoiceMusic = {
     <e-0>8[ \barreSpan ½CIV { gis] |
     <b-4>4 gis8~ |
     \fingeringAright
-    gis8 } \barreSpan ½CV { a[ <b-4>] } |
+    gis8 } \barreSpan ½CV #'(0 . -1) { a[ <b-4>] } |
     \fingeringAbove
     \grace { <a-2>16_( <b-4> } <a-2>4) gis8~ |
     \fingeringAleft
@@ -240,7 +240,7 @@ highVoiceMusic = {
   \relative c' {
     e8[ \barreSpan ½CIV { gis] |
     b4 gis8~ |
-    gis8 } \barreSpan ½CV { a[ b] } |
+    gis8 } \barreSpan ½CV #'(0 . -1) { a[ b] } |
     \grace { a16_( b } a4) gis8~ |
     gis8 a[ b] |
     c8 a4 |
