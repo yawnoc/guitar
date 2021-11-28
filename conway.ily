@@ -17,7 +17,7 @@ globalSettings = {
   \mergeDifferentlyDottedOn
   \numericTimeSignature
   \pointAndClickOff
-  \override TextScript.extra-offset = #'(0 . 0.3)
+  \override TextScript.extra-offset = #'(0 . 0.7)
 }
 
 origin-url = "https://github.com/yawnoc/guitar"
