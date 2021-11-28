@@ -252,8 +252,9 @@ highVoiceMusic = {
   % Returning strummed interlude
   \barNumberCheck 61
   \relative c' {
+    \fingeringAleft
     \arpeggioArrowUp
-    <f b, a d,>16[ \arpeggio
+    <f-1 b, a-3 d,>16[ \arpeggio
       \arpeggioArrowDown
       <f b, a d,> \arpeggio
       \arpeggioArrowUp
@@ -261,9 +262,9 @@ highVoiceMusic = {
       \arpeggioArrowDown
       <f b, a d,>] \arpeggio |
     \arpeggioArrowUp
-    <e b gis e b e,>8 \arpeggio
-      <f b, a d,> \arpeggio
-      <e b gis e b e,> \arpeggio |
+    <e b gis-1 e-3 b-2 e,>8 \arpeggio
+      <f-1 b, a-3 d,> \arpeggio
+      <e b gis-1 e-3 b-2 e,> \arpeggio |
     r8
     \arpeggioArrowUp
       <f b, a d,>16 \arpeggio
