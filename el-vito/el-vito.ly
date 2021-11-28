@@ -227,10 +227,11 @@ highVoiceMusic = {
     gis8 } \barreSpan ½CV { a[ <b-4>] } |
     \fingeringAbove
     \grace { <a-2>16_( <b-4> } <a-2>4) gis8~ |
-    gis8 a[ b] |
-    c8 a4 |
-    b8 g4 |
-    f4 e8~ |
+    \fingeringAleft
+    gis8 <a-1>[ <b-3>] |
+    <c-4>8 a4 |
+    <b-4>8 g4 |
+    <f-1>4 e8~ |
     e8
   }
   
@@ -458,11 +459,12 @@ lowVoiceMusic = {
     \fingeringAright
     e8 b'' <e-2> |
     e,, <c'' f-2>4 |
-    e,,8 b'' e |
-    e,,4. |
-    a8 c' e |
-    g,, b' d |
-    <a d,> b gis |
+    e,,8 \barreSpan ½CIV { b'' <e-2> |
+    e,,4. } |
+    a8 \barreSpan ½CV { c' e } |
+    \fingeringAleft
+    \barreSpan CIII { g,, <b'-2> d } |
+    <a-2 d,> <b-0> <gis-2> |
     e,4. |
   }
   
