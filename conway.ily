@@ -70,7 +70,8 @@ overrideHorizontalShift = #(define-scheme-function
 revertHorizontalShift = { \revert NoteColumn.force-hshift }
 
 barreSpan = #(define-music-function
-  (parser location label music) (string? ly:music?)
+  (parser location label extraOffset music)
+  (string? (pair? (cons 0 0)) ly:music?)
   (let
     (
       (elements (extract-named-music music '(NoteEvent EventChord)))
@@ -102,6 +103,7 @@ barreSpan = #(define-music-function
   #{
     \once \override TextSpanner.font-shape = #'upright
     \once \override TextSpanner.style = #'line
+    \once \override TextSpanner.extra-offset = #extraOffset
     \once \override TextSpanner.bound-details = #`(
       (left
         (text . ,#{ \markup { \raise #-.55 { #label \hspace #0.7 }} #})
