@@ -106,7 +106,7 @@ barreSpan = #(define-music-function
     \once \override TextSpanner.extra-offset = #extraOffset
     \once \override TextSpanner.bound-details = #`(
       (left
-        (text . ,#{ \markup { \raise #-.55 { #label \hspace #0.7 }} #})
+        (text . ,#{ \markup { \raise #-0.7 { #label \hspace #0.7 }} #})
         (Y . 0)
         (padding . -0.8)
         (attach-dir . -2)
