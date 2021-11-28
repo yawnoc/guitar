@@ -129,9 +129,14 @@ barreSpan = #(define-music-function
             (>= (length splitGrobs) 2)
             (not (eq? (car (last-pair splitGrobs)) grob))
           )
-          (ly:grob-set-nested-property! grob
-            '(bound-details right text)
-            #{ \markup { \draw-line #'(0 . 0) } #} ;; suppress draw hook
+          (begin
+            (ly:grob-set-nested-property! grob
+              '(bound-details right text)
+              #{ \markup { \draw-line #'(0 . 0) } #} ;; suppress draw hook
+            )
+            (ly:grob-set-nested-property! grob
+              '(bound-details right padding) #'-3 ;; increase spanner length
+            )
           )
         )
       )
