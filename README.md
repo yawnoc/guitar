@@ -10,6 +10,7 @@ Classical Guitar scores, typeset in [LilyPond].
 
 ## Releases
 
+* [El Vito v1.0.0][el-vito]
 * [Lágrima v1.1.0][lagrima]
 * [Tetris Theme Quartet Arrangement v1.2.0][tetris-quartet]
 
@@ -61,6 +62,8 @@ Play what sounds good to the ear.
 [license]: LICENSE
 [lilypond]: https://lilypond.org/
 
+[el-vito]:
+  https://github.com/yawnoc/guitar/releases/tag/el-vito-v1.0.0
 [lagrima]:
   https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.1.0
 [tetris-quartet]:
