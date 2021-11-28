@@ -65,7 +65,7 @@ highVoiceMusic = {
         \once \override Fingering.self-alignment-Y = -1
         <c-2> <b-1> <e,-0>
         \fingeringAright
-        <fis dis-3 a>^\barre ⅚CII <g-2> |
+        \barreSpan ⅚CII { <fis dis-3 a> <g-2> } |
       e2. |
       \stringNumbersAbove
       \fingeringAleft
