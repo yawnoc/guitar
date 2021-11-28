@@ -70,7 +70,7 @@ overrideHorizontalShift = #(define-scheme-function
 revertHorizontalShift = { \revert NoteColumn.force-hshift }
 
 barreSpan = #(define-music-function
-  (barre location label music) (string? ly:music?)
+  (parser location label music) (string? ly:music?)
   (let
     (
       (elements (extract-named-music music '(NoteEvent EventChord)))
