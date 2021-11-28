@@ -71,7 +71,7 @@ overrideHorizontalShift = #(define-scheme-function
 revertHorizontalShift = { \revert NoteColumn.force-hshift }
 
 barreSpan = #(define-music-function
-  (parser location label extraOffset music)
+  (parser location label offsetPair music)
   (string? (pair? (cons 0 0)) ly:music?)
   (let
     (
@@ -104,7 +104,7 @@ barreSpan = #(define-music-function
   #{
     \once \override TextSpanner.font-shape = #'upright
     \once \override TextSpanner.style = #'line
-    \once \override TextSpanner.extra-offset = #extraOffset
+    \once \override TextSpanner.extra-offset = #offsetPair
     \once \override TextSpanner.bound-details = #`(
       (left
         (text . ,#{ \markup { \raise #-0.7 { #label \hspace #0.7 }} #})
@@ -138,8 +138,8 @@ barreSpan = #(define-music-function
             (ly:grob-set-property! grob
               'extra-offset
               (cons
-                (car extraOffset)
-                (+ (cdr extraOffset) 0.7) ;; correction for suppressed hook
+                (car offsetPair)
+                (+ (cdr offsetPair) 0.7) ;; correction for suppressed hook
               )
             )
             (ly:grob-set-nested-property! grob
