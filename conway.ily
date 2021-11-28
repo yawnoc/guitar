@@ -142,7 +142,8 @@ barreSpan = #(define-music-function
               )
             )
             (ly:grob-set-nested-property! grob
-              '(bound-details right padding) #'-3 ;; increase spanner length
+              '(bound-details right padding)
+              #'-3 ;; increase spanner length
             )
           )
         )
