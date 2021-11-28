@@ -188,7 +188,7 @@ position = #(define-scheme-function
 % Goto statements
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-setGotoVisibility = {
+overrideGotoVisibility = {
   \once \override Score.RehearsalMark #'break-visibility = #'#(#t #t #f)
 }
 
@@ -206,26 +206,26 @@ simultaneousMarkSeparator = {
 }
 
 coda = {
-  \setGotoVisibility
+  \overrideGotoVisibility
   \mark \markup { \musicglyph #"scripts.coda" }
 }
 
 fine = {
-  \setGotoVisibility
+  \overrideGotoVisibility
   \makeGotoMark Fine
 }
 
 dcAlCoda = {
-  \setGotoVisibility
+  \overrideGotoVisibility
   \makeGotoMark "D.C. al Coda"
 }
 
 dcAlFine = {
-  \setGotoVisibility
+  \overrideGotoVisibility
   \makeGotoMark "D.C. al Fine"
 }
 
 toCoda = {
-  \setGotoVisibility
+  \overrideGotoVisibility
   \makeGotoMark "to Coda"
 }
