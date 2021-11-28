@@ -238,9 +238,9 @@ highVoiceMusic = {
   % Bull-fighting theme again
   \barNumberCheck 53
   \relative c' {
-    e8[ gis] |
+    e8[ \barreSpan ½CIV { gis] |
     b4 gis8~ |
-    gis8 a[ b] |
+    gis8 } \barreSpan ½CV { a[ b] } |
     \grace { a16_( b } a4) gis8~ |
     gis8 a[ b] |
     c8 a4 |
@@ -473,10 +473,10 @@ lowVoiceMusic = {
   \relative c, {
     e8 b'' e |
     e,, <c'' f>4 |
-    e,,8 b'' e |
-    e,,4. |
-    a8 c' e |
-    g,, b' d |
+    e,,8 \barreSpan ½CIV { b'' e |
+    e,,4. } |
+    a8 \barreSpan ½CV { c' e } |
+    \barreSpan CIII { g,, b' d } |
     <a d,> b gis |
     e,4. |
   }
