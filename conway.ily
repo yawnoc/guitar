@@ -134,6 +134,13 @@ barreSpan = #(define-music-function
               '(bound-details right text)
               #{ \markup { \draw-line #'(0 . 0) } #} ;; suppress draw hook
             )
+            (ly:grob-set-property! grob
+              'extra-offset
+              (cons
+                (car extraOffset)
+                (+ (cdr extraOffset) 0.7) ;; correction for suppressed hook
+              )
+            )
             (ly:grob-set-nested-property! grob
               '(bound-details right padding) #'-3 ;; increase spanner length
             )
