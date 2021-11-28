@@ -10,7 +10,7 @@ Classical Guitar scores, typeset in [LilyPond].
 
 ## Releases
 
-* [Lágrima v1.0.1][lagrima]
+* [Lágrima v1.1.0][lagrima]
 * [Tetris Theme Quartet Arrangement v1.2.0][tetris-quartet]
 
 
@@ -62,7 +62,7 @@ Play what sounds good to the ear.
 [lilypond]: https://lilypond.org/
 
 [lagrima]:
-  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.0.1
+  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.1.0
 [tetris-quartet]:
   https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.2.0
 
