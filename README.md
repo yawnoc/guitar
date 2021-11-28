@@ -15,7 +15,7 @@ Classical Guitar scores, typeset in [LilyPond].
 * [Tetris Theme Quartet Arrangement v1.2.0][tetris-quartet]
 
 
-## Why are the note durations sloppy sometimes?
+## Remarks on note durations
 
 After quite a bit of thought, I have concluded that it is impractical
 to enforce 100% correct durations.
@@ -37,16 +37,10 @@ If the actual durations were written out, it would read:
 ![Confusing quaver arpeggio with ties in various places.](.durations/recuerdos-accurate.preview.svg)
 
 Although this is more accurate, it is not very readable.
-
 Therefore we stick with the first version (readability over accuracy).
 
-Now, you might argue that the low A is the most important/audible,
-and therefore it alone deserves to have its full duration written out.
-
-But not all cases are so clear cut.
-Therefore, I prefer not to spend too much time worrying about notation,
-and leave it to the guitarist to decide on durations.
-Play what sounds good to the ear.
+In general, I think arguing/worrying about notation is counter-productive.
+Just play the duration that sounds good.
 
 
 ## Unicode fractions for partial barres
