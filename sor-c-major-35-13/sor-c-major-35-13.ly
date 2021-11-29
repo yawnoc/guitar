@@ -85,10 +85,71 @@ highVoiceMusic = {
 }
 
 
+lowVoiceMusic = {
+  
+  \globalSettings
+  
+  % Home theme
+  \barNumberCheck #1
+  \relative c {
+    c2 |
+    c2 |
+    c2 |
+    c2 |
+    c2 |
+    c2 |
+    d8 f e c |
+    b g a b |
+  }
+  
+  % Home theme again
+  \barNumberCheck #9
+  \relative c {
+    c2 |
+    c2 |
+    c2 |
+    c2 |
+    c2 |
+    c2 |
+    d8 f e c |
+    b4 g |
+  }
+  
+  % Away theme
+  \barNumberCheck #17
+  \relative c {
+    b2 |
+    c2 |
+    d4 b |
+    c2 |
+    b2 |
+    c2 |
+    d8 b c a |
+    g4 r4 |
+  }
+  
+  % Home theme final
+  \barNumberCheck #25
+  \relative c {
+    c2 |
+    c2 |
+    gis2 |
+    a2 |
+    g2 |
+    f2 |
+    g2 |
+    c4 c8 r |
+  }
+  
+}
+
+
 allMusic = {
   \initialSignatures
   <<
     << \highVoiceMusic >>
+      \\
+    << \lowVoiceMusic >>
   >>
 }
 
