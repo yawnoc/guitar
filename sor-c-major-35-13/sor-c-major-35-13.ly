@@ -207,10 +207,10 @@ middleVoiceMusic = {
   \relative c {
     c16 g' e g e g e g |
     c, g' e g e[ g] e[ g] |
-    <gis,-2> <b'-3> f b f[ b] f[ b] |
+    \barreSpan "(⅔)CIII" #'(0 . -1) { <gis,-2> <b'-3> f b f[ b] f[ b] } |
     a, <a'-3> <e-2> a e a e a |
-    <g,-2> <bes'-3> e, bes' e, bes' e, bes' |
-    <f,-1>[ <a'-2>] <f-3>[ <a-2>] f[ a] f[ a] |
+    \barreSpan "(⅔)CII" { <g,-2> <bes'-3> e, bes' e, bes' e, bes' } |
+    <f,-1>[ <a'-2>] <f-3>[ <a-2>] \barreSpan CI { f[ a] } f[ a] |
     <g,-3>[ g'] <e-2>[ g] <d-0>[ g] <f-4>[ g] |
     <c,-3> g' <e-2> g c,8 s |
   }
