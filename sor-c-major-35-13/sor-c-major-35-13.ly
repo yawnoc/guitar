@@ -9,8 +9,8 @@
   subtitle = \markup {
     \center-column {
       "Opus 35, Number 13"
-      "or, Segovia Study Number 2"
-      "commonly called, Study in C"
+      "or, Segovia Study Number 2,"
+      "commonly called Study in C"
     }
   }
   composer = "Fernando Sor"
