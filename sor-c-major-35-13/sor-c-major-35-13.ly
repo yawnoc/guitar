@@ -155,12 +155,12 @@ middleVoiceMusic = {
   \relative c {
     \shiftOff
     c16 g' e g e g e g |
+    c, g' e g e[ g] e[ g] |
+    c, g' f g f[ g] f[ g] |
     c, g' e g e g e g |
-    c, g' f g f g f g |
     c, g' e g e g e g |
-    c, g' e g e g e g |
-    c, g' e g e g e g |
-    d g f g e g c, g' |
+    c, g' e g e[ g] e[ g] |
+    d g f g e[ g] c,[ g'] |
     b, g' g, g' a, g' b, g' |
   }
   
@@ -168,12 +168,12 @@ middleVoiceMusic = {
   \barNumberCheck #9
   \relative c {
     c16 g' e g e g e g |
+    c, g' e g e[ g] e[ g] |
+    c, g' f g f[ g] f[ g] |
     c, g' e g e g e g |
-    c, g' f g f g f g |
     c, g' e g e g e g |
-    c, g' e g e g e g |
-    c, g' e g e g e g |
-    d g f g e g c, g' |
+    c, g' e g e[ g] e[ g] |
+    d g f g e[ g] c,[ g'] |
     b, g' d b g8 g' |
   }
   
@@ -181,12 +181,12 @@ middleVoiceMusic = {
   \barNumberCheck #17
   \relative c {
     b16 g' f g f g f g |
-    c, g' e g e g e g |
-    d b' g b b, d' g, d' |
+    c,[ g'] e[ g] e[ g] e[ g] |
+    d[ b'] g[ b] b,[ d'] g,[ d'] |
     c, d' g, d' g, c e, g |
     b, g' f g f g f g |
-    c, g' e g e g e g |
-    d g b, g' c, g' a, g' |
+    c,[ g'] e[ g] e[ g] e[ g] |
+    d[ g] b,[ g'] c,[ g'] a,[ g'] |
     s2 |
   }
   
@@ -194,12 +194,12 @@ middleVoiceMusic = {
   \barNumberCheck #25
   \relative c {
     c16 g' e g e g e g |
-    c, g' e g e g e g |
-    gis, b' f b f b f b |
+    c, g' e g e[ g] e[ g] |
+    gis, b' f b f[ b] f[ b] |
     a, a' e a e a e a |
     g, bes' e, bes' e, bes' e, bes' |
-    f, a' f a f a f a |
-    g, g' e g d g f g |
+    f,[ a'] f[ a] f[ a] f[ a] |
+    g,[ g'] e[ g] d[ g] f[ g] |
     c, g' e g c,8 s |
   }
   
