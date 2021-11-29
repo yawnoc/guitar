@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+git clean -Xf
+lilypond sor-c-major-35-13
