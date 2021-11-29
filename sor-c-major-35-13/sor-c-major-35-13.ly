@@ -59,7 +59,7 @@ highVoiceMusic = {
     e4 c |
     g'4 e8 c |
     b4 c8 e |
-    d2 |
+    <d-4>2 |
   }
   
   % Away theme
@@ -73,7 +73,7 @@ highVoiceMusic = {
     d8 c e g |
     <f-1>8 <d-4> <e-0> <c-1> |
     \revertHorizontalShift
-    <b-0>16 <g-0> a b c cis d dis |
+    <b-0>16 g a b c cis d dis |
     \overrideHorizontalShiftLeftABit
   }
   
@@ -96,6 +96,7 @@ highVoiceMusic = {
 lowVoiceMusic = {
   
   \globalSettings
+  \fingeringBelow
   
   % Home theme
   \barNumberCheck #1
@@ -133,7 +134,7 @@ lowVoiceMusic = {
     b2 |
     c2 |
     d8 b c a |
-    g4 r4 |
+    <g-3>4 r4 |
   }
   
   % Home theme final
@@ -155,19 +156,21 @@ lowVoiceMusic = {
 middleVoiceMusic = {
   
   \globalSettings
+  \fingeringBelow
+  \stringNumbersBelow
   
   % Home theme
   \barNumberCheck #1
   \relative c {
     \shiftOff
-    c16 g' e g e g e g |
+    <c-3>16 <g'-0> <e-2> <g-0> e g e g |
     c, g' e g e[ g] e[ g] |
-    c, g' f g f[ g] f[ g] |
-    c, g' e g e g e g |
+    <c,-3> g' <f-2> g f[ g] f[ g] |
+    <c,-3> g' <e-2> g e g e g |
     c, g' e g e g e g |
     c, g' e g e[ g] e[ g] |
-    d g f g e[ g] c,[ g'] |
-    b, g' g, g' a, g' b, g' |
+    <d-4 \5> g <f-2> g <e-2>[ g] <c,-3>[ g'] |
+    <b,-2> g' g, g' a, g' b, g' |
   }
   
   % Home theme again
@@ -180,19 +183,19 @@ middleVoiceMusic = {
     c, g' e g e g e g |
     c, g' e g e[ g] e[ g] |
     d g f g e[ g] c,[ g'] |
-    b, g' d b g8 g' |
+    <b,-2> g' d b <g-3>8 g' |
   }
   
   % Away theme
   \barNumberCheck #17
   \relative c {
-    b16 g' f g f g f g |
-    c,[ g'] e[ g] e[ g] e[ g] |
-    d[ b'] g[ b] b,[ d'] g,[ d'] |
-    c, d' g, d' g, c e, g |
+    <b-2>16 g' <f-3> g f g f g |
+    <c,-3>[ g'] <e-2>[ g] e[ g] e[ g] |
+    <d-0>[ <b'-0>] <g-0>[ <b-0>] <b,-2>[ <d'-4>] <g,-0>[ <d'-4>] |
+    <c,-3> d' g, d' g, <c-1> <e,-2> g |
     b, g' f g f g f g |
     c,[ g'] e[ g] e[ g] e[ g] |
-    d[ g] b,[ g'] c,[ g'] a,[ g'] |
+    <d-0>[ g] <b,-2>[ g'] <c,-3>[ g'] <a,-0>[ g'] |
     s2 |
   }
   
@@ -201,12 +204,12 @@ middleVoiceMusic = {
   \relative c {
     c16 g' e g e g e g |
     c, g' e g e[ g] e[ g] |
-    gis, b' f b f[ b] f[ b] |
-    a, a' e a e a e a |
-    g, bes' e, bes' e, bes' e, bes' |
-    f,[ a'] f[ a] f[ a] f[ a] |
-    g,[ g'] e[ g] d[ g] f[ g] |
-    c, g' e g c,8 s |
+    <gis,-2> <b'-3> f b f[ b] f[ b] |
+    a, <a'-3> <e-2> a e a e a |
+    <g,-2> <bes'-3> e, bes' e, bes' e, bes' |
+    <f,-1>[ <a'-2>] <f-3>[ <a-2>] f[ a] f[ a] |
+    <g,-3>[ g'] <e-2>[ g] <d-0>[ g] <f-4>[ g] |
+    <c,-3> g' <e-2> g c,8 s |
   }
   
 }
