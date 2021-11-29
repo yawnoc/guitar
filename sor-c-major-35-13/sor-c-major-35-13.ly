@@ -170,6 +170,7 @@ middleVoiceMusic = {
     c, g' e g e g e g |
     c, g' e g e[ g] e[ g] |
     \once \override Fingering.padding = #0.16
+    \once \override StringNumber.padding = #1
     <d-4 \5> g <f-2> g <e-2>[ g] <c,-3>[ g'] |
     <b,-2> g' g, g' a, g' b, g' |
   }
