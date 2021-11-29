@@ -182,7 +182,7 @@ highVoiceMusic = {
       \arpeggioArrowUp
       <e b gis e b e,>8 \arpeggio |
     <e b gis e b e,>8 \arpeggio
-      \bar "||" \toCoda
+      \barLineGoto \toCoda
   }
   
   % Lyrical theme high
@@ -319,7 +319,7 @@ highVoiceMusic = {
       \arpeggioArrowUp
       <e b gis e b e,>8 \arpeggio |
     <e b gis e b e,>8 \arpeggio
-      \bar "||" \dcAlCoda
+      \barLineGoto \dcAlCoda
   }
   
   % Finishing chords

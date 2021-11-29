@@ -43,6 +43,7 @@ origin-url = "https://github.com/yawnoc/guitar"
 % Semantic bar lines
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+barLineGoto = { \bar "||" }
 barLineEnd = { \bar "|." }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
