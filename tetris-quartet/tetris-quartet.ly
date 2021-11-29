@@ -227,7 +227,7 @@ guitarOneMusic = {
     \fingeringAleft
       <a e'-3 a-4 cis-2 e a>^\barre CV r r4 |
   }
-  \bar "|."
+  \barLineEnd
   
 }
 
@@ -404,7 +404,7 @@ guitarTwoMusic = {
     e4 b e8 e <fis-1> <gis-2> |
     <a-3>4 r a r |
   }
-  \bar "|."
+  \barLineEnd
   
 }
 
@@ -574,7 +574,7 @@ guitarThreeMusic = {
     e2~ e8 d c b |
     a4 r a r |
   }
-  \bar "|."
+  \barLineEnd
   
 }
 
@@ -742,7 +742,7 @@ bassMusic = {
     gis,, gis' gis, gis' e, e' e, e' |
     a, a' e, e' a,4 r |
   }
-  \bar "|."
+  \barLineEnd
   
 }
 

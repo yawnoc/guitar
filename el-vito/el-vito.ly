@@ -350,7 +350,7 @@ highVoiceMusic = {
       ^\barre CV
       ^\markup \center-align { "       " }
     \textLengthOff
-      \bar "|."
+      \barLineEnd
   }
   
 }
