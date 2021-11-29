@@ -26,8 +26,70 @@ initialSignatures = {
 }
 
 
+highVoiceMusic = {
+  
+  \globalSettings
+  
+  % Home theme
+  \barNumberCheck #1
+  \relative c' {
+    e4 c |
+    g'4 e8 c |
+    d4 e8 d |
+    d4 c |
+    e4 c |
+    g'4 e8 c |
+    b4 c8 e |
+    d2 |
+  }
+  
+  % Home theme again
+  \barNumberCheck #9
+  \relative c' {
+    e4 c |
+    g'4 e8 c |
+    d4 e8 d |
+    d4 c |
+    e4 c |
+    g'4 e8 c |
+    b4 c8 e |
+    d2 |
+  }
+  
+  % Away theme
+  \barNumberCheck #17
+  \relative c' {
+    d4 d |
+    d8 c e g |
+    g8 f f f |
+    f4 e |
+    d4 d |
+    d8 c e g |
+    f8 d e c |
+    b16 g a b c cis d dis |
+  }
+  
+  % Home theme final
+  \barNumberCheck #25
+  \relative c' {
+    e4 c |
+    g'4 e8 c |
+    d4 e8 d |
+    d4 c |
+    cis4 cis |
+    e8 d f d |
+    d8 c c b |
+    c4 r4 \barLineEnd
+  }
+  
+}
+
+
 allMusic = {
   \initialSignatures
+  <<
+    << \highVoiceMusic >>
+  >>
 }
 
 
