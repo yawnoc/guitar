@@ -188,6 +188,7 @@ middleVoiceMusic = {
     <b,-2> g' d b <g-3>8 g' |
   }
   
+  \override Fingering.staff-padding = #'()
   % Away theme
   \barNumberCheck #17
   \relative c {
