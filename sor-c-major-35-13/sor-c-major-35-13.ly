@@ -212,6 +212,9 @@ middleVoiceMusic = {
 
 
 allMusic = {
+  \new Staff \with {
+    midiInstrument = #"acoustic guitar (nylon)"
+  }
   \initialSignatures
   <<
     << \highVoiceMusic >>
@@ -225,4 +228,9 @@ allMusic = {
 
 \score {
   \allMusic
+}
+
+\score {
+  \allMusic
+  \midi { }
 }
