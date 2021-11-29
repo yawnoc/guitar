@@ -33,6 +33,8 @@ highVoiceMusic = {
   % Home theme
   \barNumberCheck #1
   \relative c' {
+    \shiftOn
+    \overrideHorizontalShift #-0.35
     e4 c |
     g'4 e8 c |
     d4 e8 d |
@@ -151,6 +153,7 @@ middleVoiceMusic = {
   % Home theme
   \barNumberCheck #1
   \relative c {
+    \shiftOff
     c16 g' e g e g e g |
     c, g' e g e g e g |
     c, g' f g f g f g |
