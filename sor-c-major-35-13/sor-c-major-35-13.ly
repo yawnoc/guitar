@@ -33,19 +33,20 @@ highVoiceMusic = {
   
   \globalSettings
   \overrideHorizontalShiftLeftABit
+  \fingeringAbove
   
   % Home theme
   \barNumberCheck #1
   \relative c' {
     \shiftOn
+    <e-0>4 <c-1> |
+    <g'-4>4 e8 c |
+    <d-4>4 <e-0>8 <d-4> |
+    <d-4>4 <c-1> |
     e4 c |
     g'4 e8 c |
-    d4 e8 d |
-    d4 c |
-    e4 c |
-    g'4 e8 c |
-    b4 c8 e |
-    d2 |
+    <b-0>4 <c-1>8 <e-0> |
+    <d-4>2 |
   }
   
   % Home theme again
@@ -64,15 +65,15 @@ highVoiceMusic = {
   % Away theme
   \barNumberCheck #17
   \relative c' {
+    <d-4>4 d |
+    <d-4>8 <c-1> <e-0> <g-4> |
+    <g-4>8 <f-1> <f-1> <f-1> |
+    <f-1>4 <e-0> |
     d4 d |
     d8 c e g |
-    g8 f f f |
-    f4 e |
-    d4 d |
-    d8 c e g |
-    f8 d e c |
+    <f-1>8 <d-4> <e-0> <c-1> |
     \revertHorizontalShift
-    b16 g a b c cis d dis |
+    <b-0>16 <g-0> a b c cis d dis |
     \overrideHorizontalShiftLeftABit
   }
   
@@ -81,12 +82,12 @@ highVoiceMusic = {
   \relative c' {
     e4 c |
     g'4 e8 c |
-    d4 e8 d |
-    d4 c |
+    d4 <e-4>8 d |
+    <d-4>4 <c-1> |
     cis4 cis |
-    e8 d f d |
-    d8 c c b |
-    c4 r4 \barLineEnd
+    <e-0>8 <d-4> <f-1> <d-4> |
+    <d-4>8 <c-1> <c-1> <b-0> |
+    <c-1>4 r4 \barLineEnd
   }
   
 }
