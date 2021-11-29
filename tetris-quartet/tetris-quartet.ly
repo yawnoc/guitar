@@ -176,7 +176,7 @@ guitarOneMusic = {
   
   % Celebration (tonic major theme)
   \barNumberCheck #89
-    \bar "||"
+    \barLineKeyChange
   \key a \major
   \relative c' {
     \fingeringAleft
@@ -209,7 +209,7 @@ guitarOneMusic = {
       <a,, e' a cis e a> <a'' e cis>
       <a,, a''> <gis-1 gis''-1> <g-1 g''-1> <fis-1 fis''-1> |
   }
-    \bar "||"
+    \barLineKeyChange
   \key a \minor
   \relative c' {
     \fingeringAleft
@@ -380,7 +380,7 @@ guitarTwoMusic = {
   
   % Celebration (tonic major theme)
   \barNumberCheck #89
-    \bar "||"
+    \barLineKeyChange
   \key a \major
   \relative c' {
     b4 gis8 a b4 a8 gis |
@@ -395,7 +395,7 @@ guitarTwoMusic = {
     <b-0>4. a8 gis4 e |
     a4 e' a2 |
   }
-    \bar "||"
+    \barLineKeyChange
   \key a \minor
   \relative c'' {
     r8 c4 c c c8~ |
@@ -553,7 +553,7 @@ guitarThreeMusic = {
   
   % Celebration (tonic major theme)
   \barNumberCheck #89
-    \bar "||"
+    \barLineKeyChange
   \key a \major
   \relative c' {
     e4 b8 cis d4 cis8 b |
@@ -566,7 +566,7 @@ guitarThreeMusic = {
     <b-0>4 b8 cis d4 e |
     cis4 a a r |
   }
-    \bar "||"
+    \barLineKeyChange
   \key a \minor
   \relative c {
     f4 c8 f a4 f |
@@ -722,7 +722,7 @@ bassMusic = {
   
   % Celebration (tonic major theme)
   \barNumberCheck #89
-    \bar "||"
+    \barLineKeyChange
   \key a \major
   \relative c, {
     e,8 e' e, e' e, e' e, e' |
@@ -734,7 +734,7 @@ bassMusic = {
     b4 b8 b b e, fis gis |
     a8 e' a, e' a, gis' g fis |
   }
-    \bar "||"
+    \barLineKeyChange
   \key a \minor
   \relative c {
     f, c' f, c' f, c' f, c' |
