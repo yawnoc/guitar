@@ -26,15 +26,18 @@ initialSignatures = {
 }
 
 
+overrideHorizontalShiftLeftABit = { \overrideHorizontalShift #-0.4 }
+
+
 highVoiceMusic = {
   
   \globalSettings
+  \overrideHorizontalShiftLeftABit
   
   % Home theme
   \barNumberCheck #1
   \relative c' {
     \shiftOn
-    \overrideHorizontalShift #-0.35
     e4 c |
     g'4 e8 c |
     d4 e8 d |
@@ -68,7 +71,9 @@ highVoiceMusic = {
     d4 d |
     d8 c e g |
     f8 d e c |
+    \revertHorizontalShift
     b16 g a b c cis d dis |
+    \overrideHorizontalShiftLeftABit
   }
   
   % Home theme final
