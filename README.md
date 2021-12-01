@@ -8,7 +8,7 @@ Classical Guitar scores, typeset in [LilyPond].
   into the Public Domain under CC0; see [LICENSE].
 
 
-## Releases
+## PDF Releases
 
 * [El Vito v1.0.0][el-vito]
 * [Lágrima v1.1.0][lagrima]
