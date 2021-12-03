@@ -27,7 +27,7 @@ origin-url = "https://github.com/yawnoc/guitar"
     \center-column {
       \vspace #1
       \concat {
-        "This arrangement is released into the public domain (CC0)."
+        "This score is released into the public domain (CC0)."
       }
       \concat {
         "Lilypond source code available at <"
