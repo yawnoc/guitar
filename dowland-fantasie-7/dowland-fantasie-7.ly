@@ -21,6 +21,19 @@ initialSignatures = {
   \clef "treble_8"
   \key e \major
   \time 2/2
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment = #(ly:make-moment 1/4)
+  \set Timing.beatStructure = #'(1 1 1 1)
+  \set Timing.beamExceptions = #'(
+    (
+      end
+        .
+      (
+        ((1 . 8) . (4 4)) ;; quavers by fours
+        ((1 . 12) . (3 3 3 3)) ;; anything shorter by beat
+      )
+    )
+  )
 }
 
 
