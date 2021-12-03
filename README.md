@@ -10,10 +10,10 @@ Classical Guitar scores, typeset in [LilyPond].
 
 ## PDF Releases
 
-* [El Vito v1.0.0][el-vito]
-* [Lágrima v1.1.0][lagrima]
-* [Sor Study in C (Opus 35, Number 13) v1.0.0][sor-c-major-35-13]
-* [Tetris Theme Quartet Arrangement v1.2.0][tetris-quartet]
+* [El Vito v1.1.0][el-vito]
+* [Lágrima v1.2.0][lagrima]
+* [Sor Study in C (Opus 35, Number 13) v1.1.0][sor-c-major-35-13]
+* [Tetris Theme Quartet Arrangement v1.3.0][tetris-quartet]
 
 
 ## Remarks on note durations
@@ -58,13 +58,13 @@ Just play the duration that sounds good.
 [lilypond]: https://lilypond.org/
 
 [el-vito]:
-  https://github.com/yawnoc/guitar/releases/tag/el-vito-v1.0.0
+  https://github.com/yawnoc/guitar/releases/tag/el-vito-v1.1.0
 [lagrima]:
-  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.1.0
+  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.2.0
 [sor-c-major-35-13]:
-  https://github.com/yawnoc/guitar/releases/tag/sor-c-major-35-13-v1.0.0
+  https://github.com/yawnoc/guitar/releases/tag/sor-c-major-35-13-v1.1.0
 [tetris-quartet]:
-  https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.2.0
+  https://github.com/yawnoc/guitar/releases/tag/tetris-quartet-v1.3.0
 
 [yates-recuerdos]: https://stanleyyates.com/scores/rdla.pdf
 [yates-recuerdos-archived]:
