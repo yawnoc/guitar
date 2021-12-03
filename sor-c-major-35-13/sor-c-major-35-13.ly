@@ -14,7 +14,7 @@
     }
   }
   composer = "Fernando Sor"
-  arranger = "Conway"
+  arranger = "Conway (edits)"
 }
 
 

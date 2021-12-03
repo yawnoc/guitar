@@ -7,7 +7,7 @@
 \header {
   title = "El Vito"
   composer = "Spanish Traditional"
-  arranger = "Conway"
+  arranger = "Conway (arrangement)"
 }
 
 

@@ -5,7 +5,7 @@
   title = "Tetris Theme Quartet Arrangement"
   subtitle = "Коробе́йники (Korobeiniki), a folk song"
   composer = "Russian Traditional"
-  arranger = "Conway"
+  arranger = "Conway (arrangement)"
 }
 
 

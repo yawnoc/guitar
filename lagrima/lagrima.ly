@@ -8,7 +8,7 @@
   title = "Lágrima"
   subtitle = "or, Teardrop"
   composer = "Francisco Tárrega"
-  arranger = "Conway"
+  arranger = "Conway (edits)"
 }
 
 
