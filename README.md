@@ -40,7 +40,9 @@ If the actual durations were written out, it would read:
 Although this is more accurate, it is not very readable.
 Therefore we stick with the first version (readability over accuracy).
 
-In general, I think arguing/worrying about notation is counter-productive.
+**In general, notes might ring for longer than notated in my scores.**
+It is up to the guitarist to either mute or let ring.
+In my opinion, arguing/worrying too much about notation is counter-productive.
 Just play the duration that sounds good.
 
 
