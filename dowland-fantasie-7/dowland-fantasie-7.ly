@@ -41,6 +41,19 @@ highVoiceMusic = {
     <e b> dis e
   }
   
+  % Main theme low
+  \barNumberCheck #10
+  \relative c' {
+    b4 |
+    gis b a gis |
+    fis4. gis8 a b cis dis |
+    <e b> fis gis e a4 gis~ |
+    gis fis gis4. gis8 |
+    <cis, gis>4 e fis gis |
+    b,8 e e4 r16 e dis cis dis16 e8 dis16 |
+    e4
+  }
+  
 }
 
 
