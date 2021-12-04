@@ -152,6 +152,18 @@ lowVoiceMusic = {
     dis2 e |
     b4. b8 cis b cis dis |
     e2 dis4 b |
+    s1 * 3 |
+    s2
+  }
+  
+  % Ascending scale
+  \barNumberCheck #35
+  \relative c, {
+    r4 e8 fis |
+    gis a <b fis'> cis dis b cis ais |
+    <b fis'>4 ais b fis |
+    b gis a cis |
+    b2
   }
   
 }
@@ -211,6 +223,16 @@ upperMiddleMusic = {
     b2 cis4. s8 |
     s2 cis4 b |
     a2
+  }
+  
+  % Ascending scale
+  \barNumberCheck #35
+  \relative c {
+    e8 fis gis a |
+    b cis dis e <fis b,> dis e cis |
+    cis fis~ fis16 cis fis8~ fis16 dis fis8~ fis16 e dis cis |
+    dis cis b ais b cis dis b cis b cis dis e fis gis e |
+    fis e dis cis \tuplet 3/2 { e8 dis e32 dis cis dis } <e b gis>4
   }
   
 }
