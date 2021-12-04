@@ -52,8 +52,8 @@ highVoiceMusic = {
     gis8. a16 b4 a gis |
     fis4. fis8 e8 b4 d8 |
     cis4 b a8. b16 cis8 dis |
-    e2 dis8 cis16 dis <e~ b~>4 |
-    <e b> dis e
+    e2 s2 |
+    s2 s4
   }
   
   % Main theme low
@@ -168,8 +168,8 @@ upperMiddleMusic = {
     b4. e8 cis8 dis e4 |
     b2 s2 |
     s2 fis4 s4 |
-    gis8 a b cis s2 |
-    s2 s4
+    gis8 a b cis dis8 cis16 dis <e~ b~>4 |
+    <e b> dis e
   }
   
   % Main theme low
