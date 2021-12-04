@@ -39,6 +39,8 @@ initialSignatures = {
 
 highVoiceMusic = {
   
+  \override NoteHead.color = #darkblue
+  
   % Main theme high
   \barNumberCheck #1
   \relative c'' {
@@ -73,6 +75,8 @@ highVoiceMusic = {
 
 lowVoiceMusic = {
   
+  \override NoteHead.color = #darkgreen
+  
   % Main theme high
   \barNumberCheck #1
   \relative c {
@@ -102,6 +106,8 @@ lowVoiceMusic = {
 
 upperMiddleMusic = {
   
+  \override NoteHead.color = #darkyellow
+  
   % Main theme high
   \barNumberCheck #1
   \relative c' {
@@ -130,6 +136,8 @@ upperMiddleMusic = {
 
 
 lowerMiddleMusic = {
+  
+  \override NoteHead.color = #darkmagenta
   
   % Main theme high
   \barNumberCheck #1
