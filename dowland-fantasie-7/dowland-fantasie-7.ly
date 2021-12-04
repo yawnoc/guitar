@@ -71,6 +71,9 @@ highVoiceMusic = {
 
 
 allMusic = {
+  \new Staff \with {
+    midiInstrument = #"acoustic guitar (nylon)"
+  }
   \globalSettings
   \initialSignatures
   <<
@@ -81,4 +84,9 @@ allMusic = {
 
 \score {
   \allMusic
+}
+
+\score {
+  \allMusic
+  \midi { }
 }
