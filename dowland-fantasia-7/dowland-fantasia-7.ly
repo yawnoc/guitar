@@ -5,7 +5,7 @@
 
 
 \header {
-  title = "Fantasie Number 7"
+  title = "Fantasia Number 7"
   subtitle = \markup {
     \center-column {
       "Diana Poulton Number 1a: A Fantasie"

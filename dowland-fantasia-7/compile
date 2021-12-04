@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 git clean -Xf
-lilypond dowland-fantasie-7
+lilypond dowland-fantasia-7
