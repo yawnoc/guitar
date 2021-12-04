@@ -332,7 +332,9 @@ lowerMiddleVoiceMusic = {
       e2 |
     s2 a8 fis a b |
     cis4 b a gis |
-    fis2 e4
+    fis2
+      \footnote "†" #'(0 . -2.5) \markup { }
+      e4
   }
   
   % Ascending scale
