@@ -123,7 +123,7 @@ upperMiddleMusic = {
     s2 s4 b4 |
     a4 s4 b8. e16 dis8 cis |
     b2 s2 |
-    s4
+    gis4
   }
   
 }
@@ -154,7 +154,7 @@ lowerMiddleMusic = {
     gis4. s8 fis8 e e4 |
     e8. e16 dis4 e4 a |
     gis2 fis4. fis8 |
-    <e gis>4
+    e4
   }
   
 }
