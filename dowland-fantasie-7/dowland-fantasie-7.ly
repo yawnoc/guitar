@@ -266,7 +266,7 @@ lowerMiddleMusic = {
     fis4. fis8 e2 |
     s2 a8 fis a b |
     cis4 b a gis |
-    fis2
+    fis2 e4
   }
   
 }
