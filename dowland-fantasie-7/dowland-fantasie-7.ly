@@ -86,6 +86,19 @@ highVoiceMusic = {
     e16 e dis cis dis e cis dis e4
   }
   
+  % Tee-tee taa low
+  \barNumberCheck #28
+  \relative c' {
+    b4~ |
+    b8 fis a4~ a8 b gis4~ |
+    gis8 fis dis4 e4. fis8 |
+    gis fis gis a b4. b8 |
+    cis b cis dis e2 |
+    dis8 b dis e fis2 |
+    e8 a~ a16 a gis8~ gis16 gis fis8~ fis16 fis e8~ |
+    e16 e dis cis dis e cis dis e2 |
+  }
+  
 }
 
 
@@ -130,6 +143,15 @@ lowVoiceMusic = {
     e dis' cis2 |
     <b dis> b |
     b e,4
+  }
+  
+  % Tee-tee taa low
+  \barNumberCheck #28
+  \relative c {
+    r4 |
+    dis2 e |
+    b4. b8 cis b cis dis |
+    e2 dis4 b |
   }
   
 }
@@ -179,6 +201,18 @@ upperMiddleMusic = {
     fis2 e4
   }
   
+  % Tee-tee taa low
+  \barNumberCheck #28
+  \relative c {
+    s4 |
+    s1 * 2 |
+    s2 fis2 |
+    a4. a8 gis fis gis a |
+    b2 cis4. s8 |
+    s2 cis4 b |
+    a2
+  }
+  
 }
 
 
@@ -220,6 +254,19 @@ lowerMiddleMusic = {
     fis2 e |
     s4 b' a gis |
     fis2 e4 fis |
+    s1 * 5 |
+    s2 s4
+  }
+  
+  % Tee-tee taa low
+  \barNumberCheck #28
+  \relative c {
+    s4 |
+    s1 * 3 |
+    fis4. fis8 e2 |
+    s2 a8 fis a b |
+    cis4 b a gis |
+    fis2
   }
   
 }
