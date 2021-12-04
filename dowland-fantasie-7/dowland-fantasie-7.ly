@@ -136,6 +136,13 @@ highVoiceMusic = {
     e2 s2 |
   }
   
+  % Scale runs
+  \barNumberCheck #59
+  \relative c' {
+    r16 <e b>8. s4 s2 |
+    s1 * 9 |
+  }
+  
 }
 
 
@@ -229,6 +236,21 @@ lowVoiceMusic = {
     e,8 e' dis4 e, b' |
     e,8 gis fis4 e b' |
     e,8 e' dis4 e, b' |
+  }
+  
+  % Scale runs
+  \barNumberCheck #59
+  \relative c, {
+    e2 e |
+    b' b |
+    a a |
+    e e |
+    cis' a |
+    b gis |
+    a b |
+    e, e'4 b |
+    cis a b gis |
+    a cis b2 |
   }
   
 }
@@ -332,6 +354,36 @@ upperMiddleVoiceMusic = {
     r8 e fis16 gis a fis gis8 e fis dis |
   }
   
+  % Scale runs
+  \barNumberCheck #59
+  \relative c' {
+    s16 gis e fis gis a b cis
+      b e, e fis gis a b cis |
+    dis b b cis dis e fis gis
+      fis b, b cis dis e fis gis |
+    a a, a b cis cis cis dis
+      e a, a b cis dis e fis |
+    gis fis e dis e fis gis fis
+      gis e fis gis fis dis e fis |
+    e dis e fis gis fis gis e
+      fis e fis gis fis e dis cis |
+    dis cis dis e dis cis b ais
+      b ais b cis dis cis dis b |
+    cis b cis dis e dis e cis
+      dis cis dis e fis e fis dis |
+    e dis e fis gis fis e dis
+      e fis gis e
+      fis dis e fis |
+    e fis gis e
+      a gis fis e
+      dis cis b ais
+      b cis dis b |
+    cis b cis dis
+      e fis gis e
+      fis e dis cis
+      \tuplet 3/2 { e8 dis e32 dis cis dis } |
+  }
+  
 }
 
 
@@ -416,6 +468,12 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #46
   {
     s1 * 13 |
+  }
+  
+  % Scale runs
+  \barNumberCheck #59
+  {
+    s1 * 10 |
   }
   
 }
