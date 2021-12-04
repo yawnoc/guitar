@@ -232,7 +232,7 @@ upperMiddleVoiceMusic = {
   \relative c {
     e8 fis gis a |
     b cis dis e <fis b,> dis e cis |
-    cis fis~ fis16 cis fis8~ fis16 dis fis8~ fis16 e dis cis |
+    dis fis~ fis16 cis fis8~ fis16 dis fis8~ fis16 e dis cis |
     dis cis b ais b cis dis b cis b cis dis e fis gis e |
     fis e dis cis \tuplet 3/2 { e8 dis e32 dis cis dis } <e b gis>4
   }
