@@ -8,8 +8,8 @@
   title = "Fantasie Number 7"
   subtitle = \markup {
     \center-column {
-      "Diana Poulton Number 1a: A Fantasie,"
-      "in Standard tuning (per Conway's teacher, Mr Hall)"
+      "Diana Poulton Number 1a: A Fantasie"
+      "Standard tuning (per Conway's teacher, Mr Hall)"
     }
   }
   composer = "John Dowland"
