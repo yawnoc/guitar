@@ -71,14 +71,50 @@ highVoiceMusic = {
 
 
 lowVoiceMusic = {
+  
+  % Main theme high
+  \barNumberCheck #1
+  \relative c {
+    s1 * 6 |
+    b2 gis4 b |
+    a gis fis a |
+    e gis fis e |
+    b'2 e,4
+  }
+  
 }
 
 
 upperMiddleMusic = {
+  
+  % Main theme high
+  \barNumberCheck #1
+  \relative c' {
+    s1 * 5 |
+    b4. e8 cis8 dis e4 |
+    b2 s2 |
+    s1 |
+    gis8 a b cis
+  }
+  
 }
 
 
 lowerMiddleMusic = {
+  
+  % Main theme high
+  \barNumberCheck #1
+  \relative c' {
+    s1 * 3 |
+    b2 gis4 b |
+    a gis fis2 |
+    e4. gis8 fis4 e |
+    fis8. e16 dis4 e4 fis~ |
+    fis8 e e4 <fis cis>4 a, |
+    b e a gis |
+    fis8 e fis4 e
+  }
+  
 }
 
 
