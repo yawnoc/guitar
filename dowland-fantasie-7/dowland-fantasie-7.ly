@@ -155,6 +155,37 @@ highVoiceMusic = {
       b16 cis dis cis dis b cis8 |
   }
   
+  % Triple runs
+  \barNumberCheck #75
+  \relative c' {
+    \triplet { dis8 cis4 } \triplet { dis8 b4 }
+      \triplet { b8 dis4 } \triplet { cis8 e dis } |
+    \triplet { e8 gis fis } \triplet { gis8 e4 }
+      \triplet { e8 gis4 } \triplet { fis8 a gis } |
+    \triplet { a8 e4 } \triplet { e8 a e }
+      \triplet { e8 fis4 } \triplet { e8 cis4 } |
+    \triplet { dis8 fis4 } \triplet { dis8 b cis }
+      \triplet { dis8 fis a, } \triplet { b e dis } |
+    \tripletDuple { gis2. } \tripletDuple { gis } |
+    \tripletDuple { fis } \tripletDuple { fis } |
+    \tripletDuple { b } \tripletDuple { b } |
+    \tripletDuple { a } \tripletDuple { a } |
+    \tripletDuple { gis } \tripletDuple { gis } |
+    \tripletDuple { fis } \tripletDuple { fis } |
+    \tripletDuple { e } \tripletDuple { e } |
+    \triplet { e8 e d } \triplet { cis cis b }
+      \triplet { a a gis } s4 |
+    \tripletDuple { e'2. } s2 |
+  }
+  
+  % Finishing chords
+  \barNumberCheck #88
+  \relative c {
+    r8 <e b' e>4.
+      <e, b' e gis b e>2 \arpeggio
+      \barLineEnd
+  }
+  
 }
 
 
@@ -274,6 +305,43 @@ lowVoiceMusic = {
     fis,8 fis'4 eis8 fis4 cis |
     e,8 e'4 dis8~ dis e <b~ fis'>4 |
     b8 b4.~ b8 b4 ais8 |
+  }
+  
+  % Triple runs
+  \barNumberCheck #75
+  \relative c {
+    \triplet { <b fis'>4 ais8 } \triplet { b4 gis8 }
+      \triplet { gis4 b8 } \triplet { a4 b8 } |
+    \triplet { e4 dis8 } \triplet { e4 cis8 }
+      \triplet { cis4 e8 } \triplet { d4 e8 } |
+    \triplet { a,4 cis8 } \triplet { cis4. }
+      \triplet { cis4 d8 } \triplet { cis4 a8 } |
+    \triplet { <b fis'>4 fis8 } \triplet { <b fis'>4 fis8 }
+      \triplet { <b fis'>4 fis8 } \triplet { gis4 <b fis'>8 } |
+    \triplet { e,8 e' e } \triplet { e e e }
+      \triplet { r e, e } \triplet { e e e } |
+    \triplet { b' b ais } \triplet { b b fis }
+      \triplet { b b fis } \triplet { b b a } |
+    \triplet { gis e b' } \triplet { gis e b' }
+      \triplet { gis e b' } \triplet { gis e e } |
+    \triplet { a a a } \triplet { a a b }
+      \triplet { cis cis b } \triplet { cis cis dis } |
+    \triplet { e e e } \triplet { e, e e }
+      \triplet { e e fis } \triplet { gis gis a } |
+    \triplet { b b ais } \triplet { b b fis }
+      \triplet { a a fis } \triplet { b b a } |
+    \triplet { gis e gis } \triplet { a e a }
+      \triplet { gis gis e } \triplet { e' e d } |
+    \triplet { cis cis b } \triplet { a a gis }
+      \triplet { cis cis b } \triplet { a a gis } |
+    \triplet { a gis a } \triplet { gis a gis }
+      \triplet { a gis a } \triplet { gis8 a4 } |
+  }
+  
+  % Finishing chords
+  \barNumberCheck #88
+  \relative c, {
+    e2 s2 |
   }
   
 }
@@ -415,6 +483,22 @@ upperMiddleVoiceMusic = {
     s1 |
     s8 cis4. cis4 s4 |
     s8 b4. s2 |
+    s1 |
+  }
+  
+  % Triple runs
+  \barNumberCheck #75
+  \relative c' {
+    s1 * 11 |
+    s2 \triplet { e8 e4 } \triplet { cis8 cis b } |
+    \triplet { cis b cis } \triplet { b cis b }
+      \triplet { cis b cis } \triplet { b8. cis16 a8 } |
+  }
+  
+  % Finishing chords
+  \barNumberCheck #88
+  \relative c' {
+    s8 a gis fis e2 |
   }
   
 }

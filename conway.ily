@@ -48,6 +48,13 @@ triplet = #(define-music-function
   #}
 )
 
+tripletDuple = #(define-music-function
+  (parser location music) (ly:music?)
+  #{
+    \tuplet 6/4 { $music }
+  #}
+)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Semantic bar lines
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
