@@ -327,7 +327,9 @@ lowerMiddleVoiceMusic = {
   \relative c {
     s4 |
     s1 * 3 |
-    fis4. fis8 e2 |
+    fis4. fis8
+      \footnote "†" #'(0 . -3) \markup { "†" \resonatesOn E 6 }
+      e2 |
     s2 a8 fis a b |
     cis4 b a gis |
     fis2 e4
