@@ -60,7 +60,7 @@ highVoiceMusic = {
     b4 |
     gis b a gis |
     fis4. gis8 a b cis dis |
-    <e b> fis gis e a4 gis~ |
+    e fis gis e a4 gis~ |
     gis fis gis4. gis8 |
     cis,4 e fis gis |
     a4. a8 gis4 fis |
@@ -83,6 +83,20 @@ lowVoiceMusic = {
     b'2 e,4
   }
   
+  % Main theme low
+  \barNumberCheck #10
+  \relative c {
+    r4 |
+    r4 e cis e~ |
+    e dis cis a |
+    gis e fis gis |
+    a2 gis |
+    cis4. b8 a4 gis |
+    fis r e fis |
+    gis4. a8 b2 |
+    e,4
+  }
+  
 }
 
 
@@ -95,7 +109,21 @@ upperMiddleMusic = {
     b4. e8 cis8 dis e4 |
     b2 s2 |
     s1 |
-    gis8 a b cis
+    gis8 a b cis s2 |
+    s2 s4
+  }
+  
+  % Main theme low
+  \barNumberCheck #10
+  \relative c' {
+    s4 |
+    s1 * 2 |
+    b2 cis8 dis e4~ |
+    e8 dis cis4 dis2 |
+    s2 s4 b4 |
+    a4 s4 b8. e16 dis8 cis |
+    b2 s2 |
+    s4
   }
   
 }
@@ -114,6 +142,19 @@ lowerMiddleMusic = {
     fis8 e e4 <fis cis>4 a, |
     b e a gis |
     fis8 e fis4 e
+  }
+  
+  % Main theme low
+  \barNumberCheck #10
+  \relative c {
+    s4 |
+    s1 * 2 |
+    e2 s4 b'4~ |
+    b cis cis8. cis16 bis4 |
+    gis4. s8 fis8 e e4 |
+    e8. e16 dis4 e4 a |
+    gis2 fis4. fis8 |
+    <e gis>4
   }
   
 }
