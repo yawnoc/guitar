@@ -169,7 +169,7 @@ lowVoiceMusic = {
 }
 
 
-upperMiddleMusic = {
+upperMiddleVoiceMusic = {
   
   \override NoteHead.color = #darkyellow
   
@@ -238,7 +238,7 @@ upperMiddleMusic = {
 }
 
 
-lowerMiddleMusic = {
+lowerMiddleVoiceMusic = {
   
   \override NoteHead.color = #darkmagenta
   
@@ -305,9 +305,9 @@ allMusic = {
       \\
     << \lowVoiceMusic >>
       \\
-    << \upperMiddleMusic >>
+    << \upperMiddleVoiceMusic >>
       \\
-    << \lowerMiddleMusic >>
+    << \lowerMiddleVoiceMusic >>
   >>
 }
 
