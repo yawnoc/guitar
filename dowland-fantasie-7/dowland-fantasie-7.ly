@@ -247,11 +247,11 @@ upperMiddleVoiceMusic = {
     s4 |
     s1 * 2 |
     s2 fis2 |
-    \footnote "*" #'(0 . -5) \markup { "*" \resonatesOn A 5 }
+    \footnote "*" #'(0 . -4) \markup { "*" \resonatesOn A 5 }
     a4. a8 gis fis gis a |
     b2 cis4. s8 |
     s2 cis4 b |
-    \footnote "*" #'(0 . -5) \markup { }
+    \footnote "*" #'(0 . -4) \markup { }
     a2
   }
   
@@ -328,7 +328,7 @@ lowerMiddleVoiceMusic = {
     s4 |
     s1 * 3 |
     fis4. fis8
-      \footnote "†" #'(0 . -3) \markup { "†" \resonatesOn E 6 }
+      \footnote "†" #'(0 . -2.5) \markup { "†" \resonatesOn E 6 }
       e2 |
     s2 a8 fis a b |
     cis4 b a gis |
