@@ -63,7 +63,7 @@ highVoiceMusic = {
     <e b> fis gis e a4 gis~ |
     gis fis gis4. gis8 |
     <cis, gis>4 e fis gis |
-    b,8 e e4 r16 e dis cis dis16 e8 dis16 |
+    b,8 e e4~ e16 e dis cis dis16 e8 dis16 |
     e4
   }
   
