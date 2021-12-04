@@ -99,6 +99,25 @@ highVoiceMusic = {
     e16 e dis cis dis e cis dis e2 |
   }
   
+  % Ascending scale
+  \barNumberCheck #36
+  {
+    s1 * 3 |
+    s2
+  }
+  
+  % Tee-tee-tee
+  \barNumberCheck #39
+  \relative c' {
+    s2 |
+    s2 r8 e e e |
+    dis b~ b16 cis dis8 r8 cis' cis cis |
+    b8 gis~ gis16 a b8 a8 fis a4 |
+    gis4. a8~ a gis fis4 |
+    eis8 fis~ fis16 fis eis8 r8 fis fis fis |
+    dis8. e16 fis8 r b,8 e~ e16 e dis8 |
+  }
+  
 }
 
 
@@ -164,6 +183,15 @@ lowVoiceMusic = {
     <b fis'>4 ais b fis |
     b gis a cis |
     b2
+  }
+  
+  % Tee-tee-tee
+  \barNumberCheck #39
+  \relative c, {
+    e8 e'4 e8 |
+    dis8 b~ b16 cis dis8 cis2 |
+    b4 gis a2 |
+    gis4 e fis2 |
   }
   
 }
@@ -237,6 +265,18 @@ upperMiddleVoiceMusic = {
     fis e dis cis \tuplet 3/2 { e8 dis e32 dis cis dis } <e b gis>4
   }
   
+  % Tee-tee-tee
+  \barNumberCheck #39
+  \relative c' {
+    <b gis>4 |
+    <b fis> <b fis> a8 gis16 fis gis16 b ais8 |
+    b4 s4 s2 |
+    s2 cis4 cis |
+    cis <cis gis> fis,2 |
+    gis8 fis gis4 <ais fis>2 |
+    fis8 fis fis dis gis4 fis |
+  }
+  
 }
 
 
@@ -291,6 +331,26 @@ lowerMiddleVoiceMusic = {
     s2 a8 fis a b |
     cis4 b a gis |
     fis2 e4
+  }
+  
+  % Ascending scale
+  \barNumberCheck #35
+  {
+    s4 |
+    s1 * 3 |
+    s2
+  }
+  
+  % Tee-tee-tee
+  \barNumberCheck #39
+  \relative c {
+    s2 |
+    s1 |
+    s2 s8 fis4. |
+    s2 fis4. fis8 |
+    e8 cis4. d4. d8 |
+    cis4 cis <cis fis,>2 |
+    r8 b b b gis8. a16 b4 |
   }
   
 }
