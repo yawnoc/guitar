@@ -219,9 +219,11 @@ upperMiddleVoiceMusic = {
     s4 |
     s1 * 2 |
     s2 fis2 |
+    \footnote "*" #'(0 . -5) \markup { "*" \resonatesOn A 5 }
     a4. a8 gis fis gis a |
     b2 cis4. s8 |
     s2 cis4 b |
+    \footnote "*" #'(0 . -5) \markup { }
     a2
   }
   
