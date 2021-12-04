@@ -70,6 +70,18 @@ highVoiceMusic = {
 }
 
 
+lowVoiceMusic = {
+}
+
+
+upperMiddleMusic = {
+}
+
+
+lowerMiddleMusic = {
+}
+
+
 allMusic = {
   \new Staff \with {
     midiInstrument = #"acoustic guitar (nylon)"
@@ -78,6 +90,12 @@ allMusic = {
   \initialSignatures
   <<
     << \highVoiceMusic >>
+      \\
+    << \lowVoiceMusic >>
+      \\
+    << \upperMiddleMusic >>
+      \\
+    << \lowerMiddleMusic >>
   >>
 }
 
