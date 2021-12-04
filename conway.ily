@@ -8,6 +8,7 @@
   right-margin = 1.5\cm
   bottom-margin = 1.5\cm
   ragged-last-bottom = ##f
+  footnote-separator-markup = \markup { \vspace #1.5 }
 }
 
 globalSettings = {
@@ -18,6 +19,7 @@ globalSettings = {
   \numericTimeSignature
   \pointAndClickOff
   \override TextScript.extra-offset = #'(0 . 0.7)
+  \override Score.FootnoteItem.annotation-line = ##f
 }
 
 origin-url = "https://github.com/yawnoc/guitar"
@@ -38,6 +40,20 @@ origin-url = "https://github.com/yawnoc/guitar"
   }
   tagline = ##f
 }
+
+triplet = #(define-music-function
+  (parser location music) (ly:music?)
+  #{
+    \tuplet 3/2 { $music }
+  #}
+)
+
+tripletDuple = #(define-music-function
+  (parser location music) (ly:music?)
+  #{
+    \tuplet 6/4 { $music }
+  #}
+)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Semantic bar lines
@@ -191,6 +207,24 @@ position = #(define-scheme-function
       }
     }
   #}
+)
+
+#(define-markup-command
+  (markupString layout properties stringNumber) (markup?)
+  (interpret-markup layout properties
+    #{
+      \markup \circle { \bold #stringNumber }
+    #}
+  )
+)
+
+#(define-markup-command
+  (resonatesOn layout properties note stringNumber) (markup? markup?)
+  (interpret-markup layout properties
+    #{
+      \markup { #note "resonates on" \markupString #stringNumber }
+    #}
+  )
 )
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
