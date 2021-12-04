@@ -143,6 +143,18 @@ highVoiceMusic = {
     s1 * 9 |
   }
   
+  % Majestic interlude
+  \barNumberCheck #69
+  \relative c'' {
+    s1 |
+    r8 gis4 fis8 gis e fis dis |
+    s1 |
+    r8 a'4 gis8 a fis gis eis |
+    r8 gis~ gis16 gis fis8~ fis16 gis e8 dis b |
+    fis'8. e16 dis cis b ais
+      b16 cis dis cis dis b cis8 |
+  }
+  
 }
 
 
@@ -251,6 +263,17 @@ lowVoiceMusic = {
     e, e'4 b |
     cis a b gis |
     a cis b2 |
+  }
+  
+  % Majestic interlude
+  \barNumberCheck #69
+  \relative c, {
+    e8 e'4 dis8 e4 b |
+    e,8 e'4 dis8 e4 b |
+    fis8 fis'4 eis8 fis4 cis |
+    fis,8 fis'4 eis8 fis4 cis |
+    e,8 e'4 dis8~ dis e <b~ fis'>4 |
+    b8 b4.~ b8 b4 ais8 |
   }
   
 }
@@ -384,6 +407,16 @@ upperMiddleVoiceMusic = {
       \tuplet 3/2 { e8 dis e32 dis cis dis } |
   }
   
+  % Majestic interlude
+  \barNumberCheck #69
+  \relative c' {
+    s1 |
+    s8 b4. b4 s4 |
+    s1 |
+    s8 cis4. cis4 s4 |
+    s8 b4. s2 |
+  }
+  
 }
 
 
@@ -474,6 +507,15 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #59
   {
     s1 * 10 |
+  }
+  
+  % Majestic interlude
+  \barNumberCheck #69
+  \relative c' {
+    r8 gis4 fis8 gis e fis dis |
+    s1 |
+    r8 a'4 gis8 a fis gis eis |
+    s1 * 3 |
   }
   
 }
