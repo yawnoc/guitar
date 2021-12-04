@@ -178,7 +178,7 @@ lowVoiceMusic = {
   % Ascending scale
   \barNumberCheck #35
   \relative c, {
-    r4 e8 fis |
+    s4 e8 fis |
     gis a <b fis'> cis dis b cis ais |
     <b fis'>4 ais b fis |
     b gis a cis |
