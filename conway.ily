@@ -41,6 +41,13 @@ origin-url = "https://github.com/yawnoc/guitar"
   tagline = ##f
 }
 
+triplet = #(define-music-function
+  (parser location music) (ly:music?)
+  #{
+    \tuplet 3/2 { $music }
+  #}
+)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Semantic bar lines
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
