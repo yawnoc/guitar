@@ -568,9 +568,11 @@ lowerMiddleVoiceMusic = {
   % Tee-tee taa high
   \barNumberCheck #18
   \relative c {
+    \shiftOff
     r4 r e |
     fis8 gis a4~ a8 a gis4 |
     fis2 e |
+    \shiftOn
     s4 b' a gis |
     fis2 e4 fis |
     s1 * 5 |
