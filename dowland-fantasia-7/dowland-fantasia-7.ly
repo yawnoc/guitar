@@ -506,7 +506,11 @@ upperMiddleVoiceMusic = {
     \stemDown s4. dis'8 e4 s4 \stemUp |
     \revertHorizontalShift
     g,8\rest b8 fis a gis e fis dis |
-    s2 b'4 s4 |
+    s2
+      \stemDown
+        \once \overrideHorizontalShift #0 b'4
+      \stemUp
+      s4 |
     g8\rest cis b a gis8 fis16 e fis8 dis |
     s1 |
     g8\rest e fis16 gis a fis gis8 e fis dis |
