@@ -498,7 +498,9 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #46
   \relative c' {
     r8 gis fis a gis e fis dis |
-    s8 b'4 s8 b4 s4 |
+    \overrideHorizontalShift #0
+    \stemDown s8 b'4 s8 b4 s4 \stemUp |
+    \revertHorizontalShift
     r8 b8 fis a gis e fis dis |
     s4. dis'8 e4 s4 |
     r8 b8 fis a gis e fis dis |
