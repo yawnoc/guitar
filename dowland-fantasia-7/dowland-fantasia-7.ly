@@ -84,7 +84,7 @@ highVoiceMusic = {
     s2 c4.\rest e,8 |
     fis8 gis a4~ a8 a gis4 |
     fis2 e2~ |
-    e4. fis8 gis8 a b4~ |
+    \once \overrideHorizontalShift #-0.25 e4. fis8 gis8 a b4~ |
     b ais b4. a8 |
     gis8 fis e8 fis16 gis a4. gis8 |
     <fis dis>8 e fis8 gis16 a b4 a |
@@ -230,7 +230,7 @@ lowVoiceMusic = {
     s4 s4 s4 |
     s1 * 2 |
     b4. b8 cis8 dis e4~ |
-    e8 e dis4 e4 <dis fis> |
+    \once \overrideHorizontalShift #1 e8 e dis4 e4 <dis fis> |
     cis2 b |
     e, a |
     b4. a8 gis4 fis |
@@ -404,7 +404,7 @@ upperMiddleVoiceMusic = {
     s2 b4 e_~ |
     \once \overrideHorizontalShift #0.9 e8 e
       \once \overrideHorizontalShift #0 dis4 s2 |
-    b2 b4. b8 |
+    \once \overrideHorizontalShift #0 b2 b4. b8 |
     cis8 dis e4 e8. e16 dis4 |
     e4. dis8 cis8 b cis4 |
     b4. s8 b8\rest e4 dis8~ |
@@ -593,7 +593,7 @@ lowerMiddleVoiceMusic = {
     \shiftOn
     \stemUp
     s4 \once \overrideHorizontalShift #0 b' a gis |
-    fis2 s2 |
+    \once \overrideHorizontalShift #0 fis2 s2 |
     \stemDown
     s1 * 5 |
     s2 s4
