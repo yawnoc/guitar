@@ -562,7 +562,7 @@ lowerMiddleVoiceMusic = {
       \overrideHorizontalShift #0 e4 a |
       \revertHorizontalShift
     \once \overrideHorizontalShift #-0.07 gis2 fis4. fis8 |
-    e4
+    \once \overrideHorizontalShift #0 e4
   }
   
   % Tee-tee taa high
