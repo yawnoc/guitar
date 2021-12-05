@@ -100,8 +100,10 @@ highVoiceMusic = {
     b8 fis a4~ a8 b gis4~ |
     gis8 fis dis4 e4. fis8 |
     gis fis gis a b4. b8 |
+    \shiftOn
     cis b cis dis e2 |
     dis8 b dis e fis2 |
+    \shiftOff
     e8 a~ a16 a gis8~ gis16 gis fis8~ fis16 fis e8~ |
     e16 e dis cis dis e cis dis e2 |
   }
@@ -428,8 +430,10 @@ upperMiddleVoiceMusic = {
     s1 * 2 |
     s2 \stemDown fis2 \stemUp |
     \footnote "*" #'(0 . -4) \markup { "*" \resonatesOn A 5 }
+    \shiftOff
     a4. a8 gis fis gis a |
     b2 cis |
+    \shiftOn
     s2 cis4 b |
     \footnote "*" #'(0 . -4) \markup { }
     a2
