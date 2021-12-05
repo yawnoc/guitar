@@ -435,9 +435,14 @@ upperMiddleVoiceMusic = {
     a4. a8 gis fis gis a |
     \stemDown b2 \stemUp cis |
     \shiftOn
-    s2 cis4 b |
+    s2
+      \stemDown
+      \overrideHorizontalShift #0
+      cis4 b |
     \footnote "*" #'(0 . -4) \markup { }
     a2
+      \stemUp
+      \revertHorizontalShift
   }
   
   % Ascending scale
