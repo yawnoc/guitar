@@ -106,7 +106,7 @@ highVoiceMusic = {
     dis8 b dis e \overrideHorizontalShift #0 fis2 |
     \shiftOff
     e8 a~ a16 a gis8~ gis16 gis fis8~ fis16 fis e8~ |
-    e16 e dis cis dis e cis dis e2 |
+    e16 e dis cis dis e cis dis \once \shiftOn e2 |
   }
   
   % Ascending scale
@@ -448,11 +448,13 @@ upperMiddleVoiceMusic = {
   % Ascending scale
   \barNumberCheck #35
   \relative c {
+    \shiftOff
     e8 fis gis a |
     b cis dis e <fis b,> dis e cis |
     dis fis~ fis16 cis fis8~ fis16 dis fis8~ fis16 e dis cis |
     dis cis b ais b cis dis b cis b cis dis e fis gis e |
     fis e dis cis \triplet { e8 dis e32 dis cis dis } <e b gis>4
+    \shiftOn
   }
   
   % Tee-tee-tee
