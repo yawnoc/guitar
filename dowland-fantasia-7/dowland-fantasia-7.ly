@@ -71,7 +71,7 @@ highVoiceMusic = {
         fis
       \shiftOff
       \once \overrideHorizontalShift #0.45 gis4. gis8 |
-    \once \overrideHorizontalShift #-0.25 cis,4 e fis gis |
+    cis,4 e fis gis |
     a4. a8 gis4 fis |
     \once \hide NoteHead b,8 e e4~ e16 e dis cis dis16 e8 dis16 |
     e4
@@ -571,7 +571,7 @@ lowerMiddleVoiceMusic = {
       \revertBeamedStemLengths
       bis4 |
     \stemUp
-    \once \overrideHorizontalShift #0.2 gis4 s4
+    \once \overrideHorizontalShift #0 gis4 s4
       \once \overrideHorizontalShift #0 fis8 e
       \once \overrideHorizontalShift #0 e4 |
     \once \overrideHorizontalShift #0 e8. e16 dis4
