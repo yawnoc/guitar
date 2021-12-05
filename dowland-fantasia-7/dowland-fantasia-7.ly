@@ -630,8 +630,7 @@ lowerMiddleVoiceMusic = {
       \overrideHorizontalShift #0 e4 a |
       \revertHorizontalShift
     \shiftOnn
-    \overrideHorizontalShift #0
-      gis2
+      \once \overrideHorizontalShift #0 gis2
     \shiftOn
       fis4. fis8 |
     \once \overrideHorizontalShift #0 e4
