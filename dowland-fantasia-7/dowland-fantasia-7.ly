@@ -107,9 +107,9 @@ highVoiceMusic = {
     \shiftOff
     e8 a~ a16 a gis8~ gis16 gis fis8~ fis16 fis e8~ |
     e16 e dis cis dis e cis dis
-      \once \shiftOn
-      \once \overrideHorizontalShift #-0.3
-      e2 |
+      \shiftOn
+        \once \overrideHorizontalShift #-0.3 e2 |
+      \shiftOff
   }
   
   % Ascending scale
@@ -476,9 +476,9 @@ upperMiddleVoiceMusic = {
       a8 gis16 fis gis16 b ais8 |
     \once \overrideHorizontalShift #0 b4 s4 s2 |
     s2
-      \once \shiftOnn
-      \overrideHorizontalShift #0
-        cis4
+      \shiftOnn
+      \overrideHorizontalShift #0 cis4
+      \shiftOn
       \overrideHorizontalShift #0 cis |
       \stemUp
     cis <cis gis> fis,2 |
