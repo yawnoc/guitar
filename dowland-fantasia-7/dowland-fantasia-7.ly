@@ -466,8 +466,9 @@ upperMiddleVoiceMusic = {
     <b gis>4 |
     <b fis> <b fis>
       \stemDown
+      \once \overrideHorizontalShift #1.3
       a8 gis16 fis gis16 b ais8 |
-    b4 s4 s2 |
+    \once \overrideHorizontalShift #0 b4 s4 s2 |
       \stemUp
     s2 cis4 cis |
     cis <cis gis> fis,2 |
