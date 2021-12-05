@@ -79,9 +79,9 @@ highVoiceMusic = {
   
   % Tee-tee taa high
   \barNumberCheck #18
-  \relative c' {
+  \relative c'' {
     s4 s2 |
-    s2 r4. e8 |
+    s2 c4.\rest e,8 |
     fis8 gis a4~ a8 a gis4 |
     fis2 e2~ |
     e4. fis8 gis8 a b4~ |
