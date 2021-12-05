@@ -367,7 +367,7 @@ upperMiddleVoiceMusic = {
     b2 s2 |
     \stemUp
     s2 fis4 s4 |
-    gis8 a b cis dis8 cis16 \shiftOff dis <e~ b~>4 |
+    gis8 a b cis dis8 cis16 \shiftOff dis <e~ b_~>4 |
     <e b> dis e
     \shiftOn
   }
