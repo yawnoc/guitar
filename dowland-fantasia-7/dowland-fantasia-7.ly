@@ -134,19 +134,19 @@ highVoiceMusic = {
   
   % Majestic theme
   \barNumberCheck #46
-  \relative c'' {
+  \relative c' {
     s1 |
-    r8 gis fis a gis e fis dis |
+    b8\rest gis' fis a gis e fis dis |
     s1 |
-    r8 b' e, a gis e fis dis |
+    b8\rest b' e, a gis e fis dis |
     e2 s2 |
     r8 cis' b a gis8 fis16 e fis8 dis |
     e2 s2 |
-    r8 e fis16 gis a fis gis8 e fis dis |
+    b8\rest e fis16 gis a fis gis8 e fis dis |
     e2 s2 |
-    r8 e fis16 gis a b gis8 e fis dis |
+    b8\rest e fis16 gis a b gis8 e fis dis |
     e2 s2 |
-    r8 e fis16 gis a fis gis8 e fis dis |
+    b8\rest e fis16 gis a fis gis8 e fis dis |
     e2 s2 |
   }
   
