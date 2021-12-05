@@ -362,7 +362,9 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #1
   \relative c' {
     s1 * 5 |
-    \once \overrideHorizontalShift #0.4 b4. e8 cis8 dis e4 |
+    \once \overrideHorizontalShift #0.4 b4. e8
+      cis8 dis
+      \once \overrideHorizontalShift #0 e4 |
     \stemDown
     b2 s2 |
     \stemUp
@@ -535,13 +537,18 @@ lowerMiddleVoiceMusic = {
     \once \overrideHorizontalShift #0.3 e4. gis8 fis4 e |
     \shiftOn
     \stemUp
-    \once \overrideHorizontalShift #0 fis8. e16 dis4 \stemDown e4 fis~ |
+    \once \overrideHorizontalShift #0 fis8. e16 dis4 \stemDown
+      \overrideHorizontalShift #0 e4 fis~ |
+      \revertHorizontalShift
     \stemUp
-    fis8 e \stemDown e4 cis4 \once \overrideHorizontalShift #0 a |
-    b e \overrideHorizontalShift #0 a gis |
-    \revertHorizontalShift
+    fis8 e \stemDown
+      \overrideHorizontalShift #0 e4 cis4 a |
+    b e a gis |
+      \revertHorizontalShift
     \stemUp
-    fis8 e fis4 e
+    fis8 e
+      \overrideHorizontalShift #0 fis4 e
+      \revertHorizontalShift
     \stemDown
   }
   
