@@ -537,8 +537,8 @@ lowerMiddleVoiceMusic = {
   \relative c {
     s4 |
     s1 * 2 |
-    e2 s4 b'4~ |
-    b cis cis8. cis16 bis4 |
+    e2 s4 \overrideHorizontalShift #0 b'4~ |
+    b \revertHorizontalShift cis cis8. cis16 bis4 |
     gis4. s8 fis8 e e4 |
     e8. e16 dis4 e4 a |
     gis2 fis4. fis8 |
