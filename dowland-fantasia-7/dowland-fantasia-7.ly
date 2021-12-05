@@ -421,7 +421,9 @@ upperMiddleVoiceMusic = {
     \stemDown
     \overrideHorizontalShift #0
     cis8 dis e4 e8. e16 dis4 |
-    e4. dis8 cis8 b cis4 |
+    e4. dis8
+      \once \overrideBeamVerticalPositions #'(-2.4 . -2.6) cis8 b
+      cis4 |
     b4. s8 b8\rest e4 dis8~ |
     dis8 cis4 b8~
     \revertHorizontalShift
