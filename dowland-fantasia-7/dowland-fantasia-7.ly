@@ -478,10 +478,9 @@ upperMiddleVoiceMusic = {
       a8 gis16 fis gis16 b ais8 |
     \once \overrideHorizontalShift #0 b4 s4 s2 |
     s2
-      \shiftOnn
-      \overrideHorizontalShift #0 cis4
-      \shiftOn
-      \overrideHorizontalShift #0 cis |
+      \overrideHorizontalShift #0
+      \shiftOnn cis4
+      \shiftOn cis |
       \stemUp
     cis <cis gis> fis,2 |
     \shiftOff
