@@ -488,9 +488,10 @@ upperMiddleVoiceMusic = {
     gis8 fis gis4 <ais fis>2 |
     \stemUp
     \shiftOn
-      \revertHorizontalShift
     \once \overrideBeamVerticalPositions #'(0 . 0)
-    fis8 fis fis dis gis4 fis |
+    fis8 fis fis dis
+      \revertHorizontalShift
+      gis4 fis |
   }
   
   % Majestic theme
