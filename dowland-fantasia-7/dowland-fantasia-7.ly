@@ -404,13 +404,19 @@ upperMiddleVoiceMusic = {
     s2 b4 e_~ |
     \once \overrideHorizontalShift #0.9 e8 e
       \once \overrideHorizontalShift #0 dis4 s2 |
-    \once \overrideHorizontalShift #0 b2 b4. b8 |
+    \once \overrideHorizontalShift #0 b2
+    \overrideHorizontalShift #0
+      b4. b8 |
     cis8 dis e4 e8. e16 dis4 |
     e4. dis8 cis8 b cis4 |
     b4. s8 b8\rest e4 dis8~ |
-    dis8 cis4 b8~ b4 ais |
+    dis8 cis4 b8~
+    \revertHorizontalShift
+      b4 ais |
     b4 b8 a gis4 fis8 e |
+    \overrideHorizontalShift #0
     fis2 e4
+    \revertHorizontalShift
     \stemUp
   }
   
