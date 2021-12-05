@@ -524,9 +524,11 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #1
   \relative c' {
     s1 * 3 |
+    \shiftOff
     b2 gis4 b |
     a gis fis2 |
     e4. gis8 fis4 e |
+    \shiftOn
     \stemUp
     \overrideBeamedStemLengths #'(1)
     fis8. e16 dis4 \stemDown e4 fis~ |
