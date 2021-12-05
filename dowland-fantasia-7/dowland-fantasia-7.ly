@@ -34,6 +34,7 @@ initialSignatures = {
       )
     )
   )
+  \set Staff.connectArpeggios = ##t
 }
 
 
@@ -742,6 +743,7 @@ lowerMiddleVoiceMusic = {
 allMusic = {
   \new Staff \with {
     midiInstrument = #"acoustic guitar (nylon)"
+    \consists "Span_arpeggio_engraver"
   }
   \globalSettings
   \initialSignatures
