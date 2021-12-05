@@ -61,6 +61,7 @@ overrideBeamedStemLengths = #(define-scheme-function
     \override Stem.details.beamed-lengths = $lengths
   #}
 )
+revertBeamedStemLengths = { \revert Stem.details.beamed-lengths }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Semantic bar lines
