@@ -404,7 +404,9 @@ upperMiddleVoiceMusic = {
     s2 b4 e_~ |
     \once \overrideHorizontalShift #0.9 e8 e
       \once \overrideHorizontalShift #0 dis4 s2 |
-    \once \overrideHorizontalShift #0 b2
+    \once \overrideHorizontalShift #0
+    \once \hide Stem
+      b2
     \overrideHorizontalShift #0
       b4. b8 |
     cis8 dis e4 e8. e16 dis4 |
@@ -598,7 +600,11 @@ lowerMiddleVoiceMusic = {
     fis2 e |
     \shiftOn
     \stemUp
-    s4 \once \overrideHorizontalShift #0 b' a gis |
+    s4
+      \once \overrideHorizontalShift #0
+      \once \hide Stem
+        b'
+      a gis |
     \once \overrideHorizontalShift #0 fis2 s2 |
     \stemDown
     s1 * 5 |
