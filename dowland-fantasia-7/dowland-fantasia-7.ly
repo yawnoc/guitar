@@ -379,7 +379,8 @@ upperMiddleVoiceMusic = {
   \relative c' {
     s4 |
     s1 * 2 |
-    \once \overrideHorizontalShift #0.35 <b e,>2 cis8 dis e4~ |
+    \once \overrideHorizontalShift #0.35 <b e,>2
+      cis8 dis \once \overrideHorizontalShift #0 e4~ |
     e8 dis
       \shiftOff cis4 \shiftOn
       \once \overrideHorizontalShift #-0.75 dis2 |
