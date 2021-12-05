@@ -402,7 +402,7 @@ upperMiddleVoiceMusic = {
     dis4 cis b2 |
     \stemDown
     s2 b4 e_~ |
-    e8 e dis4 s2 |
+    \once \overrideHorizontalShift #0.9 e8 e dis4 s2 |
     b2 b4. b8 |
     cis8 dis e4 e8. e16 dis4 |
     e4. dis8 cis8 b cis4 |
