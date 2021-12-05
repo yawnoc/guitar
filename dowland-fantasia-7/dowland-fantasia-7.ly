@@ -522,7 +522,8 @@ lowerMiddleVoiceMusic = {
     \stemUp
     \overrideBeamedStemLengths #'(1)
     fis8. e16 dis4 \stemDown e4 fis~ |
-    fis8 e e4 cis4 a |
+    \stemUp
+    fis8 e \stemDown e4 cis4 a |
     b e a gis |
     fis8 e fis4 e
   }
