@@ -523,7 +523,7 @@ upperMiddleVoiceMusic = {
   % Scale runs
   \barNumberCheck #59
   \relative c' {
-    s16 gis e fis gis a b cis
+    s16 \stemDown gis e fis \stemUp gis a b cis
       b e, e fis gis a b cis |
     dis b b cis dis e fis gis
       fis b, b cis dis e fis gis |
