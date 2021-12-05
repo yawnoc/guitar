@@ -379,7 +379,7 @@ upperMiddleVoiceMusic = {
   \relative c' {
     s4 |
     s1 * 2 |
-    b2 cis8 dis e4~ |
+    \once \overrideHorizontalShift #0.35 <b e,>2 cis8 dis e4~ |
     e8 dis
       \shiftOff cis4 \shiftOn
       \once \overrideHorizontalShift #-0.75 dis2 |
@@ -557,7 +557,7 @@ lowerMiddleVoiceMusic = {
   \relative c {
     s4 |
     s1 * 2 |
-    e2 s4 \overrideHorizontalShift #0 b'4~ |
+    s2 s4 \overrideHorizontalShift #0 b'4~ |
     b \revertHorizontalShift
       \shiftOff cis \shiftOn
       \overrideBeamedStemLengths #'(3)
