@@ -691,7 +691,10 @@ lowerMiddleVoiceMusic = {
     s2 s8 fis4. |
     s2 \once \overrideHorizontalShift #0 fis4. fis8 |
     e8 cis4. d4. d8 |
-    \once \overrideHorizontalShift #-1.3 cis4 cis <cis fis,>2 |
+    \once \overrideHorizontalShift #-1.3 cis4
+    \overrideHorizontalShift #0
+    cis <cis fis,>2 |
+    \revertHorizontalShift
     r8 b b b gis8. a16 b4 |
   }
   
