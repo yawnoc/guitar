@@ -551,8 +551,8 @@ lowerMiddleVoiceMusic = {
       \shiftOff cis \shiftOn
       \once \overrideHorizontalShift #0.3 cis8. cis16 bis4 |
     \stemUp
-    \overrideHorizontalShift #0.2 gis4. s8
-      \overrideHorizontalShift #0 fis8 e e4 |
+    \once \overrideHorizontalShift #0.2 gis4. s8
+      \once \overrideHorizontalShift #0 fis8 e e4 |
     e8. e16 dis4 \stemDown e4 a |
     gis2 fis4. fis8 |
     e4
