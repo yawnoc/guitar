@@ -291,7 +291,7 @@ lowVoiceMusic = {
     e,2 e4 b' |
     e,8 gis fis4 e b' |
     e,8 e' dis4 e, b' |
-    e,8[ gis] fis8. r16 e4 b' |
+    e,8[ gis] fis8. b16\rest e,4 b' |
     e,8 e' dis4 e, b' |
     e,8 gis fis4 e b' |
     e,8 e' dis4 e, b' |
