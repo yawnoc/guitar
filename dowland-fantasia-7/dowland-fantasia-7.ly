@@ -38,6 +38,14 @@ initialSignatures = {
 }
 
 
+markTriplets = #(define-scheme-function
+  (parser location alignment text) (number? markup?)
+  #{
+    \once \override Score.RehearsalMark.self-alignment-X = $alignment
+    \mark \markup { \normalsize $text }
+  #}
+)
+
 bareTuplets = {
   \omit TupletBracket
   \omit TupletNumber
@@ -177,6 +185,7 @@ highVoiceMusic = {
   
   % Triplet runs
   \barNumberCheck #75
+  \markTriplets #-1 "triplets"
   \bareTuplets
   \relative c' {
     \triplet { dis8 cis4 } \triplet { dis8 b4 }
@@ -198,6 +207,7 @@ highVoiceMusic = {
       \once \overrideBeamVerticalPositions #'(0.75 . 0.75)
       \triplet { a a gis } s4 |
     \tripletDuple { e'2. } s2 |
+    \markTriplets #1 "END triplets"
   }
   
   % Finishing chords
