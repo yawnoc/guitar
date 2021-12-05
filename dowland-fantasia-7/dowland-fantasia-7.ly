@@ -67,10 +67,10 @@ highVoiceMusic = {
     e fis gis e a4 gis~ |
     gis
       \shiftOn
-        \once \overrideHorizontalShift #-0.5
+        \once \overrideHorizontalShift #0
         fis
       \shiftOff
-      \once \overrideHorizontalShift #0.5 gis4. gis8 |
+      \once \overrideHorizontalShift #0.45 gis4. gis8 |
     \once \overrideHorizontalShift #-0.25 cis,4 e fis gis |
     a4. a8 gis4 fis |
     \once \hide NoteHead b,8 e e4~ e16 e dis cis dis16 e8 dis16 |
