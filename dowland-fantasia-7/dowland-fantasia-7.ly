@@ -395,6 +395,7 @@ upperMiddleVoiceMusic = {
   \relative c' {
     b4 cis8 dis e4 |
     dis4 cis b2 |
+    \stemDown
     s2 b4 e~ |
     e8 e dis4 s2 |
     b2 b4. b8 |
@@ -404,6 +405,7 @@ upperMiddleVoiceMusic = {
     dis8 cis4 b8~ b4 ais |
     b4 b8 a gis4 fis8 e |
     fis2 e4
+    \stemUp
   }
   
   % Tee-tee taa low
@@ -576,8 +578,10 @@ lowerMiddleVoiceMusic = {
     fis8 gis a4~ a8 a gis4 |
     fis2 e |
     \shiftOn
+    \stemUp
     s4 b' a gis |
     fis2 e4 fis |
+    \stemDown
     s1 * 5 |
     s2 s4
   }
