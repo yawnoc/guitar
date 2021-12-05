@@ -497,23 +497,23 @@ upperMiddleVoiceMusic = {
   % Majestic theme
   \barNumberCheck #46
   \relative c' {
-    r8 gis fis a gis e fis dis |
+    b8\rest gis fis a gis e fis dis |
     \overrideHorizontalShift #0
     \stemDown s8 b'4 s8 b4 s4 \stemUp |
     \revertHorizontalShift
-    r8 b8 fis a gis e fis dis |
+    b8\rest b8 fis a gis e fis dis |
     \overrideHorizontalShift #0
     \stemDown s4. dis'8 e4 s4 \stemUp |
     \revertHorizontalShift
-    r8 b8 fis a gis e fis dis |
+    g,8\rest b8 fis a gis e fis dis |
     s2 b'4 s4 |
-    r8 cis b a gis8 fis16 e fis8 dis |
+    g8\rest cis b a gis8 fis16 e fis8 dis |
     s1 |
-    r8 e fis16 gis a fis gis8 e fis dis |
+    g8\rest e fis16 gis a fis gis8 e fis dis |
     s1 |
-    r8 e fis16 gis a b gis8 e fis dis |
+    g8\rest e fis16 gis a b gis8 e fis dis |
     s1 |
-    r8 e fis16 gis a fis gis8 e fis dis |
+    g8\rest e fis16 gis a fis gis8 e fis dis |
   }
   
   % Scale runs
