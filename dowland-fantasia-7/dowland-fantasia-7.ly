@@ -358,7 +358,9 @@ upperMiddleVoiceMusic = {
   \relative c' {
     s1 * 5 |
     b4. e8 cis8 dis e4 |
+    \stemDown
     b2 s2 |
+    \stemUp
     s2 fis4 s4 |
     gis8 a b cis dis8 cis16 dis <e~ b~>4 |
     <e b> dis e
@@ -517,7 +519,9 @@ lowerMiddleVoiceMusic = {
     b2 gis4 b |
     a gis fis2 |
     e4. gis8 fis4 e |
-    fis8. e16 dis4 e4 fis~ |
+    \stemUp
+    \overrideBeamedStemLengths #'(1)
+    fis8. e16 dis4 \stemDown e4 fis~ |
     fis8 e e4 cis4 a |
     b e a gis |
     fis8 e fis4 e

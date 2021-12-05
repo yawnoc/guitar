@@ -55,6 +55,13 @@ tripletDuple = #(define-music-function
   #}
 )
 
+overrideBeamedStemLengths = #(define-scheme-function
+  (parser location lengths) (list?)
+  #{
+    \override Stem.details.beamed-lengths = $lengths
+  #}
+)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Semantic bar lines
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
