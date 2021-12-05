@@ -243,10 +243,7 @@ lowVoiceMusic = {
   \barNumberCheck #28
   \relative c {
     r4 |
-    dis2 e |
-    b4. b8 cis b cis dis |
-    e2 dis4 b |
-    s1 * 3 |
+    s1 * 6 |
     s2
   }
   
@@ -617,8 +614,10 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #28
   \relative c {
     s4 |
-    s1 * 3 |
-    fis4. fis8
+    dis2 e |
+    b4. b8 cis b cis dis |
+    e2 dis4 b |
+    fis'4. fis8
       \footnote "†" #'(0 . -2.5) \markup { "†" \resonatesOn E 6 }
       e2 |
     s2 a8 fis a b |
