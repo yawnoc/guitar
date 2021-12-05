@@ -168,7 +168,7 @@ highVoiceMusic = {
       b16 cis dis cis dis b cis8 |
   }
   
-  % Triple runs
+  % Triplet runs
   \barNumberCheck #75
   \relative c' {
     \triplet { dis8 cis4 } \triplet { dis8 b4 }
@@ -321,7 +321,7 @@ lowVoiceMusic = {
     b8 b4.~ b8 b4 ais8 |
   }
   
-  % Triple runs
+  % Triplet runs
   \barNumberCheck #75
   \relative c {
     \triplet { <b fis'>4 ais8 } \triplet { b4 gis8 }
