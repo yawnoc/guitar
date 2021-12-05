@@ -212,8 +212,8 @@ highVoiceMusic = {
   
   % Finishing chords
   \barNumberCheck #88
-  \relative c {
-    r8 <e b' e>4.
+  \relative c' {
+    b8\rest <e, b' e>4.
       <e gis b e>2 \arpeggio
       \barLineEnd
   }
