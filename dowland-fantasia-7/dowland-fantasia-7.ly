@@ -469,9 +469,12 @@ upperMiddleVoiceMusic = {
       \once \overrideHorizontalShift #1.3
       a8 gis16 fis gis16 b ais8 |
     \once \overrideHorizontalShift #0 b4 s4 s2 |
-      \stemUp
-    s2 cis4
+    s2
+      \once \shiftOnn
+      \overrideHorizontalShift #0
+        cis4
       \overrideHorizontalShift #0 cis |
+      \stemUp
     cis <cis gis> fis,2 |
     gis8 fis gis4 <ais fis>2 |
       \revertHorizontalShift
