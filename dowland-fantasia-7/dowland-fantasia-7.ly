@@ -714,9 +714,9 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #69
   \relative c' {
     \stemUp
-    r8 gis4 fis8 gis e fis dis |
+    b8\rest gis4 fis8 gis e fis dis |
     s1 |
-    r8 a'4 gis8 a fis gis eis |
+    b'8\rest a4 gis8 a fis gis eis |
     s1 * 3 |
     \stemDown
   }
