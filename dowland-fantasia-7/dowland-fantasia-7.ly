@@ -101,7 +101,8 @@ highVoiceMusic = {
     gis8 fis dis4 e4. fis8 |
     gis fis gis a b4. b8 |
     \shiftOn
-    cis b cis dis e2 |
+    \overrideHorizontalShift #-0.45 cis b cis dis e2 |
+    \revertHorizontalShift
     dis8 b dis e fis2 |
     \shiftOff
     e8 a~ a16 a gis8~ gis16 gis fis8~ fis16 fis e8~ |
