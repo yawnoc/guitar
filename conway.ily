@@ -86,7 +86,6 @@ startGraceMusic = {
   <>(
   \override Fingering.font-size = -6
 }
-
 stopGraceMusic = {
   \revert Fingering.font-size
   <>)
@@ -98,7 +97,6 @@ overrideHorizontalShift = #(define-scheme-function
     \override NoteColumn.force-hshift = $distance
   #}
 )
-
 revertHorizontalShift = { \revert NoteColumn.force-hshift }
 
 barreSpan = #(define-music-function
