@@ -73,7 +73,7 @@ highVoiceMusic = {
       \once \overrideHorizontalShift #0.5 gis4. gis8 |
     \once \overrideHorizontalShift #-0.25 cis,4 e fis gis |
     a4. a8 gis4 fis |
-    b,8 e e4~ e16 e dis cis dis16 e8 dis16 |
+    \once \hide NoteHead b,8 e e4~ e16 e dis cis dis16 e8 dis16 |
     e4
   }
   
@@ -383,7 +383,10 @@ upperMiddleVoiceMusic = {
       \once \overrideHorizontalShift #-0.75 dis2 |
     s2 s4 \stemDown b4 |
     a4 s4 \stemUp b8. e16 dis8 cis |
-    b2 s2 |
+      \once \overrideHorizontalShift #-0.07
+      \once \hide Stem
+        b2
+      s2 |
     gis4
   }
   
@@ -558,7 +561,7 @@ lowerMiddleVoiceMusic = {
       \stemDown
       \overrideHorizontalShift #0 e4 a |
       \revertHorizontalShift
-    gis2 fis4. fis8 |
+    \once \overrideHorizontalShift #-0.07 gis2 fis4. fis8 |
     e4
   }
   
