@@ -610,10 +610,8 @@ lowerMiddleVoiceMusic = {
     s2 s4 \overrideHorizontalShift #0 b'4~ |
     b \revertHorizontalShift
       \shiftOff cis \shiftOn
-      \overrideBeamedStemLengths #'(3)
       \once \overrideHorizontalShift #0.3
         cis8. cis16
-      \revertBeamedStemLengths
       bis4 |
     \stemUp
     \once \overrideHorizontalShift #0 gis4 s4
