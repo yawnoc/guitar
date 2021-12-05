@@ -575,7 +575,11 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #75
   \relative c' {
     s1 * 11 |
-    s2 \triplet { e8 e4 } \triplet { cis8 cis b } |
+    s2
+      \overrideHorizontalShift #0
+      \triplet { e8 e4 }
+      \revertHorizontalShift
+      \triplet { cis8 cis b } |
     \triplet { cis b cis } \triplet { b cis b }
       \triplet { cis b cis } \triplet { b8. cis16 a8 } |
   }
