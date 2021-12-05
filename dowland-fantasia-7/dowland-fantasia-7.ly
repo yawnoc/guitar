@@ -527,7 +527,7 @@ lowerMiddleVoiceMusic = {
     \shiftOff
     b2 gis4 b |
     a gis fis2 |
-    e4. gis8 fis4 e |
+    \once \overrideHorizontalShift #0.3 e4. gis8 fis4 e |
     \shiftOn
     \stemUp
     \overrideBeamedStemLengths #'(1)
