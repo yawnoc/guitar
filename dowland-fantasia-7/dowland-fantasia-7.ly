@@ -390,7 +390,7 @@ upperMiddleVoiceMusic = {
       \once \hide Stem
         b2
       s2 |
-    gis4
+    \once \overrideHorizontalShift #0 gis4
   }
   
   % Tee-tee taa high
