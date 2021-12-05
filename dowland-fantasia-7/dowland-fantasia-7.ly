@@ -230,7 +230,7 @@ lowVoiceMusic = {
     s4 s4 s4 |
     s1 * 2 |
     b4. b8 cis8 dis e4~ |
-    e8 e dis4 e4 dis |
+    e8 e dis4 e4 <dis fis> |
     cis2 b |
     e, a |
     b4. a8 gis4 fis |
@@ -593,7 +593,7 @@ lowerMiddleVoiceMusic = {
     \shiftOn
     \stemUp
     s4 \once \overrideHorizontalShift #0 b' a gis |
-    fis2 e4 fis |
+    fis2 s2 |
     \stemDown
     s1 * 5 |
     s2 s4
