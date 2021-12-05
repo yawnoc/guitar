@@ -433,8 +433,8 @@ upperMiddleVoiceMusic = {
     s4 |
     s1 * 2 |
     s2 \stemDown fis2 \stemUp |
-    \footnote "*" #'(0 . -4) \markup { "*" \resonatesOn A 5 }
     \shiftOff
+    \footnote "*" #'(0 . -4) \markup { "*" \resonatesOn A 5 }
     a4. a8 gis fis gis a |
     \stemDown b2 \stemUp cis |
     \shiftOn
