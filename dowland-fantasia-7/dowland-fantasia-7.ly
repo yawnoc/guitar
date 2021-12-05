@@ -407,8 +407,10 @@ upperMiddleVoiceMusic = {
     \once \overrideHorizontalShift #0
     \once \hide Stem
       b2
-    \overrideHorizontalShift #0
+    \stemUp
       b4. b8 |
+    \stemDown
+    \overrideHorizontalShift #0
     cis8 dis e4 e8. e16 dis4 |
     e4. dis8 cis8 b cis4 |
     b4. s8 b8\rest e4 dis8~ |
