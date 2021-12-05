@@ -614,6 +614,7 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #28
   \relative c {
     s4 |
+    \shiftOff
     dis2 e |
     b4. b8 cis b cis dis |
     e2 dis4 b |
@@ -625,6 +626,7 @@ lowerMiddleVoiceMusic = {
     fis2
       \footnote "†" #'(0 . -2.5) \markup { }
       e4
+    \shiftOn
   }
   
   % Ascending scale
