@@ -531,7 +531,7 @@ lowerMiddleVoiceMusic = {
     \shiftOn
     \stemUp
     \overrideBeamedStemLengths #'(1)
-    fis8. e16 dis4 \stemDown e4 fis~ |
+    \once \overrideHorizontalShift #0 fis8. e16 dis4 \stemDown e4 fis~ |
     \stemUp
     fis8 e \stemDown e4 cis4 \once \overrideHorizontalShift #0 a |
     b e \overrideHorizontalShift #0 a gis |
