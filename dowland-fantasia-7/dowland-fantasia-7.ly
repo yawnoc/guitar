@@ -571,7 +571,7 @@ upperMiddleVoiceMusic = {
     \revertHorizontalShift
   }
   
-  % Triple runs
+  % Triplet runs
   \barNumberCheck #75
   \relative c' {
     s1 * 11 |
