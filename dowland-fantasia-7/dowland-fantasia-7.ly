@@ -464,8 +464,11 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #39
   \relative c' {
     <b gis>4 |
-    <b fis> <b fis> a8 gis16 fis gis16 b ais8 |
+    <b fis> <b fis>
+      \stemDown
+      a8 gis16 fis gis16 b ais8 |
     b4 s4 s2 |
+      \stemUp
     s2 cis4 cis |
     cis <cis gis> fis,2 |
     gis8 fis gis4 <ais fis>2 |
