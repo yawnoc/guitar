@@ -187,6 +187,7 @@ highVoiceMusic = {
     \tripletDuple { fis } \tripletDuple { fis } |
     \tripletDuple { e } \tripletDuple { e } |
     \triplet { e8 e d } \triplet { cis cis b }
+      \once \overrideBeamVerticalPositions #'(0.75 . 0.75)
       \triplet { a a gis } s4 |
     \tripletDuple { e'2. } s2 |
   }
