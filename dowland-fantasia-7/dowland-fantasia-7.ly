@@ -488,6 +488,7 @@ upperMiddleVoiceMusic = {
     \stemUp
     \shiftOn
       \revertHorizontalShift
+    \once \overrideBeamVerticalPositions #'(0 . 0)
     fis8 fis fis dis gis4 fis |
   }
   

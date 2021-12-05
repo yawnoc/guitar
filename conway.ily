@@ -63,6 +63,13 @@ overrideBeamedStemLengths = #(define-scheme-function
 )
 revertBeamedStemLengths = { \revert Stem.details.beamed-lengths }
 
+overrideBeamVerticalPositions = #(define-scheme-function
+  (parser location positions) (pair?)
+  #{
+    \override Beam.positions = $positions
+  #}
+)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Semantic bar lines
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
