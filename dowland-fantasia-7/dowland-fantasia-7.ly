@@ -426,7 +426,7 @@ upperMiddleVoiceMusic = {
   \relative c {
     s4 |
     s1 * 2 |
-    s2 fis2 |
+    s2 \stemDown fis2 \stemUp |
     \footnote "*" #'(0 . -4) \markup { "*" \resonatesOn A 5 }
     a4. a8 gis fis gis a |
     b2 cis |
