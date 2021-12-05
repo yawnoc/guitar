@@ -332,6 +332,8 @@ lowVoiceMusic = {
       \triplet { cis4 d8 } \triplet { cis4 a8 } |
     \triplet { <b fis'>4 fis8 } \triplet { <b fis'>4 fis8 }
       \triplet { <b fis'>4 fis8 } \triplet { gis4 <b fis'>8 } |
+    \shiftOn
+    \stemUp
     \triplet { e,8 e' e } \triplet { e e e }
       \triplet { r e, e } \triplet { e e e } |
     \triplet { b' b ais } \triplet { b b fis }
@@ -345,7 +347,10 @@ lowVoiceMusic = {
     \triplet { b b ais } \triplet { b b fis }
       \triplet { a a fis } \triplet { b b a } |
     \triplet { gis e gis } \triplet { a e a }
-      \triplet { gis gis e } \triplet { e' e d } |
+      \triplet { gis gis e }
+    \stemDown
+    \shiftOff
+      \triplet { e' e d } |
     \triplet { cis cis b } \triplet { a a gis }
       \triplet { cis cis b } \triplet { a a gis } |
     \triplet { a gis a } \triplet { gis a gis }
