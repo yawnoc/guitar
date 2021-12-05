@@ -44,9 +44,11 @@ highVoiceMusic = {
   % Main theme high
   \barNumberCheck #1
   \relative c'' {
+    \stemDown
     b2 gis4 b |
     a gis fis2 |
     e4 gis fis e~ |
+    \stemUp
     e8 fis dis4 e4. dis8 |
     cis8. dis16 e8 dis16 e fis8. gis16 a8 gis16 fis |
     gis8. a16 b4 a gis |
