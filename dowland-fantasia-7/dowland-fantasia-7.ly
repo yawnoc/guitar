@@ -106,7 +106,10 @@ highVoiceMusic = {
     dis8 b dis e \once \overrideHorizontalShift #0 fis2 |
     \shiftOff
     e8 a~ a16 a gis8~ gis16 gis fis8~ fis16 fis e8~ |
-    e16 e dis cis dis e cis dis \once \shiftOn e2 |
+    e16 e dis cis dis e cis dis
+      \once \shiftOn
+      \once \overrideHorizontalShift #-0.3
+      e2 |
   }
   
   % Ascending scale
