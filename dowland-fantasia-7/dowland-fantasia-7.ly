@@ -196,7 +196,7 @@ highVoiceMusic = {
   \barNumberCheck #88
   \relative c {
     r8 <e b' e>4.
-      <e, b' e gis b e>2 \arpeggio
+      <e gis b e>2 \arpeggio
       \barLineEnd
   }
   
@@ -361,7 +361,7 @@ lowVoiceMusic = {
   % Finishing chords
   \barNumberCheck #88
   \relative c, {
-    e2 s2 |
+    e2 \shiftOn <e b'>2 \arpeggio |
   }
   
 }
@@ -588,7 +588,7 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #88
   \relative c' {
     \stemDown
-    s8 a gis fis e2 |
+    s8 a gis fis \shiftOff e2 |
   }
   
 }
