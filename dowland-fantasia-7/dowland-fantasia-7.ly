@@ -470,9 +470,11 @@ upperMiddleVoiceMusic = {
       a8 gis16 fis gis16 b ais8 |
     \once \overrideHorizontalShift #0 b4 s4 s2 |
       \stemUp
-    s2 cis4 cis |
+    s2 cis4
+      \overrideHorizontalShift #0 cis |
     cis <cis gis> fis,2 |
     gis8 fis gis4 <ais fis>2 |
+      \revertHorizontalShift
     fis8 fis fis dis gis4 fis |
   }
   
@@ -662,7 +664,7 @@ lowerMiddleVoiceMusic = {
     s2 |
     s1 |
     s2 s8 fis4. |
-    s2 fis4. fis8 |
+    s2 \once \overrideHorizontalShift #0 fis4. fis8 |
     e8 cis4. d4. d8 |
     cis4 cis <cis fis,>2 |
     r8 b b b gis8. a16 b4 |
