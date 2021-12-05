@@ -713,10 +713,12 @@ lowerMiddleVoiceMusic = {
   % Majestic interlude
   \barNumberCheck #69
   \relative c' {
+    \stemUp
     r8 gis4 fis8 gis e fis dis |
     s1 |
     r8 a'4 gis8 a fis gis eis |
     s1 * 3 |
+    \stemDown
   }
   
 }
