@@ -553,12 +553,16 @@ upperMiddleVoiceMusic = {
   % Majestic interlude
   \barNumberCheck #69
   \relative c' {
+    \overrideHorizontalShift #0
+    \stemDown
     s1 |
     s8 b4. b4 s4 |
     s1 |
     s8 cis4. cis4 s4 |
     s8 b4. s2 |
     s1 |
+    \stemUp
+    \revertHorizontalShift
   }
   
   % Triple runs
