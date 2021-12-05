@@ -587,6 +587,7 @@ upperMiddleVoiceMusic = {
   % Finishing chords
   \barNumberCheck #88
   \relative c' {
+    \stemDown
     s8 a gis fis e2 |
   }
   
