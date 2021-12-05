@@ -38,6 +38,12 @@ initialSignatures = {
 }
 
 
+bareTuplets = {
+  \omit TupletBracket
+  \omit TupletNumber
+}
+
+
 highVoiceMusic = {
   
   \override NoteHead.color = #darkblue
@@ -171,6 +177,7 @@ highVoiceMusic = {
   
   % Triplet runs
   \barNumberCheck #75
+  \bareTuplets
   \relative c' {
     \triplet { dis8 cis4 } \triplet { dis8 b4 }
       \triplet { b8 dis4 } \triplet { cis8 e dis } |
@@ -325,6 +332,7 @@ lowVoiceMusic = {
   
   % Triplet runs
   \barNumberCheck #75
+  \bareTuplets
   \relative c {
     \triplet { <b fis'>4 ais8 } \triplet { b4 gis8 }
       \triplet { gis4 b8 } \triplet { a4 b8 } |
@@ -575,6 +583,7 @@ upperMiddleVoiceMusic = {
   
   % Triplet runs
   \barNumberCheck #75
+  \bareTuplets
   \relative c' {
     s1 * 11 |
     s2
