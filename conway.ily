@@ -107,6 +107,13 @@ overrideHorizontalShift = #(define-scheme-function
 )
 revertHorizontalShift = { \revert NoteColumn.force-hshift }
 
+overrideFingeringPadding = #(define-scheme-function
+  (parser location distance) (number?)
+  #{
+    \override Fingering.padding = $distance
+  #}
+)
+
 barreSpan = #(define-music-function
   (parser location label offsetPair music)
   (string? (pair? (cons 0 0)) ly:music?)
