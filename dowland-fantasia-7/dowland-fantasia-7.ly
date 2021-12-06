@@ -60,6 +60,7 @@ highVoiceMusic = {
   \barNumberCheck #1
   \relative c'' {
     \fingeringAleft
+    \stringNumbersBelow
     \stemDown
     <b-4>2 gis4 b |
     a gis <fis-4 \2>2 |
