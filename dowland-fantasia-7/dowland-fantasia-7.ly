@@ -407,7 +407,7 @@ upperMiddleVoiceMusic = {
     \stemUp
     s1 |
     \nighNextBarre
-    \once \overrideFingeringPadding #1
+    \once \overrideFingeringExtraOffset #'(-0.7 . 0)
     <gis-1>8 <a-3> <b-0> <cis-1>^\barre ½CII
       \barreSpan CII { <dis-4>8 cis16 \shiftOff dis } <e~ b_~>4 |
     <e-0 b-0> <dis-4> e
@@ -644,7 +644,7 @@ lowerMiddleVoiceMusic = {
     \shiftOn
     \stemUp
     \overrideBeamedStemLengths #'(3)
-    \once \overrideFingeringPadding #1
+    \once \overrideFingeringExtraOffset #'(-0.5 . 0)
     <fis-4>8. <e-1>16 <dis-1>4 \stemDown
     \revertBeamedStemLengths
       \overrideHorizontalShift #0 <e-1>4 <fis-4>~ |
