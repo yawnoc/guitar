@@ -71,7 +71,7 @@ highVoiceMusic = {
       <fis-1>8. gis16 a8 gis16 fis |
     <gis-1>8. <a-1>16 <b-4>4 <a-4> <gis-3> |
     \once \overrideHorizontalShift #0.3 <fis-3>4. fis8 e8 b4 <d-2>8 |
-    cis4 b a8. <b-0>16 cis8 \once \fingeringAright <dis-4> |
+    cis4 <b-0> a8. <b-0>16 cis8 \once \fingeringAright <dis-4> |
     <e-0>2 s2 |
     s2 s4
   }
