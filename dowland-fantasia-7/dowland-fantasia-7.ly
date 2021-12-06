@@ -406,6 +406,7 @@ upperMiddleVoiceMusic = {
     \once \overrideHorizontalShift #0 <b-0>2 s2 |
     \stemUp
     s1 |
+    \nighNextBarre
     <gis-1>8 <a-3> <b-0> <cis-1>^\barre ½CII
       \barreSpan CII { <dis-4>8 cis16 \shiftOff dis } <e~ b_~>4 |
     <e b> <dis-4> e

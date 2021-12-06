@@ -203,6 +203,10 @@ barre = #(define-scheme-function
   #}
 )
 
+nighNextBarre = {
+  \override TextScript.outside-staff-priority = #349 % < 350 (TextSpanner)
+}
+
 nudgeNextBarre = #(define-scheme-function
   (parser location distance) (number?)
   #{
