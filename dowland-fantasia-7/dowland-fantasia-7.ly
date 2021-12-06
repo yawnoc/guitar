@@ -70,9 +70,9 @@ highVoiceMusic = {
     \barreSpan ½CII { cis8. dis16 } \once \fingeringAright <e-0>8 dis16 e
       <fis-1>8. gis16 a8 gis16 fis |
     <gis-1>8. <a-1>16 <b-4>4 <a-4> <gis-3> |
-    \once \overrideHorizontalShift #0.3 fis4. fis8 e8 b4 d8 |
-    cis4 b a8. b16 cis8 dis |
-    e2 s2 |
+    \once \overrideHorizontalShift #0.3 <fis-3>4. fis8 e8 b4 <d-2>8 |
+    cis4 b a8. <b-0>16 cis8 \once \fingeringAright <dis-4> |
+    <e-0>2 s2 |
     s2 s4
   }
   
@@ -231,10 +231,11 @@ lowVoiceMusic = {
   % Main theme high
   \barNumberCheck #1
   \relative c {
+    \fingeringAleft
     s1 * 6 |
-    b2 gis4 b |
-    a gis fis a |
-    e gis fis e |
+    <b-2>2 <gis-3>4 <b-1> |
+    a <gis-3> fis^\barre CII a |
+    e <gis-3> fis e |
     b'2 e,4
   }
   
@@ -402,11 +403,12 @@ upperMiddleVoiceMusic = {
       cis8 <dis-3>
       \once \overrideHorizontalShift #0 <e-4>4 |
     \stemDown
-    \once \overrideHorizontalShift #0 b2 s2 |
+    \once \overrideHorizontalShift #0 <b-0>2 s2 |
     \stemUp
     s1 |
-    gis8 a b cis dis8 cis16 \shiftOff dis <e~ b_~>4 |
-    <e b> dis e
+    <gis-1>8 <a-3> <b-0> <cis-1>^\barre ½CII
+      \barreSpan CII { <dis-4>8 cis16 \shiftOff dis } <e~ b_~>4 |
+    <e b> <dis-4> e
     \shiftOn
   }
   
@@ -640,18 +642,18 @@ lowerMiddleVoiceMusic = {
     \shiftOn
     \stemUp
     \overrideBeamedStemLengths #'(3)
-    fis8. e16 dis4 \stemDown
+    <fis-4>8. <e-1>16 <dis-1>4 \stemDown
     \revertBeamedStemLengths
-      \overrideHorizontalShift #0 e4 fis~ |
+      \overrideHorizontalShift #0 <e-1>4 <fis-4>~ |
       \revertHorizontalShift
     \stemUp
-    fis8 e \stemDown
-      \overrideHorizontalShift #0 e4 <cis fis>4 a |
-    b e a gis |
+    \barreSpan ⅔CII { fis8 e } \stemDown
+      \overrideHorizontalShift #0 <e-1>4 <cis-3 fis-4>4 a |
+    <b-2> <e-1> a <gis-1> |
       \revertHorizontalShift
     \stemUp
-    fis8 e
-      \overrideHorizontalShift #0 fis4 e
+    \barreSpan ⅓CII { <fis-3>8 e }
+      \overrideHorizontalShift #0 <fis-3>4 <e-1>
       \revertHorizontalShift
     \stemDown
   }
