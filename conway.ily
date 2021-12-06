@@ -107,6 +107,13 @@ overrideHorizontalShift = #(define-scheme-function
 )
 revertHorizontalShift = { \revert NoteColumn.force-hshift }
 
+overrideFingeringExtraOffset = #(define-scheme-function
+  (parser location offsetPair) (pair?)
+  #{
+    \override Fingering.extra-offset = #offsetPair
+  #}
+)
+
 overrideFingeringPadding = #(define-scheme-function
   (parser location distance) (number?)
   #{
