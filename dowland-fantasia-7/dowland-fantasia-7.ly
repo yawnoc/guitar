@@ -67,9 +67,7 @@ highVoiceMusic = {
     <e-2>4 <gis-1> <fis-4> <e-0>~ |
     \stemUp
     e8 <fis-1> <dis-4>4 <e-0>4. dis8 |
-    \fingeringAright
-    \barreSpan ½CII { cis8. dis16 } <e-0>8 dis16 e
-      \fingeringAleft
+    \barreSpan ½CII { cis8. dis16 } \once \fingeringAright <e-0>8 dis16 e
       <fis-1>8. gis16 a8 gis16 fis |
     <gis-1>8. <a-1>16 <b-4>4 <a-4> <gis-3> |
     \once \overrideHorizontalShift #0.3 fis4. fis8 e8 b4 d8 |
