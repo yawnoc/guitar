@@ -414,7 +414,10 @@ upperMiddleVoiceMusic = {
     \stemDown
     <b e,>2
     \stemUp
-      cis8 dis \once \overrideHorizontalShift #0 e4~ |
+      cis8 dis
+      \once \overrideHorizontalShift #0
+      \once \override Tie.staff-position = #2.1
+      e4_~ |
     e8 dis
       \shiftOff cis4 \shiftOn
       \once \overrideHorizontalShift #-0.75 dis2 |
