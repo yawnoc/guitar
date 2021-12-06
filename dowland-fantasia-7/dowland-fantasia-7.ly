@@ -59,12 +59,13 @@ highVoiceMusic = {
   % Main theme high
   \barNumberCheck #1
   \relative c'' {
+    \fingeringAleft
     \stemDown
-    b2 gis4 b |
-    a gis fis2 |
-    e4 gis fis e~ |
+    <b-4>2 gis4 b |
+    a gis <fis-4 \2>2 |
+    <e-2>4 <gis-1> <fis-4> <e-0>~ |
     \stemUp
-    e8 fis dis4 e4. dis8 |
+    e8 <fis-1> <dis-4>4 <e-0>4. dis8 |
     cis8. dis16 e8 dis16 e fis8. gis16 a8 gis16 fis |
     gis8. a16 b4 a gis |
     \once \overrideHorizontalShift #0.3 fis4. fis8 e8 b4 d8 |
@@ -625,9 +626,11 @@ lowerMiddleVoiceMusic = {
   % Main theme high
   \barNumberCheck #1
   \relative c' {
+    \fingeringAleft
+    \stringNumbersBelow
     s1 * 3 |
     \shiftOff
-    b2 gis4 b |
+    <b-3 \3>2 <gis-1>4 <b-3> |
     a gis fis2 |
     \once \overrideHorizontalShift #0.3 e4. gis8 fis4 e |
     \shiftOn
