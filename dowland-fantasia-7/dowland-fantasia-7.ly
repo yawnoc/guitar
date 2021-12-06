@@ -66,8 +66,11 @@ highVoiceMusic = {
     <e-2>4 <gis-1> <fis-4> <e-0>~ |
     \stemUp
     e8 <fis-1> <dis-4>4 <e-0>4. dis8 |
-    cis8. dis16 e8 dis16 e fis8. gis16 a8 gis16 fis |
-    gis8. a16 b4 a gis |
+    \fingeringAright
+    \barreSpan ½CII { cis8. dis16 } <e-0>8 dis16 e
+      \fingeringAleft
+      <fis-1>8. gis16 a8 gis16 fis |
+    <gis-1>8. <a-1>16 <b-4>4 <a-4> <gis-3> |
     \once \overrideHorizontalShift #0.3 fis4. fis8 e8 b4 d8 |
     cis4 b a8. b16 cis8 dis |
     e2 s2 |
@@ -394,10 +397,11 @@ upperMiddleVoiceMusic = {
   % Main theme high
   \barNumberCheck #1
   \relative c' {
+    \fingeringAleft
     s1 * 5 |
-    \once \overrideHorizontalShift #0.4 b4. e8
-      cis8 dis
-      \once \overrideHorizontalShift #0 e4 |
+    \once \overrideHorizontalShift #0.4 <b-0>4. <e-1>8
+      cis8 <dis-3>
+      \once \overrideHorizontalShift #0 <e-4>4 |
     \stemDown
     \once \overrideHorizontalShift #0 b2 s2 |
     \stemUp
@@ -631,8 +635,9 @@ lowerMiddleVoiceMusic = {
     s1 * 3 |
     \shiftOff
     <b-3 \3>2 <gis-1>4 <b-3> |
-    a gis fis2 |
-    \once \overrideHorizontalShift #0.3 e4. gis8 fis4 e |
+    a \once \fingeringAright <gis-1> <fis-3>2 |
+    \once \overrideHorizontalShift #0.3 <e-3 \5>4. <gis-2 \4>8
+      \barreSpan ⅔CII { <fis-2>4 e } |
     \shiftOn
     \stemUp
     \overrideBeamedStemLengths #'(3)
