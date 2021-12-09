@@ -676,8 +676,12 @@ lowerMiddleVoiceMusic = {
     b \revertHorizontalShift
       \shiftOff cis \shiftOn
       \once \overrideHorizontalShift #0.3
+      \fingeringAright
+      \once \overrideFingeringExtraOffset #'(-2 . -1.2)
         <cis-3>8. cis16
+      \once \overrideFingeringExtraOffset #'(-1 . -1.2)
       <bis-2>4 |
+      \fingeringAleft
     \stemUp
     \once \overrideHorizontalShift #0 <gis-3>4 s4
       \once \overrideHorizontalShift #0 \barreSpan ⅔CII { <fis-3>8 e }
