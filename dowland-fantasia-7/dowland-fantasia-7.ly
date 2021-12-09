@@ -92,7 +92,7 @@ highVoiceMusic = {
         <fis-4>
       \shiftOff
       \once \overrideHorizontalShift #0.45 gis4. gis8 } |
-    <cis,-4>4 <e-0> fis <gis-4> |
+    <cis,-4>4 <e-0> fis \once \fingeringAright <gis-4> |
     <a-4>4. <a-4>8 <gis-3>4 fis |
     <b,-0>8 <e-0> e4~ e16 <e-0> <dis-3 \2> <cis-4 \3> dis16 e8 dis16 |
     <e-0>4
@@ -252,7 +252,7 @@ lowVoiceMusic = {
     \once \overrideFingeringExtraOffset #'(-0.6 . 0)
     <gis-2> e fis gis |
     <a-2>2 gis |
-    <cis-1>4. <b-1>8 a4 <gis-2> |
+    <cis-1>4. <b-1>8 a4 \once \fingeringAright <gis-2> |
     fis r e fis |
     \shiftOn
     \overrideHorizontalShift #0
@@ -685,6 +685,7 @@ lowerMiddleVoiceMusic = {
     \stemUp
     \once \overrideHorizontalShift #0 <gis-3>4 s4
       \once \overrideHorizontalShift #0 \barreSpan ⅔CII { <fis-3>8 e }
+      \once \fingeringAright
       \once \overrideHorizontalShift #0 <e-1 b'-0>4 |
     \once \overrideHorizontalShift #0 \barreSpan CII { <e a>8. e16 } <dis-1>4
       \stemDown
