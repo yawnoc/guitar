@@ -79,20 +79,21 @@ highVoiceMusic = {
   % Main theme low
   \barNumberCheck #10
   \relative c' {
-    b4 |
-    gis b a gis |
-    fis4. gis8 a b cis dis |
-    e fis gis e a4 gis~ |
+    \stringNumbersAbove
+    <b-4 \4>4 |
+    <gis-1> <b-0> <a-1 \3> <gis-2 \4> |
+    <fis-1>4. <gis-4>8 <a-1 \3> b cis <dis-4> |
+    <e-0> fis^\barre ⅔CII <gis-4> <e-0> <a-4>4 \barreSpan CIV { gis~ |
     gis
       \shiftOn
         \once \overrideHorizontalShift #0
-        fis
+        <fis-4>
       \shiftOff
-      \once \overrideHorizontalShift #0.45 gis4. gis8 |
-    cis,4 e fis gis |
-    a4. a8 gis4 fis |
-    b,8 e e4~ e16 e dis cis dis16 e8 dis16 |
-    e4
+      \once \overrideHorizontalShift #0.45 gis4. gis8 } |
+    <cis,-4>4 <e-0> fis <gis-4> |
+    <a-4>4. <a-4>8 <gis-3>4 fis |
+    <b,-0>8 <e-0> e4~ e16 <e-0> <dis-3 \2> <cis-4 \3> dis16 e8 dis16 |
+    <e-0>4
   }
   
   % Tee-tee taa high
@@ -242,18 +243,19 @@ lowVoiceMusic = {
   % Main theme low
   \barNumberCheck #10
   \relative c {
+    \stringNumbersBelow
     r4 |
-    r4 e cis e~ |
-    e dis cis a |
-    gis e fis gis |
-    a2 gis |
-    cis4. b8 a4 gis |
+    r4 <e-3 \5> <cis-3> <e-3>~ |
+    e <dis-3> <cis-3> a |
+    <gis-2> e fis gis |
+    <a-2>2 gis |
+    <cis-1>4. <b-1>8 a4 <gis-2> |
     fis r e fis |
     \shiftOn
     \overrideHorizontalShift #0
-      gis4.
+      <gis-4>4.
     \shiftOff
-      a8 b2 |
+      a8 <b-1>2 |
     e,4
   }
   
@@ -420,24 +422,24 @@ upperMiddleVoiceMusic = {
     s4 |
     s1 * 2 |
     \stemDown
-    <b e,>2
+    <b-3 e,-1>2
     \stemUp
-      cis8 dis
+      \barreSpan CII { cis8 <dis-3> }
       \once \overrideHorizontalShift #0
       \once \override Tie.staff-position = #2.1
-      e4_~ |
+      <e-3>4_~ |
     e8 dis
-      \shiftOff cis4 \shiftOn
+      \shiftOff <cis-3>4 \shiftOn
       \once \overrideHorizontalShift #-0.75 dis2 |
     s1 |
-    s2 \stemUp b8. e16 dis8 cis |
+    s2 \stemUp <b-0>8. <e-4>16 \barreSpan CII { <dis-3>8 cis } |
       \shiftOff
       \stemDown
         \once \omit Stem b2
       \stemUp
       \shiftOn
       s2 |
-    \once \overrideHorizontalShift #0 gis4
+    \once \overrideHorizontalShift #0 <gis-1>4
   }
   
   % Tee-tee taa high
@@ -671,21 +673,21 @@ lowerMiddleVoiceMusic = {
     b \revertHorizontalShift
       \shiftOff cis \shiftOn
       \once \overrideHorizontalShift #0.3
-        cis8. cis16
-      bis4 |
+        <cis-3>8. cis16
+      <bis-2>4 |
     \stemUp
-    \once \overrideHorizontalShift #0 gis4 s4
-      \once \overrideHorizontalShift #0 fis8 e
-      \once \overrideHorizontalShift #0 <e b'>4 |
-    \once \overrideHorizontalShift #0 <e a>8. e16 dis4
+    \once \overrideHorizontalShift #0 <gis-3>4 s4
+      \once \overrideHorizontalShift #0 \barreSpan ⅔CII { <fis-3>8 e }
+      \once \overrideHorizontalShift #0 <e-1 b'-0>4 |
+    \once \overrideHorizontalShift #0 \barreSpan CII { <e a>8. e16 } <dis-1>4
       \stemDown
-      \overrideHorizontalShift #0 e4 a |
+      \overrideHorizontalShift #0 <e-1>4 a |
       \revertHorizontalShift
     \shiftOnn
-      \once \overrideHorizontalShift #0 gis2
+      \once \overrideHorizontalShift #0 <gis-1>2
     \shiftOn
-      fis4. fis8 |
-    \once \overrideHorizontalShift #0 e4
+      <fis-2>4. fis8 |
+    \once \overrideHorizontalShift #0 <e-2>4
   }
   
   % Tee-tee taa high
