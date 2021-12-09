@@ -435,7 +435,12 @@ upperMiddleVoiceMusic = {
       \shiftOff <cis-3>4 \shiftOn
       \once \overrideHorizontalShift #-0.75 dis2 |
     s1 |
-    s2 \stemUp <b-0>8. <e-4>16 \barreSpan CII { <dis-3>8 cis } |
+    s2
+      \stemUp
+      \once \overrideFingeringExtraOffset #'(-0.55 . 0)
+      <b-0>8. <e-4>16
+      \once \fingeringAright
+      \barreSpan CII { <dis-3>8 cis } |
       \shiftOff
       \stemDown
         \once \omit Stem b2
