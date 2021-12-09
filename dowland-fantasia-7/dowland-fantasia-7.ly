@@ -374,7 +374,7 @@ lowVoiceMusic = {
     \shiftOn
     \stemUp
     \triplet { e,8 e' e } \triplet { e e e }
-      \triplet { r e, e } \triplet { e e e } |
+      \triplet { b\rest e, e } \triplet { e e e } |
     \triplet { b' b ais } \triplet { b b fis }
       \triplet { b b fis } \triplet { b b a } |
     \triplet { gis e b' } \triplet { gis e b' }
