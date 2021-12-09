@@ -258,7 +258,9 @@ lowVoiceMusic = {
     \overrideHorizontalShift #0
       <gis-4>4.
     \shiftOff
-      a8 <b-1>2 |
+      a8
+      \once \overrideFingeringExtraOffset #'(-0.55 . 0)
+      <b-1>2 |
     e,4
   }
   
