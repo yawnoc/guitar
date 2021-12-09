@@ -82,6 +82,7 @@ highVoiceMusic = {
     \stringNumbersAbove
     <b-4 \4>4 |
     <gis-1> <b-0> <a-1 \3> <gis-2 \4> |
+    \once \overrideFingeringExtraOffset #'(1 . 1.3)
     <fis-1>4. <gis-4>8 <a-1 \3> b cis <dis-4> |
     <e-0> fis^\barre ⅔CII <gis-4> <e-0> <a-4>4 \barreSpan CIV { gis~ |
     gis
