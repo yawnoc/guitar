@@ -84,6 +84,7 @@ highVoiceMusic = {
     <gis-1> <b-0> <a-1 \3> <gis-2 \4> |
     \once \overrideFingeringExtraOffset #'(1 . 1.3)
     <fis-1>4. <gis-4>8 <a-1 \3> b cis <dis-4> |
+    \once \overrideFingeringExtraOffset #'(-0.6 . 0)
     <e-0> fis^\barre ⅔CII <gis-4> <e-0> <a-4>4 \barreSpan CIV { gis~ |
     gis
       \shiftOn
@@ -248,6 +249,7 @@ lowVoiceMusic = {
     r4 |
     r4 <e-3 \5> <cis-3> <e-3>~ |
     e <dis-3> <cis-3> a |
+    \once \overrideFingeringExtraOffset #'(-0.6 . 0)
     <gis-2> e fis gis |
     <a-2>2 gis |
     <cis-1>4. <b-1>8 a4 <gis-2> |
