@@ -194,25 +194,33 @@ highVoiceMusic = {
   \markTriplets #-1 "triplets"
   \bareTuplets
   \relative c' {
-    \triplet { dis8 cis4 } \triplet { dis8 b4 }
+    \triplet { dis8 cis4 } \triplet { dis8 b4 } \barLineVirtual \noBreak
       \triplet { b8 dis4 } \triplet { cis8 e dis } |
-    \triplet { e8 gis fis } \triplet { gis8 e4 }
+    \triplet { e8 gis fis } \triplet { gis8 e4 } \barLineVirtual \noBreak
       \triplet { e8 gis4 } \triplet { fis8 a gis } |
-    \triplet { a8 e4 } \triplet { e8 a e }
+    \triplet { a8 e4 } \triplet { e8 a e } \barLineVirtual \noBreak
       \triplet { e8 fis4 } \triplet { e8 cis4 } |
-    \triplet { dis8 fis4 } \triplet { dis8 b cis }
+    \triplet { dis8 fis4 } \triplet { dis8 b cis } \barLineVirtual \noBreak
       \triplet { dis8 fis a, } \triplet { b e dis } |
-    \tripletDuple { gis2. } \tripletDuple { gis } |
-    \tripletDuple { fis } \tripletDuple { fis } |
-    \tripletDuple { b } \tripletDuple { b } |
-    \tripletDuple { a } \tripletDuple { a } |
-    \tripletDuple { gis } \tripletDuple { gis } |
-    \tripletDuple { fis } \tripletDuple { fis } |
-    \tripletDuple { e } \tripletDuple { e } |
-    \triplet { e8 e d } \triplet { cis cis b }
+    \tripletDuple { gis2. } \barLineVirtual \noBreak
+      \tripletDuple { gis } |
+    \tripletDuple { fis } \barLineVirtual \noBreak
+      \tripletDuple { fis } |
+    \tripletDuple { b } \barLineVirtual \noBreak
+      \tripletDuple { b } |
+    \tripletDuple { a } \barLineVirtual \noBreak
+      \tripletDuple { a } |
+    \tripletDuple { gis } \barLineVirtual \noBreak
+      \tripletDuple { gis } |
+    \tripletDuple { fis } \barLineVirtual \noBreak
+      \tripletDuple { fis } |
+    \tripletDuple { e } \barLineVirtual \noBreak
+      \tripletDuple { e } |
+    \triplet { e8 e d } \triplet { cis cis b } \barLineVirtual \noBreak
       \once \overrideBeamVerticalPositions #'(0.75 . 0.75)
       \triplet { a a gis } s4 |
-    \tripletDuple { e'2. } s2 |
+    \tripletDuple { e'2. }  \barLineVirtual \noBreak
+      s2 |
     \markTriplets #1 "END triplets"
   }
   

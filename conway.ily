@@ -76,6 +76,7 @@ overrideBeamVerticalPositions = #(define-scheme-function
 
 barLineGoto = { \bar "||" }
 barLineKeyChange = { \bar "||" }
+barLineVirtual = { \bar "!" }
 barLineEnd = { \bar "|." }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
