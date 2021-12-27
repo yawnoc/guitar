@@ -103,16 +103,17 @@ highVoiceMusic = {
   \barNumberCheck #18
   \relative c'' {
     s4 s2 |
-    s2 c4.\rest e,8 |
-    fis8 gis a4~ a8 a gis4 |
-    fis2 e2~ |
-    \once \overrideHorizontalShift #-0.25 e4. fis8 gis8 a b4~ |
-    b ais b4. a8 |
-    gis8 fis e8 fis16 gis a4. gis8 |
-    <fis dis>8 e fis8 gis16 a b4 a |
-    gis fis e8 gis fis e |
-    gis4 fis~ fis8 e e4~ |
-    e16 e dis cis dis e cis dis e4
+    s2 c4.\rest <e,-0>8 |
+    <fis-1>8 <gis-4> <a-4>4~ a8 a <gis-3>4 |
+    fis2 <e-0>2~ |
+    \once \overrideHorizontalShift #-0.25 e4.
+      <fis-4 \2>8 <gis-3 \1>8 <a-4> <b-4>4~ |
+    b <ais-4> \barreSpan CVII { b4. <a-4>8 } |
+    <gis-3 \2>8 <fis-1> <e-0>8 <fis-1>16 <gis-4> <a-4>4. <gis-4>8 |
+    \barreSpan ⅚CII { <fis dis-3>8 <e-4> fis8 } <gis-3>16 <a-4> <b-4>4 <a-4> |
+    <gis-4> <fis-3> <e-0>8 <gis-4> <fis-1> <e-0> |
+    <gis-4>4 <fis-4~> fis8 <e-0> <e-0>4~ |
+    e16 <e-0> <dis-3 \2> <cis-4 \3> dis e cis dis <e-0>4
   }
   
   % Tee-tee taa low
@@ -278,14 +279,14 @@ lowVoiceMusic = {
   \relative c {
     s4 s4 s4 |
     s1 * 2 |
-    b4. b8 cis8 dis e4~ |
-    \once \overrideHorizontalShift #1 e8 e dis4 e4 <dis fis> |
+    \barreSpan ⅚CII { b4. b8 } <cis-2>8 <dis-4> <e-4 \5>4~ |
+    \once \overrideHorizontalShift #1 e8 <e-4> <dis-3>4 <e-1>4 <dis-2 fis-1> |
     cis2 b |
     e, a |
-    b4. a8 gis4 fis |
-    e dis' cis2 |
-    <b dis> b |
-    b e,4
+    b4. a8 <gis-1>4 <fis-1> |
+    e <dis'-1> <cis-3>2 |
+    <b-2 dis-1> <b-2> |
+    <b-1> e,4
   }
   
   % Tee-tee taa low
@@ -464,31 +465,31 @@ upperMiddleVoiceMusic = {
   % Tee-tee taa high
   \barNumberCheck #18
   \relative c' {
-    b4 cis8 dis e4 |
-    dis4 cis b2 |
+    b4 cis8 dis <e-4 \2>4 |
+    dis4 <cis-3 \3> <b-0>2 |
     \stemDown
-    s2 b4 e_~ |
-    \once \overrideHorizontalShift #0.9 e8 e
-      \once \overrideHorizontalShift #0 dis4 s2 |
+    s2 <b-0>4 <e-4_~> |
+    \once \overrideHorizontalShift #0.9 e8 <e-4>
+      \once \overrideHorizontalShift #0 <dis-4>4 s2 |
     \stemUp
       \shiftOnn
       \once \overrideHorizontalShift #0
-        b2
+        <b-0>2
       \shiftOn
-      b4. b8 |
+      \once \overrideFingeringExtraOffset #'(-0.6 . 0) <b-0>4. <b-0>8 |
     \stemDown
     \overrideHorizontalShift #0
-    cis8 dis e4 e8. e16 dis4 |
-    e4. dis8
-      \once \overrideBeamVerticalPositions #'(-2.4 . -2.6) cis8 b
-      cis4 |
-    b4. s8 b8\rest e4 dis8~ |
-    dis8 cis4 b8~
+    \barreSpan ⅚CIV { <cis-3>8 dis <e-2>4 } <e-3>8. e16 <dis-2>4 |
+    <e-2>4. <dis-3>8
+      \once \overrideBeamVerticalPositions #'(-2.4 . -2.6) <cis-1>8 <b-0>
+      <cis-1>4 |
+    <b-2>4. s8 b8\rest <e-3>4 <dis-3>8~ |
+    dis8 <cis-2>4 <b-0>8~
     \revertHorizontalShift
-      b4 ais |
-    b4 b8 a gis4 fis8 e |
+      b4 <ais-2> |
+    <b-0>4 <b-0>8 <a-3> <gis-1>4 <fis-4>8 <e-1> |
     \overrideHorizontalShift #0
-    fis2 e4
+    <fis-2>2 <e-1>4
     \revertHorizontalShift
     \stemUp
   }
@@ -718,15 +719,15 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #18
   \relative c {
     \shiftOff
-    r4 r e |
-    fis8 gis a4~ a8 a gis4 |
-    fis2 e |
+    r4 r <e-1> |
+    \barreSpan ⅔CIV { fis8 <gis-4> } <a-4>4~ a8 a <gis-3>4 |
+    <fis-3>2 \once \overrideFingeringExtraOffset #'(-0.8 . 0) <e-1> |
     \shiftOnn
-    s4 \once \overrideHorizontalShift #0 b'
+    s4 \once \overrideHorizontalShift #0 <b'-3>
     \shiftOn
     \stemUp
-      a gis |
-    \once \overrideHorizontalShift #0 fis2 s2 |
+      <a-1> <gis-3> |
+    \once \overrideHorizontalShift #0 <fis-1>2 s2 |
     \stemDown
     s1 * 5 |
     s2 s4
