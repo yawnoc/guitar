@@ -487,7 +487,7 @@ upperMiddleVoiceMusic = {
     <b-2>4. s8 b8\rest <e-3>4 <dis-3>8~ |
     dis8 <cis-2>4 <b-0>8~
     \revertHorizontalShift
-      b4 <ais-2> |
+      b4 \once \overrideFingeringExtraOffset #'(1.4 . -2.5) <ais-2> |
     <b-0>4 <b-0>8 <a-3> <gis-1>4 <fis-4>8 <e-1> |
     \overrideHorizontalShift #0
     <fis-2>2 <e-1>4
