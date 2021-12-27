@@ -112,6 +112,7 @@ highVoiceMusic = {
     <gis-3 \2>8 <fis-1> <e-0>8 <fis-1>16 <gis-4> <a-4>4. <gis-4>8 |
     \barreSpan ⅚CII { <fis dis-3>8 <e-4> fis8 } <gis-3>16 <a-4> <b-4>4 <a-4> |
     <gis-4> <fis-3> <e-0>8 <gis-4> <fis-1> <e-0> |
+    \once \overrideFingeringExtraOffset #'(-0.5 . 0)
     <gis-4>4 <fis-4~> fis8 <e-0> <e-0>4~ |
     e16 <e-0> <dis-3 \2> <cis-4 \3> dis e cis dis <e-0>4
   }
@@ -285,6 +286,7 @@ lowVoiceMusic = {
     e, a |
     b4. a8 <gis-1>4 <fis-1> |
     e <dis'-1> \once \overrideFingeringExtraOffset #'(0 . -1.5) <cis-3>2 |
+    \once \overrideFingeringExtraOffset #'(-0.5 . 0)
     <b-2 dis-1> <b-2> |
     <b-1> e,4
   }
