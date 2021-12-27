@@ -726,7 +726,7 @@ lowerMiddleVoiceMusic = {
     s4 \once \overrideHorizontalShift #0 <b'-3>
     \shiftOn
     \stemUp
-      <a-1> <gis-3> |
+      \once \overrideFingeringExtraOffset #'(-0.7 . 0) <a-1> <gis-3> |
     \once \overrideHorizontalShift #0 <fis-1>2 s2 |
     \stemDown
     s1 * 5 |
