@@ -154,13 +154,13 @@ barreSpan = #(define-music-function
       (left
         (text . ,#{ \markup { \raise #-0.7 { #label \hspace #0.7 }} #})
         (Y . 0)
-        (padding . -0.8)
+        (padding . -2)
         (attach-dir . -2)
       )
       (right
         (text . ,#{ \markup { \draw-line #'(0 . -1.3) } #}) ;; draw hook
         (Y . 0)
-        (padding . -0.5)
+        (padding . -1.5)
         (attach-dir . 2)
       )
     )
