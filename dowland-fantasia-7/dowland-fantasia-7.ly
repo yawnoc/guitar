@@ -108,7 +108,7 @@ highVoiceMusic = {
     fis2 <e-0>2~ |
     \once \overrideHorizontalShift #-0.25 e4.
       <fis-4 \2>8 <gis-3 \1>8 <a-4> <b-4>4~ |
-    b <ais-4> \barreSpan CVII { b4. <a-4>8 } |
+    b \once \fingeringAright <ais-4> \barreSpan CVII { b4. <a-4>8 } |
     <gis-3 \2>8 <fis-1> <e-0>8 <fis-1>16 <gis-4> <a-4>4. <gis-4>8 |
     \barreSpan ⅚CII { <fis dis-3>8 <e-4> fis8 } <gis-3>16 <a-4> <b-4>4 <a-4> |
     <gis-4> <fis-3> <e-0>8 <gis-4> <fis-1> <e-0> |
@@ -479,7 +479,8 @@ upperMiddleVoiceMusic = {
       \once \overrideFingeringExtraOffset #'(-0.6 . 0) <b-0>4. <b-0>8 |
     \stemDown
     \overrideHorizontalShift #0
-    \barreSpan ⅚CIV { <cis-3>8 dis <e-2>4 } <e-3>8. e16 <dis-2>4 |
+    \barreSpan ⅚CIV { <cis-3>8 dis \once \fingeringAright <e-2>4 }
+      <e-3>8. e16 <dis-2>4 |
     <e-2>4. <dis-3>8
       \once \overrideBeamVerticalPositions #'(-2.4 . -2.6) <cis-1>8 <b-0>
       <cis-1>4 |
