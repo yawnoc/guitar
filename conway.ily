@@ -13,7 +13,7 @@
 
 globalSettings = {
   \accidentalStyle modern
-  \compressFullBarRests
+  \compressEmptyMeasures
   \mergeDifferentlyHeadedOn
   \mergeDifferentlyDottedOn
   \numericTimeSignature
