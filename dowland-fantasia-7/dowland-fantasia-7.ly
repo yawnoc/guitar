@@ -284,7 +284,7 @@ lowVoiceMusic = {
     cis2 b |
     e, a |
     b4. a8 <gis-1>4 <fis-1> |
-    e <dis'-1> <cis-3>2 |
+    e <dis'-1> \once \overrideFingeringExtraOffset #'(0 . -1.5) <cis-3>2 |
     <b-2 dis-1> <b-2> |
     <b-1> e,4
   }
