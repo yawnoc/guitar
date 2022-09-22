@@ -747,7 +747,7 @@ lowerMiddleVoiceMusic = {
     <b-2>4. b8 \barreSpan ⅚CII { <cis-3> b <cis-3> } <dis-3> |
     <e-3 \5>2
       \once \overrideFingeringExtraOffset #'(-0.6 . 0) <dis-3>4 <b-4 \6> |
-    <fis'-3>4. <fis-3>8
+    <fis'-3>4. \once \overrideFingeringExtraOffset #'(-0.6 . 0) <fis-3>8
       \footnote "†" #'(0 . -2.5) \markup { "†" \resonatesOn E 6 }
       <e-2>2 |
     s2 \barreSpan ½CII { a8 <fis-3> a <b-4> } |
