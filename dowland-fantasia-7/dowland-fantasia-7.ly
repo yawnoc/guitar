@@ -123,7 +123,8 @@ highVoiceMusic = {
     <b-0>4~ |
     b8 <fis-2> <a-1>4~ a8 b gis4~ |
     gis8 <fis-4> <dis-1>4 e4. <fis-1>8 |
-    <gis-2> <fis-1> <gis-2> <a-4> <b-0>4. b8 |
+    <gis-2> <fis-1> <gis-2> <a-4>
+      \once \overrideFingeringExtraOffset #'(-0.6 . 0) <b-0>4. b8 |
     \shiftOn
     \barreSpan ½CII { \overrideHorizontalShift #-0.45 cis <b-4> cis <dis-4> }
       <e-0>2 |
@@ -744,7 +745,8 @@ lowerMiddleVoiceMusic = {
     \shiftOff
     <dis-4 \5>2 <e-2> |
     <b-2>4. b8 \barreSpan ⅚CII { <cis-3> b <cis-3> } <dis-3> |
-    <e-3 \5>2 <dis-3>4 <b-4 \6> |
+    <e-3 \5>2
+      \once \overrideFingeringExtraOffset #'(-0.6 . 0) <dis-3>4 <b-4 \6> |
     <fis'-3>4. <fis-3>8
       \footnote "†" #'(0 . -2.5) \markup { "†" \resonatesOn E 6 }
       <e-2>2 |
