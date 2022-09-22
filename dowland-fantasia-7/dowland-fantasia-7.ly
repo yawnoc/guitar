@@ -70,7 +70,7 @@ highVoiceMusic = {
     \barreSpan ½CII { cis8. dis16 } \once \fingeringAright <e-0>8 dis16 e
       <fis-1>8. gis16 a8 gis16 fis |
     <gis-1>8. <a-1>16 <b-4>4 <a-4> <gis-3> |
-    \once \overrideFingeringExtraOffset #'(-0.3 . 0)
+    \once \overrideFingeringExtraOffset #'(-0.4 . 0)
     \once \overrideHorizontalShift #0.3 <fis-3>4. fis8 e8 b4 <d-2>8 |
     cis4 <b-0> a8. <b-0>16 cis8 \once \fingeringAright <dis-4> |
     <e-0>2 s2 |
