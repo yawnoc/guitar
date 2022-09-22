@@ -120,19 +120,20 @@ highVoiceMusic = {
   % Tee-tee taa low
   \barNumberCheck #28
   \relative c' {
-    b4~ |
-    b8 fis a4~ a8 b gis4~ |
-    gis8 fis dis4 e4. fis8 |
-    gis fis gis a b4. b8 |
+    <b-0>4~ |
+    b8 <fis-2> <a-1>4~ a8 b gis4~ |
+    gis8 <fis-4> <dis-1>4 e4. <fis-1>8 |
+    <gis-2> <fis-1> <gis-2> <a-4> <b-0>4. b8 |
     \shiftOn
-    \overrideHorizontalShift #-0.45 cis b cis dis e2 |
+    \barreSpan ½CII { \overrideHorizontalShift #-0.45 cis <b-4> cis <dis-4> }
+      <e-0>2 |
     \revertHorizontalShift
-    dis8 b dis e \once \overrideHorizontalShift #0 fis2 |
+    <dis-4>8 <b-0> <dis-4> <e-0> \once \overrideHorizontalShift #0 fis2 |
     \shiftOff
-    e8 a~ a16 a gis8~ gis16 gis fis8~ fis16 fis e8~ |
-    e16 e dis cis dis e cis dis
+    <e-0>8 <a-4>~ a16 a <gis-4>8~ gis16 gis <fis-3>8~ fis16 fis <e-0>8~ |
+    e16 <e-0> <dis-3 \2> <cis-4 \3> dis e cis dis
       \shiftOn
-        \once \overrideHorizontalShift #-0.3 e2 |
+        \once \overrideHorizontalShift #-0.3 <e-0>2 |
       \shiftOff
   }
   
@@ -502,18 +503,18 @@ upperMiddleVoiceMusic = {
   \relative c {
     s4 |
     s1 * 2 |
-    s2 \stemDown fis2 \stemUp |
+    s2 \stemDown <fis-1>2 \stemUp |
     \shiftOff
     \footnote "*" #'(0 . -4) \markup { "*" \resonatesOn A 5 }
-    a4. a8 gis fis gis a |
-    \stemDown b2 \stemUp cis |
+    a4. a8 <gis-1> <fis-4> <gis-1> <a-2> |
+    \stemDown <b-3>2 \stemUp cis |
     \shiftOn
     s2
       \stemDown
       \overrideHorizontalShift #0
-      cis4 b |
+      <cis-2>4 <b-0> |
     \footnote "*" #'(0 . -4) \markup { }
-    a2
+    <a-1>2
       \stemUp
       \revertHorizontalShift
   }
@@ -741,17 +742,17 @@ lowerMiddleVoiceMusic = {
   \relative c {
     s4 |
     \shiftOff
-    dis2 e |
-    b4. b8 cis b cis dis |
-    e2 dis4 b |
-    fis'4. fis8
+    <dis-4 \5>2 <e-2> |
+    <b-2>4. b8 \barreSpan ⅚CII { <cis-3> b <cis-3> } <dis-3> |
+    <e-3 \5>2 <dis-3>4 <b-4 \6> |
+    <fis'-3>4. <fis-3>8
       \footnote "†" #'(0 . -2.5) \markup { "†" \resonatesOn E 6 }
-      e2 |
-    s2 a8 fis a b |
-    cis4 b a gis |
-    fis2
+      <e-2>2 |
+    s2 \barreSpan ½CII { a8 <fis-3> a <b-4> } |
+    <cis-1>4 <b-0> <a-1> <gis-1> |
+    <fis-2>2
       \footnote "†" #'(0 . -2.5) \markup { }
-      e4
+      <e-2>4
     \shiftOn
   }
   
