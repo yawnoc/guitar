@@ -31,7 +31,7 @@ overrideHorizontalShiftLeftABit = { \overrideHorizontalShift #-0.4 }
 
 highVoiceMusic = {
   
-  \globalSettings
+  \colourOne
   \overrideHorizontalShiftLeftABit
   \fingeringAbove
   
@@ -95,7 +95,7 @@ highVoiceMusic = {
 
 lowVoiceMusic = {
   
-  \globalSettings
+  \colourTwo
   \fingeringBelow
   
   % Home theme
@@ -155,7 +155,7 @@ lowVoiceMusic = {
 
 middleVoiceMusic = {
   
-  \globalSettings
+  \colourThree
   \fingeringBelow
   \stringNumbersBelow
   
@@ -222,6 +222,7 @@ allMusic = {
   \new Staff \with {
     midiInstrument = #"acoustic guitar (nylon)"
   }
+  \globalSettings
   \initialSignatures
   <<
     << \highVoiceMusic >>
