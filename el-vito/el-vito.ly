@@ -26,7 +26,7 @@ initialSignatures = {
 
 highVoiceMusic = {
   
-  \globalSettings
+  \colourOne
   
   % Main theme high
   \partial 4
@@ -363,7 +363,7 @@ highVoiceMusic = {
 
 lowVoiceMusic = {
   
-  \globalSettings
+  \colourTwo
   
   % Main theme high
   \partial 4
@@ -502,6 +502,7 @@ lowVoiceMusic = {
 
 
 allMusic = {
+  \globalSettings
   \initialSignatures
   <<
     << \highVoiceMusic >>
