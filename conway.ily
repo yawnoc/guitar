@@ -302,7 +302,19 @@ toCoda = {
 % Coloured noteheads
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-colourOne = { \override NoteHead.color = #darkblue }
-colourTwo = { \override NoteHead.color = #darkgreen }
-colourThree = { \override NoteHead.color = #darkyellow }
-colourFour = { \override NoteHead.color = #darkmagenta }
+colourOne = {
+  \override NoteHead.layer = #3
+  \override NoteHead.color = #darkblue
+}
+colourTwo = {
+  \override NoteHead.layer = #4
+  \override NoteHead.color = #darkgreen
+}
+colourThree = {
+  \override NoteHead.layer = #1
+  \override NoteHead.color = #darkyellow
+}
+colourFour = {
+  \override NoteHead.layer = #2
+  \override NoteHead.color = #darkmagenta
+}

@@ -149,11 +149,7 @@ middleVoiceMusic = {
       dis, <b'-0> <a-3> <b-0> <b,-2> <b'-0> |
       e, b' fis b gis b |
       dis, b' a b b, b' |
-      \barreSpan ⅔CIX {
-        \once \hide NoteHead cis e
-        \once \hide NoteHead b e
-      }
-        \barreSpan ⅔CVII { a, fis' |
+      \barreSpan ⅔CIX { cis e b e } \barreSpan ⅔CVII { a, fis' |
       b, <gis'-4> } s2 |
       s2. |
       s2. |
