@@ -54,7 +54,7 @@ bareTuplets = {
 
 highVoiceMusic = {
   
-  \override NoteHead.color = #darkblue
+  \colourOne
   
   % Main theme high
   \barNumberCheck #1
@@ -242,7 +242,7 @@ highVoiceMusic = {
 
 lowVoiceMusic = {
   
-  \override NoteHead.color = #darkgreen
+  \colourTwo
   
   % Main theme high
   \barNumberCheck #1
@@ -413,7 +413,7 @@ lowVoiceMusic = {
 
 upperMiddleVoiceMusic = {
   
-  \override NoteHead.color = #darkyellow
+  \colourThree
   
   % Main theme high
   \barNumberCheck #1
@@ -655,7 +655,7 @@ upperMiddleVoiceMusic = {
 
 lowerMiddleVoiceMusic = {
   
-  \override NoteHead.color = #darkmagenta
+  \colourFour
   
   % Main theme high
   \barNumberCheck #1
