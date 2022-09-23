@@ -221,10 +221,10 @@ highVoiceMusic = {
   \barNumberCheck 45
   \relative c' {
     \fingeringAleft
-    <e-0>8[ \barreSpan ½CIV { gis] |
+    <e-0>8[ \barreSpan ½CIV #'(0 . -0.4) { gis] |
     <b-4>4 gis8~ |
     \fingeringAright
-    gis8 } \barreSpan ½CV #'(0 . -1) { a[ <b-4>] } |
+    gis8 } \barreSpan ½CV #'(0 . -0.2) { a[ <b-4>] } |
     \fingeringAbove
     \grace { <a-2>16_( <b-4> }
       \once \overrideFingeringExtraOffset #'(-0.3 . 0) <a-2>4) gis8~ |
@@ -239,9 +239,9 @@ highVoiceMusic = {
   % Bull-fighting theme again
   \barNumberCheck 53
   \relative c' {
-    e8[ \barreSpan ½CIV { gis] |
+    e8[ \barreSpan ½CIV #'(0 . -0.4) { gis] |
     b4 gis8~ |
-    gis8 } \barreSpan ½CV #'(0 . -1) { a[ b] } |
+    gis8 } \barreSpan ½CV #'(0 . -0.2) { a[ b] } |
     \grace { a16_( b } a4) gis8~ |
     gis8 a[ b] |
     c8 a4 |
@@ -337,7 +337,7 @@ highVoiceMusic = {
       \fingeringAright
       \once \override Staff.AccidentalPlacement.right-padding = #-0.8
       \once \override Arpeggio.padding = #1.3
-      \nudgeNextBarre #1.7
+      \nudgeNextBarre #0.6
       {
         <e,, e'-3 gis!-2 d'-4 e-0> \arpeggio
           ^\position V
@@ -431,13 +431,13 @@ lowVoiceMusic = {
   \barNumberCheck #29
   \relative c, {
     r4 |
-    e8 \barreSpan ½CIX { e'' gis |
+    e8 \barreSpan ½CIX #'(0 . -0.5) { e'' gis |
     e,, e'' gis } |
     \fingeringAleft
     a,, <e''-2 \3> <a-3> |
     a,,4. |
     <g'-0>4 <b-0>8 |
-    \barreSpan ⅔CIV { fis b dis |
+    \barreSpan ⅔CIV #'(0 . -0.2) { fis b dis |
     e,, b'' e |
     e,,4. } |
   }
@@ -465,7 +465,7 @@ lowVoiceMusic = {
     \fingeringAright
     e8 b'' <e-2> |
     e,, <c'' f-2>4 |
-    e,,8 \barreSpan ½CIV { b'' <e-2> |
+    e,,8 \barreSpan ½CIV #'(0 . -0.3) { b'' <e-2> |
     e,,4. } |
     a8 \barreSpan ½CV { c' e } |
     \fingeringAleft
@@ -479,7 +479,7 @@ lowVoiceMusic = {
   \relative c, {
     e8 b'' e |
     e,, <c'' f>4 |
-    e,,8 \barreSpan ½CIV { b'' e |
+    e,,8 \barreSpan ½CIV #'(0 . -0.3) { b'' e |
     e,,4. } |
     a8 \barreSpan ½CV { c' e } |
     \barreSpan CIII { g,, b' d } |
