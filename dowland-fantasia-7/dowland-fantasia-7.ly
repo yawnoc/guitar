@@ -149,12 +149,12 @@ highVoiceMusic = {
   \barNumberCheck #39
   \relative c' {
     s2 |
-    s2 r8 e e e |
-    dis b~ b16 cis dis8 r8 cis' cis cis |
-    b8 gis~ gis16 a b8 a8 fis a4 |
-    gis4. a8~ a gis fis4 |
-    eis8 fis~ fis16 fis eis8 r8 fis fis fis |
-    dis8. e16 fis8 r b,8 e~ e16 e dis8 |
+    s2 r8 <e-0> <e-0> <e-0> |
+    <dis-4> <b-0>~ b16 cis dis8 r8 <cis'-4> cis cis |
+    \barreSpan CIV { <b-4>8 gis~ } gis16 <a-2> <b-4>8 <a-4>8 fis <a-4>4 |
+    \barreSpan ⅚CIV { gis4. <a-2>8~ a gis <fis-4>4 |
+    <eis-4>8 <fis-4>~ fis16 fis <eis-4>8 } r8 \barreSpan CII { fis fis fis } |
+    <dis-4>8. <e-0>16 <fis-1>8 ^\barre ⅚CII r <b,-0>8 <e-0>~ e16 e <dis-4>8 |
   }
   
   % Majestic theme
@@ -315,8 +315,8 @@ lowVoiceMusic = {
   \barNumberCheck #39
   \relative c, {
     e8 e'4 e8 |
-    dis8 b~ b16 cis dis8 cis2 |
-    b4 gis a2 |
+    <dis-4>8 <b-1>~ b16 <cis-3> <dis-4>8 <cis-3>2 |
+    <b-1>4 <gis-3> <a-0>2 |
     gis4 e fis2 |
     s1 * 3 |
   }
@@ -539,26 +539,26 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #39
   \relative c' {
     <b gis>4 |
-    <b fis> <b fis>
+    <b-0 fis-2> <b fis>
       \stemDown
       \once \overrideHorizontalShift #1.3
-      a8 gis16 fis gis16 b ais8 |
-    \once \overrideHorizontalShift #0 b4 s4 s2 |
+      <a-1>8 <gis-1>16 <fis-4> <gis-1>16 <b-0> <ais-2>8 |
+    \once \overrideHorizontalShift #0 <b-3>4 s4 s2 |
     s2
       \overrideHorizontalShift #0
       \shiftOnn cis4
       \shiftOn cis |
       \stemUp
-    cis <cis gis> fis,2 |
+    <cis-3> <cis-3 gis-4> <fis,>2 |
     \shiftOff
     \stemDown
-    gis8 fis gis4 <ais fis>2 |
+    <gis-3>8 <fis-1> <gis-3>4 <ais-2 fis-4>2 |
     \stemUp
     \shiftOn
     \once \overrideBeamVerticalPositions #'(0 . 0)
-    fis8 fis fis dis
+    <fis-3>8 <fis-3> <fis-3> <dis-1>
       \revertHorizontalShift
-      gis4 fis |
+      <gis-1>4 <fis-3> |
   }
   
   % Majestic theme
@@ -773,14 +773,15 @@ lowerMiddleVoiceMusic = {
   \relative c {
     s2 |
     s1 |
-    s2 s8 fis4. |
-    s2 \once \overrideHorizontalShift #0 fis4. fis8 |
-    e8 cis4. d4. d8 |
+    s2 s8 <fis-1 \4>4. |
+    s2 \once \overrideHorizontalShift #0
+      \barreSpan CII { <fis-3>4. <fis-3>8 } |
+    <e-4>8 <cis-1>4. <d-3>4. <d-3>8 |
     \once \overrideHorizontalShift #-1.3 cis4
     \overrideHorizontalShift #0
-    cis <cis fis,>2 |
+    cis <cis-3 fis,-1>2 |
     \revertHorizontalShift
-    r8 b b b gis8. a16 b4 |
+    r8 <b-1> <b-1> <b-2> <gis-4>8. a16 <b-1>4 |
   }
   
   % Majestic theme
