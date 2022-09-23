@@ -527,7 +527,7 @@ upperMiddleVoiceMusic = {
     e8 fis gis <a-3> |
     <b-0> <cis-2> <dis-4> <e-0> <fis-3 b,-0> <dis-4> <e-0> <cis-2> |
     <dis-4> <fis-2>~ fis16 <cis-3> <fis-2>8~
-      fis16 <dis-4> <fis-2>8~ fis16 <e-4> <dis-3>
+      fis16 <dis-4> <fis-2>8~ fis16 <e-0> <dis-3>
       \barreSpan CII { <cis-1> |
     <dis-3> cis <b-3> <ais-2> } <b-0> cis dis b cis b cis dis e fis gis e |
     \barreSpan ⅚CII { fis <e-4> <dis-3> cis }
