@@ -19,6 +19,7 @@ initialSignatures = {
 guitarOneMusic = {
   
   \globalSettings
+  \colourOne
   \initialSignatures
   \clef "treble_8"
   
@@ -235,6 +236,7 @@ guitarOneMusic = {
 guitarTwoMusic = {
   
   \globalSettings
+  \colourTwo
   \initialSignatures
   \clef "treble_8"
   
@@ -412,6 +414,7 @@ guitarTwoMusic = {
 guitarThreeMusic = {
 
   \globalSettings
+  \colourThree
   \initialSignatures
   \clef "treble_8"
 
@@ -582,6 +585,7 @@ guitarThreeMusic = {
 bassMusic = {
 
   \globalSettings
+  \colourFour
   \initialSignatures
   \clef "bass_8"
 
