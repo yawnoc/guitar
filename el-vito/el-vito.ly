@@ -346,6 +346,7 @@ highVoiceMusic = {
         \\
       \fingeringAleft
       {
+        \colourOne
         \once \hide Stem
         \once \overrideFingeringExtraOffset #'(2.5 . 0)
         <e''-1 \2>
