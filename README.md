@@ -11,7 +11,7 @@ Classical Guitar scores, typeset in [LilyPond].
 ## PDF Releases
 
 * [El Vito v1.1.2][el-vito]
-* [Lágrima v1.2.0][lagrima]
+* [Lágrima v1.2.1][lagrima]
 * [Sor Study in C (Opus 35, Number 13) v1.1.0][sor-c-major-35-13]
 * [Tetris Theme Quartet Arrangement v1.3.0][tetris-quartet]
 
@@ -62,7 +62,7 @@ Just play the duration that sounds good.
 [el-vito]:
   https://github.com/yawnoc/guitar/releases/tag/el-vito-v1.1.2
 [lagrima]:
-  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.2.0
+  https://github.com/yawnoc/guitar/releases/tag/lagrima-v1.2.1
 [sor-c-major-35-13]:
   https://github.com/yawnoc/guitar/releases/tag/sor-c-major-35-13-v1.1.0
 [tetris-quartet]:
