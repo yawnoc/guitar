@@ -36,7 +36,7 @@ highVoiceMusic = {
     <e-4>8 <b-1>16 <c-2> <d-4> <b-1> |
     <c-2>8 <e-4>16 e e e |
     <e-4>8 <d-4>16_( <c-2>) <b-1> <a-4 \2> |
-    <gis-3>8
+    \once \overrideFingeringExtraOffset #'(-0.3 . 0) <gis-3>8
   }
   
   % Main theme low
@@ -66,7 +66,7 @@ highVoiceMusic = {
     <b-2>_( <ais-1>) <b-1> <c-2> <d-4> <b-1> |
     <c-2>_( <b-1>) <a-4 \2> <b-1> <c-2> <d-4> |
     <f-4>_( <e-3>) <d-1> <c-4 \2> <b-3> <a-1> |
-    <gis-1>8
+    \once \overrideFingeringExtraOffset #'(-0.3 . 0) <gis-1>8
   }
   
   % Strummed main theme high
@@ -190,11 +190,11 @@ highVoiceMusic = {
   \relative c' {
     <e-0>8 e |
     <e'-4>4 e8 |
-    e4 <d-2>8 |
+    e4 \once \overrideFingeringExtraOffset #'(0.5 . 0.3) <d-2>8 |
     <d-4>4 <c-1>8~ |
     c <b-1>[ <c-2>] |
     <e-4> <b-1>4 |
-    <c-4>4 <a-2>8 |
+    <c-4>4 \once \overrideFingeringExtraOffset #'(0.5 . 0.3) <a-2>8 |
     gis4 <e-2>8~ |
     e
   }
@@ -226,7 +226,8 @@ highVoiceMusic = {
     \fingeringAright
     gis8 } \barreSpan ½CV #'(0 . -1) { a[ <b-4>] } |
     \fingeringAbove
-    \grace { <a-2>16_( <b-4> } <a-2>4) gis8~ |
+    \grace { <a-2>16_( <b-4> }
+      \once \overrideFingeringExtraOffset #'(-0.3 . 0) <a-2>4) gis8~ |
     \fingeringAleft
     gis8 <a-1>[ <b-3>] |
     <c-4>8 a4 |
@@ -335,7 +336,7 @@ highVoiceMusic = {
     <<
       \fingeringAright
       \once \override Staff.AccidentalPlacement.right-padding = #-0.8
-      \once \override Arpeggio.padding = #1
+      \once \override Arpeggio.padding = #1.3
       \nudgeNextBarre #1.7
       {
         <e,, e'-3 gis!-2 d'-4 e-0> \arpeggio
@@ -344,7 +345,11 @@ highVoiceMusic = {
       }
         \\
       \fingeringAleft
-      { \once \hide Stem <e''-1 \2> }
+      {
+        \once \hide Stem
+        \once \overrideFingeringExtraOffset #'(2.5 . 0)
+        <e''-1 \2>
+      }
     >> |
     <a,, e'-3 a-4 c e a> \arpeggio
       ^\barre CV
@@ -376,7 +381,7 @@ lowVoiceMusic = {
     \fingeringBelow
     <gis-4>8 r4 |
     a4. |
-    <c-3> |
+    \once \overrideFingeringExtraOffset #'(0.3 . 0) <c-3> |
     e, |
   }
   
@@ -442,7 +447,7 @@ lowVoiceMusic = {
   \relative c, {
     e8 e' <gis b> |
     \fingeringAright
-    e, e' <gis-1> |
+    e, e' \once \overrideFingeringExtraOffset #'(0.8 . 0) <gis-1> |
     \fingeringAleft
     a, e' <a-3> |
     a,4. |
