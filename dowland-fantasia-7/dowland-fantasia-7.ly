@@ -153,7 +153,8 @@ highVoiceMusic = {
     <dis-4> <b-0>~ b16 cis dis8 r8 <cis'-4> cis cis |
     \barreSpan CIV { <b-4>8 gis~ } gis16 <a-2> <b-4>8 <a-4>8 fis <a-4>4 |
     \barreSpan ⅚CIV { gis4. <a-2>8~ a gis <fis-4>4 |
-    <eis-4>8 <fis-4>~ fis16 fis <eis-4>8 } r8 \barreSpan CII { fis fis fis } |
+    <eis-4>8 <fis-4>~ fis16 fis <eis-4>8 }
+      \barreSpan CII #'(0 . -0.8) { r8 fis fis fis } |
     <dis-4>8. <e-0>16 <fis-1>8 ^\barre ⅚CII r <b,-0>8 <e-0>~ e16 e <dis-4>8 |
   }
   
@@ -779,7 +780,7 @@ lowerMiddleVoiceMusic = {
     <e-4>8 <cis-1>4. <d-3>4. <d-3>8 |
     \once \overrideHorizontalShift #-1.3 cis4
     \overrideHorizontalShift #0
-    cis <cis-3 fis,-1>2 |
+    cis <cis-3 fis,>2 |
     \revertHorizontalShift
     r8 <b-1> <b-1> <b-2> <gis-4>8. a16 <b-1>4 |
   }

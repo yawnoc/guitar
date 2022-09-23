@@ -120,7 +120,7 @@ barreSpan = #(define-music-function
   (string? (pair? (cons 0 0)) ly:music?)
   (let
     (
-      (elements (extract-named-music music '(NoteEvent EventChord)))
+      (elements (extract-named-music music '(NoteEvent RestEvent EventChord)))
     )
     (if
       (pair? elements)
