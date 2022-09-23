@@ -549,7 +549,7 @@ upperMiddleVoiceMusic = {
       \shiftOnn cis4
       \shiftOn cis |
       \stemUp
-    <cis-3> <cis-3 gis-4> <fis,>2 |
+    <cis-3> <cis-3 gis-4> <fis,-1>2 |
     \shiftOff
     \stemDown
     <gis-3>8 <fis-1> <gis-3>4 <ais-2 fis-4>2 |
