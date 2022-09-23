@@ -304,10 +304,10 @@ lowVoiceMusic = {
   % Ascending scale
   \barNumberCheck #35
   \relative c, {
-    s4 e8 fis |
-    gis a <b fis'> cis dis b cis ais |
-    <b fis'>4 ais b fis |
-    b gis a cis |
+    s4 e8 <fis-2> |
+    <gis-4> <a-0> <b-1 fis'-3> <cis-2> <dis-1> <b-2> <cis-4> <ais-1> |
+    <b-1 fis'-3>4 <ais-1> <b-1> <fis-1> |
+    b <gis-3> a <cis-3> |
     b2
   }
   
@@ -524,11 +524,14 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #35
   \relative c {
     \shiftOff
-    e8 fis gis a |
-    b cis dis e <fis b,> dis e cis |
-    dis fis~ fis16 cis fis8~ fis16 dis fis8~ fis16 e dis cis |
-    dis cis b ais b cis dis b cis b cis dis e fis gis e |
-    fis e dis cis \triplet { e8 dis e32 dis cis dis } <e b gis>4
+    e8 fis gis <a-3> |
+    <b-0> <cis-2> <dis-4> <e-0> <fis-3 b,-0> <dis-4> <e-0> <cis-2> |
+    <dis-4> <fis-2>~ fis16 <cis-3> <fis-2>8~
+      fis16 <dis-4> <fis-2>8~ fis16 <e-4> <dis-3>
+      \barreSpan CII { <cis-1> |
+    <dis-3> cis <b-3> <ais-2> } <b-0> cis dis b cis b cis dis e fis gis e |
+    \barreSpan ⅚CII { fis <e-4> <dis-3> cis }
+      \triplet { <e-0>8 <dis-3 \2> e32 dis <cis-4 \3> dis } <e b gis-1>4
     \shiftOn
   }
   
