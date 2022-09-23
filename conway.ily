@@ -297,3 +297,12 @@ toCoda = {
   \overrideGotoVisibility
   \makeGotoMark "to Coda"
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Coloured noteheads
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+colourOne = { \override NoteHead.color = #darkblue }
+colourTwo = { \override NoteHead.color = #darkgreen }
+colourThree = { \override NoteHead.color = #darkyellow }
+colourFour = { \override NoteHead.color = #darkmagenta }
