@@ -685,7 +685,6 @@ lowerMiddleVoiceMusic = {
     <b-2> <e-1> a <gis-1> |
       \revertHorizontalShift
     \stemUp
-    \once \overrideFingeringExtraOffset #'(0 . -0.5)
     \barreSpan ⅓CII { <fis-3>8 e }
       \overrideHorizontalShift #0 <fis-3>4 <e-1>
       \revertHorizontalShift
