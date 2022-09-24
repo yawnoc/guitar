@@ -149,7 +149,7 @@ highVoiceMusic = {
   \barNumberCheck #39
   \relative c' {
     s2 |
-    s2 r8 <e-0> <e-0> <e-0> |
+    s2 r8 <e-0> <e-0> \once \fingeringAright <e-0> |
     <dis-4> <b-0>~ b16 cis dis8 r8 <cis'-4> cis cis |
     \barreSpan CIV { <b-4>8 gis~ } gis16 <a-2> <b-4>8 <a-4>8 fis <a-4>4 |
     \barreSpan ⅚CIV { gis4. <a-2>8~ a gis <fis-4>4 |
@@ -316,7 +316,10 @@ lowVoiceMusic = {
   \barNumberCheck #39
   \relative c, {
     e8 e'4 e8 |
-    <dis-4>8 <b-1>~ b16 <cis-3> <dis-4>8 <cis-3>2 |
+    <dis-4>8 <b-1>~ b16 <cis-3> <dis-4>8
+      \once \fingeringBelow
+      \once \overrideFingeringExtraOffset #'(0.2 . 0)
+      <cis-3>2 |
     <b-1>4 <gis-3> <a-0>2 |
     gis4 e fis2 |
     s1 * 3 |
@@ -543,7 +546,8 @@ upperMiddleVoiceMusic = {
     <b-0 fis-2> <b fis>
       \stemDown
       \once \overrideHorizontalShift #1.3
-      <a-1>8 <gis-1>16 <fis-4> <gis-1>16 <b-0> <ais-2>8 |
+      <a-1>8 <gis-1>16 <fis-4>
+      <gis-1>16 <b-0> \once \fingeringAright <ais-2>8 |
     \once \overrideHorizontalShift #0 <b-3>4 s4 s2 |
     s2
       \overrideHorizontalShift #0
@@ -553,13 +557,15 @@ upperMiddleVoiceMusic = {
     <cis-3> <cis-3 gis-4> <fis,-1>2 |
     \shiftOff
     \stemDown
-    <gis-3>8 <fis-1> <gis-3>4 <ais-2 fis-4>2 |
+    \once \overrideFingeringExtraOffset #'(-0.4 . 0)
+    <gis-3>8 <fis-1> <gis-3>4 \once \fingeringAright <ais-2 fis-4>2 |
     \stemUp
     \shiftOn
     \once \overrideBeamVerticalPositions #'(0 . 0)
     <fis-3>8 <fis-3> <fis-3> <dis-1>
       \revertHorizontalShift
-      <gis-1>4 <fis-3> |
+      \once \overrideFingeringExtraOffset #'(-0.75 . 0) <gis-1>4
+      \once \overrideFingeringExtraOffset #'(-0.65 . 0) <fis-3> |
   }
   
   % Majestic theme
@@ -780,7 +786,7 @@ lowerMiddleVoiceMusic = {
     <e-4>8 <cis-1>4. <d-3>4. <d-3>8 |
     \once \overrideHorizontalShift #-1.3 cis4
     \overrideHorizontalShift #0
-    cis <cis-3 fis,>2 |
+    cis \once \fingeringAright <cis-3 fis,>2 |
     \revertHorizontalShift
     r8 <b-1> <b-1> <b-2> <gis-4>8. a16 <b-1>4 |
   }
