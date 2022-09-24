@@ -543,7 +543,7 @@ upperMiddleVoiceMusic = {
       fis16 <dis-4> <fis-2>8~ fis16 <e-0> <dis-3>
       \barreSpan CII { <cis-1> |
     <dis-3> cis <b-3> <ais-2> } <b-0> cis dis b cis b cis dis e fis gis e |
-    \barreSpan ⅚CII { fis <e-4> <dis-3> cis }
+    \barreSpan ⅚CII { fis e dis cis }
       \triplet { <e-0>8 <dis-3 \2> e32 dis <cis-4 \3> dis } <e b gis-1>4
     \shiftOn
   }
