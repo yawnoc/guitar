@@ -722,7 +722,7 @@ lowerMiddleVoiceMusic = {
     <b-2> <e-1> a <gis-1> |
       \revertHorizontalShift
     \stemUp
-    \barreSpan ⅓CII { <fis-3>8 e }
+    \barreSpan ½CII { <fis-3>8 e }
       \overrideHorizontalShift #0 <fis-3>4 <e-1>
       \revertHorizontalShift
     \stemDown
