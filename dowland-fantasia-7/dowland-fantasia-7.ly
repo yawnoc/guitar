@@ -184,7 +184,7 @@ highVoiceMusic = {
   % Scale runs
   \barNumberCheck #59
   \relative c' {
-    d16\rest <e b>8. s4 s2 |
+    d16\rest <e b gis>8. s4 s2 |
     s1 * 9 |
   }
   
