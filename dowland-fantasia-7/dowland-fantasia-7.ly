@@ -17,6 +17,12 @@
 }
 
 
+\paper {
+  systems-per-page = 7
+  ragged-last = ##t
+}
+
+
 initialSignatures = {
   \clef "treble_8"
   \key e \major
