@@ -140,7 +140,8 @@ highVoiceMusic = {
     <e-0>8 <a-4>~ a16 a <gis-4>8~ gis16 gis <fis-3>8~ fis16 fis <e-0>8~ |
     e16 <e-0> <dis-3 \2> <cis-4 \3> dis e cis dis
       \shiftOn
-        \once \overrideHorizontalShift #-0.3 <e-0>2 |
+        \once \overrideHorizontalShift #-0.3
+        \once \overrideFingeringExtraOffset #'(0.15 . 0) <e-0>2 |
       \shiftOff
   }
   
@@ -605,7 +606,7 @@ upperMiddleVoiceMusic = {
     <fis-3>8 <fis-3> <fis-3> <dis-1>
       \revertHorizontalShift
       \once \overrideFingeringExtraOffset #'(-0.75 . 0) <gis-1>4
-      \once \overrideFingeringExtraOffset #'(-0.65 . 0) <fis-3> |
+      \once \overrideFingeringExtraOffset #'(-0.55 . 0) <fis-3> |
   }
   
   % Majestic theme
@@ -665,6 +666,7 @@ upperMiddleVoiceMusic = {
       e fis gis e
       \barreSpan ⅚CII { fis e dis cis }
       \once \override TupletNumber.Y-offset = #6.5
+      \once \overrideFingeringExtraOffset #'(0.15 . 0)
       \triplet { <e-0>8 <dis-3 \2> e32 dis <cis-4 \3> dis } |
   }
   
@@ -809,7 +811,7 @@ lowerMiddleVoiceMusic = {
     <cis-1>4 <b-0> <a-1> <gis-1> |
     <fis-2>2
       \footnote "†" #'(0 . -2.5) \markup { }
-      <e-2>4
+      \once \overrideFingeringExtraOffset #'(-0.3 . 0) <e-2>4
     \shiftOn
   }
   
@@ -834,7 +836,8 @@ lowerMiddleVoiceMusic = {
     \overrideHorizontalShift #0
     cis \once \fingeringAright <cis-3 fis,>2 |
     \revertHorizontalShift
-    r8 <b-1> <b-1> <b-2> <gis-4>8. a16 <b-1>4 |
+    r8 <b-1> <b-1> <b-2> <gis-4>8. a16
+      \once \overrideFingeringExtraOffset #'(0.1 . 0) <b-1>4 |
   }
   
   % Majestic theme
