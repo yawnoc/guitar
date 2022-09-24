@@ -56,6 +56,18 @@ Just play the duration that sounds good.
 | 5 | ⅚ | `U+215A` |
 
 
+## Unicode footnote symbols
+
+| Unicode | Code point |
+| - | - |
+| * | `U+002A` |
+| † | `U+2020` |
+| ‡ | `U+2021` |
+| § | `U+00A7` |
+| ¶ | `U+00B6` |
+| ‖ | `U+2016` |
+
+
 [license]: LICENSE
 [lilypond]: https://lilypond.org/
 
