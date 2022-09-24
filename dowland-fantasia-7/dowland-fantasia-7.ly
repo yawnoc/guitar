@@ -172,9 +172,11 @@ highVoiceMusic = {
       <gis-3>8 <e-4> \barreSpan ⅚CII { fis dis } |
     e2 s2 |
     b8\rest e \barreSpan CII { fis16 gis <a-4> } <b-4>
+      \once \overrideFingeringExtraOffset #'(0.1 . 0)
       <gis-1>8 <e-2> \barreSpan ⅚CII { fis dis } |
     e2 s2 |
     b8\rest e \barreSpan CII { fis16 gis a fis }
+      \once \overrideFingeringExtraOffset #'(0.15 . 0)
       <gis-3>8 <e-4> \barreSpan ⅚CII { fis dis } |
     e2 s2 |
   }
@@ -595,7 +597,8 @@ upperMiddleVoiceMusic = {
     g8\rest cis b a gis8 fis16 e fis8 dis |
     s1 |
     g8\rest e <fis-1>16 <gis-3> <a-4> <fis-1>
-      <gis-1 \4>8 <e-2> <fis-4> <dis-1> |
+      <gis-1 \4>8 <e-2> <fis-4>
+      \once \overrideFingeringExtraOffset #'(0.2 . 0) <dis-1> |
     s1 |
     g8\rest e <fis-1>16 <gis-3> <a-4> <b-0> <gis-1 \4>8 <e-2> <fis-4> <dis-1> |
     s1 |
