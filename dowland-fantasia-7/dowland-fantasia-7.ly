@@ -194,8 +194,15 @@ highVoiceMusic = {
     s1 |
     r8 gis4 fis8 gis e \barreSpan ⅚CII { fis dis } |
     s1 |
-    \barreSpan CII #'(0 . -0.25) { r8 <a'-4>4 <gis-4>8 <a-4> <fis-1> }
-      \barreSpan ⅚CIV #'(0 . -1) { gis eis } |
+    \barreSpan CII #'(0 . -0.25) {
+      r8 <a'-4>4
+      \once \fingeringAright
+      \once \overrideFingeringExtraOffset #'(-0.5 . 0)
+        <gis-4>8
+      <a-4> <fis-1>
+    }
+      \nudgeNextBarre #2
+      gis ^\barre ⅚CIV eis |
     r8 gis~ gis16 gis fis8~ fis16 gis e8 <dis-4> <b-0> |
     \barreSpan ⅚CII { fis'8. e16 dis cis b ais
       b16 cis dis cis <dis-4> <b-3> } <cis-2>8 |
@@ -378,9 +385,13 @@ lowVoiceMusic = {
     <fis-2>8 <fis'-4>4 <eis-4>8
       \footnote "¶" #'(0 . -2.5) \markup { "¶" \resonatesOn F♯ 6 }
       <fis-4>4 <cis-4> |
-    fis,8 <fis'-3>4 <eis-3>8 <fis-3>4 cis |
+    fis,8 <fis'-3>4
+      \once \fingeringAright
+      \once \overrideFingeringExtraOffset #'(0.2 . 0)
+        <eis-3>8
+      <fis-3>4 cis |
     e,8 e'4 dis8~ dis e <b-1~ fis'-3>4 |
-    b8 b4.~ b8 b4 <ais-1>8 |
+    b8 b4.~ b8 b4 \once \overrideFingeringExtraOffset #'(1.4 . -2.6) <ais-1>8 |
   }
   
   % Triplet runs
@@ -828,7 +839,8 @@ lowerMiddleVoiceMusic = {
     \stemUp
     b8\rest <gis-1>4 <fis-2>8 <gis-1> <e-2> fis dis |
     s1 |
-    b'8\rest <a-1>4 <gis-1>8 <a-1> <fis-4> <gis-1> <eis-3> |
+    b'8\rest <a-1>4 \once \overrideFingeringExtraOffset #'(-0.3 . 0) <gis-1>8
+      <a-1> <fis-4> <gis-1> <eis-3> |
     s1 * 3 |
     \stemDown
   }
