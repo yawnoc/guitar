@@ -687,6 +687,7 @@ upperMiddleVoiceMusic = {
       \triplet { <e-0>8 e4 }
       \revertHorizontalShift
       \triplet { <cis-3>8 cis <b-0> } |
+    \once \overrideFingeringExtraOffset #'(-0.7 . 0)
     \triplet { <cis-1> <b-0> cis } \triplet { b cis b }
       \triplet { cis b cis }
       \triplet { b8. \nudgeNextBarre #0.5 cis16 ^\barre ½CII a8 } |
