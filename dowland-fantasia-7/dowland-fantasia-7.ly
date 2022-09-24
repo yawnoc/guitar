@@ -184,7 +184,7 @@ highVoiceMusic = {
   % Scale runs
   \barNumberCheck #59
   \relative c' {
-    d16\rest <e b gis>8. s4 s2 |
+    d16\rest <e b gis-1>8. s4 s2 |
     s1 * 9 |
   }
   
@@ -356,15 +356,15 @@ lowVoiceMusic = {
   \barNumberCheck #59
   \relative c, {
     e2 e |
-    b' b |
+    <b'-1> <b-1> |
     a a |
     e e |
-    cis' a |
-    b gis |
-    a b |
-    e, e'4 b |
-    cis a b gis |
-    a cis b2 |
+    <cis'-3> a |
+    <b-1> <gis-3> |
+    a <b-1> |
+    e, <e'-1>4 b |
+    <cis-3> a <b-1> <gis-3> |
+    a <cis-3> b2 |
   }
   
   % Majestic interlude
@@ -611,30 +611,30 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #59
   \relative c' {
     s16 \stemDown gis e fis \stemUp gis a b cis
-      b e, e fis gis a b cis |
-    dis b b cis dis e fis gis
-      fis b, b cis dis e fis gis |
-    a a, a b cis cis cis dis
+      b e, e fis gis a b <cis-2> |
+    <dis-4> b b cis dis e fis gis
+      <fis-2> b, b cis dis e fis gis |
+    <a-4> a, a b cis cis cis dis
       e a, a b cis dis e fis |
     gis fis e dis e fis gis fis
       gis e fis gis fis dis e fis |
     e dis e fis gis fis gis e
-      fis e fis gis fis e dis cis |
-    dis cis dis e dis cis b ais
+      fis e fis gis fis e dis <cis-2> |
+    <dis-4> cis dis e dis cis b ais
       b ais b cis dis cis dis b |
-    cis b cis dis e dis e cis
-      dis cis dis e fis e fis dis |
+    cis b cis dis e dis e <cis-2>
+      <dis-4> cis dis e fis e fis dis |
     e dis e fis gis fis e dis
       e fis gis e
-      fis dis e fis |
+      \barreSpan ⅚CII { fis dis e fis } |
     e fis gis e
-      a gis fis e
-      dis cis b ais
+      <a-4> gis fis e
+      <dis-4> cis b ais
       b cis dis b |
     cis b cis dis
       e fis gis e
-      fis e dis cis
-      \triplet { e8 dis e32 dis cis dis } |
+      \barreSpan ⅚CII { fis e dis cis }
+      \triplet { <e-0>8 <dis-3 \2> e32 dis <cis-4 \3> dis } |
   }
   
   % Majestic interlude
