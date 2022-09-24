@@ -68,6 +68,15 @@ Just play the duration that sounds good.
 | ‖ | `U+2016` |
 
 
+## Unicode accidentals
+
+| Unicode | Code point |
+| - | - |
+| ♭ | `U+266D` |
+| ♮ | `U+266E` |
+| ♯ | `U+266F` |
+
+
 [license]: LICENSE
 [lilypond]: https://lilypond.org/
 

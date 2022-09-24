@@ -192,12 +192,13 @@ highVoiceMusic = {
   \barNumberCheck #69
   \relative c'' {
     s1 |
-    r8 gis4 fis8 gis e fis dis |
+    r8 gis4 fis8 gis e \barreSpan ⅚CII { fis dis } |
     s1 |
-    r8 a'4 gis8 a fis gis eis |
-    r8 gis~ gis16 gis fis8~ fis16 gis e8 dis b |
-    fis'8. e16 dis cis b ais
-      b16 cis dis cis dis b cis8 |
+    \barreSpan CII #'(0 . -0.25) { r8 <a'-4>4 <gis-4>8 <a-4> <fis-1> }
+      \barreSpan ⅚CIV #'(0 . -1) { gis eis } |
+    r8 gis~ gis16 gis fis8~ fis16 gis e8 <dis-4> <b-0> |
+    \barreSpan ⅚CII { fis'8. e16 dis cis b ais
+      b16 cis dis cis <dis-4> <b-3> } <cis-2>8 |
   }
   
   % Triplet runs
@@ -370,12 +371,16 @@ lowVoiceMusic = {
   % Majestic interlude
   \barNumberCheck #69
   \relative c, {
-    e8 e'4 dis8 e4 b |
+    e8 <e'-2>4 <dis-4>8
+      \footnote "§" #'(0 . -2.5) \markup { "§" \resonatesOn E 6 }
+      <e-2>4 b |
     e,8 e'4 dis8 e4 b |
-    fis8 fis'4 eis8 fis4 cis |
-    fis,8 fis'4 eis8 fis4 cis |
-    e,8 e'4 dis8~ dis e <b~ fis'>4 |
-    b8 b4.~ b8 b4 ais8 |
+    <fis-2>8 <fis'-4>4 <eis-4>8
+      \footnote "¶" #'(0 . -2.5) \markup { "¶" \resonatesOn F♯ 6 }
+      <fis-4>4 <cis-4> |
+    fis,8 <fis'-3>4 <eis-3>8 <fis-3>4 cis |
+    e,8 e'4 dis8~ dis e <b-1~ fis'-3>4 |
+    b8 b4.~ b8 b4 <ais-1>8 |
   }
   
   % Triplet runs
@@ -821,9 +826,9 @@ lowerMiddleVoiceMusic = {
   \barNumberCheck #69
   \relative c' {
     \stemUp
-    b8\rest gis4 fis8 gis e fis dis |
+    b8\rest <gis-1>4 <fis-2>8 <gis-1> <e-2> fis dis |
     s1 |
-    b'8\rest a4 gis8 a fis gis eis |
+    b'8\rest <a-1>4 <gis-1>8 <a-1> <fis-4> <gis-1> <eis-3> |
     s1 * 3 |
     \stemDown
   }
