@@ -634,6 +634,7 @@ upperMiddleVoiceMusic = {
     cis b cis dis
       e fis gis e
       \barreSpan ⅚CII { fis e dis cis }
+      \once \override TupletNumber.Y-offset = #6.5
       \triplet { <e-0>8 <dis-3 \2> e32 dis <cis-4 \3> dis } |
   }
   
