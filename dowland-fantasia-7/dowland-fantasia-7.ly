@@ -536,7 +536,8 @@ upperMiddleVoiceMusic = {
     dis8 <cis-2>4 <b-0>8~
     \revertHorizontalShift
       b4 \once \overrideFingeringExtraOffset #'(1.4 . -2.5) <ais-2> |
-    <b-0>4 <b-0>8 <a-3> <gis-1>4 <fis-4>8 <e-1> |
+    <b-0>4 <b-0>8 \once \overrideFingeringExtraOffset #'(0.15 . 0) <a-3>
+      <gis-1>4 <fis-4>8 <e-1> |
     \overrideHorizontalShift #0
     <fis-2>2 <e-1>4
     \revertHorizontalShift
@@ -632,7 +633,9 @@ upperMiddleVoiceMusic = {
       <gis-1 \4>8 <e-2> <fis-4>
       \once \overrideFingeringExtraOffset #'(0.2 . 0) <dis-1> |
     s1 |
-    g8\rest e <fis-1>16 <gis-3> <a-4> <b-0> <gis-1 \4>8 <e-2> <fis-4> <dis-1> |
+    g8\rest e <fis-1>16 <gis-3> <a-4> <b-0>
+      <gis-1 \4>8 <e-2> <fis-4>
+      \once \overrideFingeringExtraOffset #'(0.2 . 0) <dis-1> |
     s1 |
     g8\rest e <fis-1>16 <gis-3> <a-4> <fis-1>
       <gis-1 \4>8 <e-2> <fis-4> <dis-1> |
