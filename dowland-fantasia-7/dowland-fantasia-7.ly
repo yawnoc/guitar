@@ -209,7 +209,7 @@ highVoiceMusic = {
       <a-4> <fis-1>
     }
       \nudgeNextBarre #2
-      gis ^\barre ⅚CIV eis |
+      \barreSpan ⅚CIV { gis eis } |
     r8 gis~ gis16 gis fis8~ fis16 gis e8 <dis-4> <b-0> |
     \barreSpan ⅚CII { fis'8. e16 dis cis b ais
       b16 cis dis cis <dis-4> <b-3> } <cis-2>8 |
