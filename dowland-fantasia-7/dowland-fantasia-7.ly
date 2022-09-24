@@ -261,7 +261,9 @@ highVoiceMusic = {
   % Finishing chords
   \barNumberCheck #88
   \relative c' {
-    b8\rest \once \overrideFingeringExtraOffset #'(-1.3 . 0) <e,-2 b' e>4.
+    b8\rest
+      \once \overrideFingeringExtraOffset #'(-1.3 . 0)
+      <\footnote ‖ #'(0 . -1.5) \markup { ‖ \resonatesOn E 6 } e,-2  b' e>4.
       <e gis b e>2 \arpeggio
       \barLineEnd
   }
