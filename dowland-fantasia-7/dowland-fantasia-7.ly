@@ -254,7 +254,7 @@ highVoiceMusic = {
   % Finishing chords
   \barNumberCheck #88
   \relative c' {
-    b8\rest <e, b' e>4.
+    b8\rest \once \overrideFingeringExtraOffset #'(-1.3 . 0) <e,-2 b' e>4.
       <e gis b e>2 \arpeggio
       \barLineEnd
   }
@@ -697,7 +697,7 @@ upperMiddleVoiceMusic = {
   \barNumberCheck #88
   \relative c' {
     \stemDown
-    s8 a gis fis \shiftOff e2 |
+    s8 <a-3> <gis-1> <fis-4> \shiftOff e2 |
   }
   
 }
