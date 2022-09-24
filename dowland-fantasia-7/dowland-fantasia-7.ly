@@ -213,32 +213,40 @@ highVoiceMusic = {
   \markTriplets #-1 "triplets"
   \bareTuplets
   \relative c' {
-    \triplet { dis8 cis4 } \triplet { dis8 b4 } \barLineVirtual \noBreak
-      \triplet { b8 dis4 } \triplet { cis8 e dis } |
-    \triplet { e8 gis fis } \triplet { gis8 e4 } \barLineVirtual \noBreak
-      \triplet { e8 gis4 } \triplet { fis8 a gis } |
-    \triplet { a8 e4 } \triplet { e8 a e } \barLineVirtual \noBreak
-      \triplet { e8 fis4 } \triplet { e8 cis4 } |
-    \triplet { dis8 fis4 } \triplet { dis8 b cis } \barLineVirtual \noBreak
-      \triplet { dis8 fis a, } \triplet { b e dis } |
-    \tripletDuple { gis2. } \barLineVirtual \noBreak
+    \triplet { <dis-4>8 <cis-2>4 } \triplet { <dis-4>8 b4 }
+      \barLineVirtual \noBreak
+      \triplet { b8 dis4 } \triplet { <cis-2>8 e <dis-4> } |
+    \triplet { e8 gis fis } \triplet { gis8 e4 }
+      \barLineVirtual \noBreak
+      \triplet { e8 gis4 } \triplet { <fis-2>8 <a-4> <gis-3> } |
+    \triplet { <a-4>8 <e-3>4 } \triplet { <e-3>8 <a-4> <e-3> }
+      \barLineVirtual \noBreak
+      \triplet { <e-0>8 <fis-1>4 ^\barre "(½CII)" }
+      \triplet { <e-0>8 \nudgeNextBarre #1 <cis-1>4 ^\barre "(½CII)" } |
+    \triplet {
+      \barreSpan CII { <dis-4>8 fis4 <dis-4>8 } <b-0> \barreSpan CII { cis
+      \barLineVirtual \noBreak
+      <dis-4>8 fis a, } <b-0> <e-0> <dis-3>
+    } |
+    \tripletDuple { <gis-4>2. } \barLineVirtual \noBreak
       \tripletDuple { gis } |
-    \tripletDuple { fis } \barLineVirtual \noBreak
+    \tripletDuple { <fis-4> } \barLineVirtual \noBreak
       \tripletDuple { fis } |
-    \tripletDuple { b } \barLineVirtual \noBreak
+    \tripletDuple { <b-4> } \barLineVirtual \noBreak
       \tripletDuple { b } |
-    \tripletDuple { a } \barLineVirtual \noBreak
-      \tripletDuple { a } |
-    \tripletDuple { gis } \barLineVirtual \noBreak
+    \tripletDuple { <a-4> } \barLineVirtual \noBreak
+      \tripletDuple { <a-4> } |
+    \tripletDuple { <gis-4> } \barLineVirtual \noBreak
       \tripletDuple { gis } |
-    \tripletDuple { fis } \barLineVirtual \noBreak
+    \tripletDuple { <fis-4> } \barLineVirtual \noBreak
       \tripletDuple { fis } |
-    \tripletDuple { e } \barLineVirtual \noBreak
+    \tripletDuple { <e-0> } \barLineVirtual \noBreak
       \tripletDuple { e } |
-    \triplet { e8 e d } \triplet { cis cis b } \barLineVirtual \noBreak
+    \triplet { <e-0>8 e <d-2> } \triplet { <cis-2> cis <b-0> }
+      \barLineVirtual \noBreak
       \once \overrideBeamVerticalPositions #'(0.75 . 0.75)
-      \triplet { a a gis } s4 |
-    \tripletDuple { e'2. }  \barLineVirtual \noBreak
+      \triplet { <a-1> a <gis-1> } s4 |
+    \tripletDuple { <e'-0>2. }  \barLineVirtual \noBreak
       s2 |
     \markTriplets #1 "END triplets"
   }
@@ -398,36 +406,36 @@ lowVoiceMusic = {
   \barNumberCheck #75
   \bareTuplets
   \relative c {
-    \triplet { <b fis'>4 ais8 } \triplet { b4 gis8 }
-      \triplet { gis4 b8 } \triplet { a4 b8 } |
+    \triplet { <b-1 fis'-3>4 <ais-1>8 } \triplet { <b-1>4 gis8 }
+      \triplet { gis4 b8 } \triplet { a4 <b-1>8 } |
     \triplet { e4 dis8 } \triplet { e4 cis8 }
-      \triplet { cis4 e8 } \triplet { d4 e8 } |
-    \triplet { a,4 cis8 } \triplet { cis4. }
-      \triplet { cis4 d8 } \triplet { cis4 a8 } |
-    \triplet { <b fis'>4 fis8 } \triplet { <b fis'>4 fis8 }
-      \triplet { <b fis'>4 fis8 } \triplet { gis4 <b fis'>8 } |
+      \triplet { cis4 e8 } \triplet { d4 <e-1>8 } |
+    \triplet { <a,-0>4 <cis-2>8 } \triplet { <cis-2>4. }
+      \triplet { <cis-2>4 <d-0>8 } \triplet { <cis-2>4 <a-0>8 } |
+    \triplet { <b fis'-3>4 fis8 } \triplet { <b fis'-3>4 fis8 }
+      \triplet { <b fis'-3>4 fis8 } \triplet { <gis-2>4 <b-1 fis'-2>8 } |
     \shiftOn
     \stemUp
     \triplet { e,8 e' e } \triplet { e e e }
       \triplet { b\rest e, e } \triplet { e e e } |
-    \triplet { b' b ais } \triplet { b b fis }
+    \triplet { <b'-3> b ais } \triplet { b b fis }
       \triplet { b b fis } \triplet { b b a } |
-    \triplet { gis e b' } \triplet { gis e b' }
+    \triplet { <gis-1> e <b'-3 \6> } \triplet { gis e b' }
       \triplet { gis e b' } \triplet { gis e e } |
     \triplet { a a a } \triplet { a a b }
-      \triplet { cis cis b } \triplet { cis cis dis } |
-    \triplet { e e e } \triplet { e, e e }
+      \triplet { <cis-3> cis b } \triplet { cis cis <dis-1> } |
+    \triplet { <e-1> e e } \triplet { e, e e }
       \triplet { e e fis } \triplet { gis gis a } |
-    \triplet { b b ais } \triplet { b b fis }
+    \triplet { <b-3> b ais } \triplet { b b fis }
       \triplet { a a fis } \triplet { b b a } |
-    \triplet { gis e gis } \triplet { a e a }
-      \triplet { gis gis e }
+    \triplet { <gis-3> e gis } \triplet { <a-3> e a }
+      \triplet { <gis-3> gis e }
     \stemDown
     \shiftOff
-      \triplet { e' e d } |
-    \triplet { cis cis b } \triplet { a a gis }
-      \triplet { cis cis b } \triplet { a a gis } |
-    \triplet { a gis a } \triplet { gis a gis }
+      \triplet { <e'-1> e d } |
+    \triplet { <cis-3> cis <b-1> } \triplet { <a-0> a <gis-3> }
+      \triplet { <cis-3> cis <b-2> } \triplet { <a-0> a <gis-4> } |
+    \triplet { <a-0> <gis-3> a } \triplet { gis a gis }
       \triplet { a gis a } \triplet { gis8 a4 } |
   }
   
@@ -676,11 +684,12 @@ upperMiddleVoiceMusic = {
     s1 * 11 |
     s2
       \overrideHorizontalShift #0
-      \triplet { e8 e4 }
+      \triplet { <e-0>8 e4 }
       \revertHorizontalShift
-      \triplet { cis8 cis b } |
-    \triplet { cis b cis } \triplet { b cis b }
-      \triplet { cis b cis } \triplet { b8. cis16 a8 } |
+      \triplet { <cis-3>8 cis <b-0> } |
+    \triplet { <cis-1> <b-0> cis } \triplet { b cis b }
+      \triplet { cis b cis }
+      \triplet { b8. \nudgeNextBarre #0.5 cis16 ^\barre ½CII a8 } |
   }
   
   % Finishing chords
