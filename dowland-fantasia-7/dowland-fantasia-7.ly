@@ -162,17 +162,20 @@ highVoiceMusic = {
   \barNumberCheck #46
   \relative c' {
     s1 |
-    b8\rest gis' fis a gis e fis dis |
+    b8\rest <gis'-4> <fis-2> <a-4> <gis-4> e \barreSpan ⅚CII { fis dis } |
     s1 |
-    b8\rest b' e, a gis e fis dis |
+    b8\rest <b'-4> e, <a-4> <gis-2> <e-0> \barreSpan ⅚CII { fis dis } |
     e2 s2 |
-    r8 cis' b a gis8 fis16 e fis8 dis |
+    r8 cis' b a gis8 fis16 e \barreSpan ⅚CII { fis8 dis } |
     e2 s2 |
-    b8\rest e fis16 gis a fis gis8 e fis dis |
+    b8\rest e \barreSpan CII { fis16 gis a fis }
+      <gis-3>8 <e-4> \barreSpan ⅚CII { fis dis } |
     e2 s2 |
-    b8\rest e fis16 gis a b gis8 e fis dis |
+    b8\rest e \barreSpan CII { fis16 gis <a-4> } <b-4>
+      <gis-1>8 <e-2> \barreSpan ⅚CII { fis dis } |
     e2 s2 |
-    b8\rest e fis16 gis a fis gis8 e fis dis |
+    b8\rest e \barreSpan CII { fis16 gis a fis }
+      <gis-3>8 <e-4> \barreSpan ⅚CII { fis dis } |
     e2 s2 |
   }
   
@@ -328,19 +331,23 @@ lowVoiceMusic = {
   % Majestic theme
   \barNumberCheck #46
   \relative c, {
-    e8 e'4 dis8 e,4 b' |
-    e,8 e'4 dis8 e4 b |
-    e,8 e' dis4 e b |
-    e,8 gis a fis e4 b' |
-    e,8 e' dis4 e, b' |
+    e8
+      \footnote "‡" #'(0 . -2.5) \markup { "‡" \resonatesOn E 6 }
+      <e'-2>4 <dis-1>8 e,4 b' |
+    e,8 <e'-1>4 <dis-1>8 <e-1>4 b |
+    e,8 <e'-1> <dis-3>4
+      \footnote "‡" #'(0 . -2.5) \markup { } <e-2>
+      <b-2 \6> |
+    e,8 <gis-1> a <fis-1> e4 b' |
+    e,8 <e'-1> <dis-3>4 e, <b'-2 \6> |
     e,2 e4 b' |
     e,2 e4 b' |
-    e,8 gis fis4 e b' |
-    e,8 e' dis4 e, b' |
-    e,8[ gis] fis8. b16\rest e,4 b' |
-    e,8 e' dis4 e, b' |
-    e,8 gis fis4 e b' |
-    e,8 e' dis4 e, b' |
+    e,8 <gis-3> fis4 e b' |
+    e,8 <e'-1> <dis-3>4 e, <b'-2 \6> |
+    e,8[ <gis-3>] fis8. b16\rest e,4 b' |
+    e,8 <e'-1> <dis-3>4 e, <b'-2 \6> |
+    e,8 <gis-3> fis4 e b' |
+    e,8 <e'-1> <dis-3>4 e, <b'-2 \6> |
   }
   
   % Scale runs
@@ -571,15 +578,15 @@ upperMiddleVoiceMusic = {
   % Majestic theme
   \barNumberCheck #46
   \relative c' {
-    b8\rest gis fis a gis e fis dis |
+    b8\rest <gis-1> <fis-4> <a-2> gis e fis dis |
     \overrideHorizontalShift #0
     \stemDown s8 b'4 s8 b4 s4 \stemUp |
     \revertHorizontalShift
-    b8\rest b8 fis a gis e fis dis |
+    b8\rest b8 <fis-1> <a-4> <gis-1 \4> <e-2> <fis-4> <dis-1> |
     \overrideHorizontalShift #0
-    \stemDown s4. dis'8 e4 s4 \stemUp |
+    \stemDown s4. <dis'-3>8 <e-3>4 s4 \stemUp |
     \revertHorizontalShift
-    g,8\rest b8 fis a gis e fis dis |
+    g,8\rest b8 <fis-1> <a-4> <gis-1 \4> <e-2> <fis-4> <dis-1> |
     s2
       \stemDown
         \once \overrideHorizontalShift #0 b'4
@@ -587,11 +594,13 @@ upperMiddleVoiceMusic = {
       s4 |
     g8\rest cis b a gis8 fis16 e fis8 dis |
     s1 |
-    g8\rest e fis16 gis a fis gis8 e fis dis |
+    g8\rest e <fis-1>16 <gis-3> <a-4> <fis-1>
+      <gis-1 \4>8 <e-2> <fis-4> <dis-1> |
     s1 |
-    g8\rest e fis16 gis a b gis8 e fis dis |
+    g8\rest e <fis-1>16 <gis-3> <a-4> <b-0> <gis-1 \4>8 <e-2> <fis-4> <dis-1> |
     s1 |
-    g8\rest e fis16 gis a fis gis8 e fis dis |
+    g8\rest e <fis-1>16 <gis-3> <a-4> <fis-1>
+      <gis-1 \4>8 <e-2> <fis-4> <dis-1> |
   }
   
   % Scale runs
