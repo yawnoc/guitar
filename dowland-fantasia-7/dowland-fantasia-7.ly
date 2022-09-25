@@ -255,7 +255,7 @@ highVoiceMusic = {
       \triplet { <a-1> a <gis-1> } s4 |
     \tripletDuple { <e'-0>2. }  \barLineVirtual \noBreak
       s2 |
-    \markTriplets #1 "END triplets"
+    \markTriplets #0.15 "END triplets"
   }
   
   % Finishing chords
