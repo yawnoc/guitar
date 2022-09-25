@@ -10,6 +10,7 @@ Classical Guitar scores, typeset in [LilyPond].
 
 ## PDF Releases
 
+* [Dowland Fantasia Number 7 v1.0.0][dowland-fantasia-7]
 * [El Vito v1.1.3][el-vito]
 * [Lágrima v1.2.2][lagrima]
 * [Sor Study in C (Opus 35, Number 13) v1.1.1][sor-c-major-35-13]
@@ -80,6 +81,8 @@ Just play the duration that sounds good.
 [license]: LICENSE
 [lilypond]: https://lilypond.org/
 
+[dowland-fantasia-7]:
+  https://github.com/yawnoc/guitar/releases/tag/dowland-fantasia-7-v1.0.0
 [el-vito]:
   https://github.com/yawnoc/guitar/releases/tag/el-vito-v1.1.3
 [lagrima]:
