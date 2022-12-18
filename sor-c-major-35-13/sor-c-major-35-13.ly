@@ -4,6 +4,10 @@
 \include "../conway.ily"
 
 
+% Sheet music from 1924:
+% https://web.archive.org/web/20220228155153/https://boijefiles.musikverket.se/Boije_0482.pdf
+
+
 \header {
   title = "Exercise 13 (in 24 Very Easy Exercises)"
   subtitle = \markup {

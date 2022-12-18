@@ -78,6 +78,11 @@ Just play the duration that sounds good.
 | ♯ | `U+266F` |
 
 
+## Useful links
+
+- <<https://www.delcamp.net/>> "3.033 Free classical guitar sheet music"
+
+
 [license]: LICENSE
 [lilypond]: https://lilypond.org/
 
